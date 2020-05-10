@@ -1,0 +1,24 @@
+.search-form {
+  input[type="submit"] {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    margin: 10px 0;
+  }
+}
+.search-form--main {
+  background: $victoria;
+  padding: 15px 15px 30px;
+  input[type="submit"] {
+    right: 30px;
+  }
+}
+@each $name, $color in $color_list {
+  .search--result .article-list__item--#{$name} {
+    .search--result__section-title,
+    .search--result__title-highlight,
+    .highlight-description {
+      color: $color;
+    }
+  }
+}

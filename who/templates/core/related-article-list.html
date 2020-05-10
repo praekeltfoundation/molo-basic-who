@@ -1,0 +1,30 @@
+{% load wagtailcore_tags wagtailimages_tags static core_tags i18n %}
+
+{% if self.get_parent_section.enable_recommended_section %}
+{% get_recommended_articles self as recommended_articles %}
+{% if recommended_articles %}
+  <h3 class="heading heading--small related-articles__recommended related-articles__recommended{{self.get_parent_section.get_effective_extra_style_hints}}">{% trans "Related Articles" %}</h3>
+  <div class="related-articles-recommended related-articles-recommended{{self.get_parent_section.get_effective_extra_style_hints}}">
+    <ul class="related-articles-recommended-list">
+      {% for article in recommended_articles %}
+      <li class="related-articles-recommended-list__item related-articles-recommended-list__item--grid">
+        <div class="related-articles-recommended-list__content related-articles-recommended-list__content{{self.get_parent_section.get_effective_extra_style_hints}}">
+          {% if article.image %}
+          <a href="{% pageurl article %}" class="article-list__image-content">
+            {% image article.image width-200 height-200 class="article-list__image article-list__image--small" %}
+          </a>
+          {% endif %}
+
+          <h2 class="heading related-articles-recommended__title">
+            <a href="{% pageurl article %}">{{article.title}}</a>
+          </h2>
+          {% if article.subtitle %}
+            <p class="related-articles-recommended__desc">{{article.subtitle}}</p>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}
+{% endif %}

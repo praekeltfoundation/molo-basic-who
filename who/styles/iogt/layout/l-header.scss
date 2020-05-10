@@ -1,0 +1,13 @@
+.header {
+  background: #fff;
+  color: var(--very-dark-grayish-blue);
+  overflow: auto;
+  padding: 10px 15px;
+}
+.header__nav-item {
+  text-decoration: underline;
+  padding: 0 5px 0 0;
+  font-weight: bold;
+  color: #fff;
+  font-size: $font-small;
+}

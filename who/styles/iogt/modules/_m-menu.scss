@@ -1,0 +1,28 @@
+.menu-links {
+  margin-top: 5px;
+}
+.menu-list {
+  &__item  {
+    border-bottom: 1px solid var(--dark-blue);
+    color: #fff;
+    font-size: $font-x-small;
+    padding: 5px 15px;
+    a {
+      color: #fff;
+      display: inline-block;
+      font-size: $font-small;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-decoration: underline;
+    }
+  }
+  &__description {
+    color: #727172;
+    display: block;
+    text-transform: initial;
+    font-weight: normal;
+    font-size: $font-x-small;
+    padding: 0 15px 0 0;
+  }
+}
+

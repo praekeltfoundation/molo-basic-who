@@ -1,0 +1,118 @@
+{% extends "base.html" %}
+
+{% load static core_tags i18n static %}
+{% load wagtailcore_tags wagtailimages_tags pagination %}
+{% block content %}
+<div class="section section{{self.get_effective_extra_style_hints}}">
+  {% if self.image %}
+    <div class="section__image">
+      {% image self.image width-320 %}
+    </div>
+  {% endif %}
+  <ul class="section-list-nav section-list-nav{{self.get_effective_extra_style_hints}}">
+    {% block breadcrumbs %}
+      {% breadcrumbs %}
+    {% endblock %}
+  </ul>
+{% load_child_articles_for_section self count=10 as articles %}
+<ul class="article-list">
+{% for sub_article in articles %}
+  <li class="article-list__item {% if forloop.first %} article-list__item--hero{% endif %}">
+    <div class="article-list__container {% if forloop.first %} article-list__container--hero{% endif %}">
+    <a href="{% pageurl sub_article %}" {% if not forloop.first %}class="article-list__image-content"{% endif %}>
+      {% if sub_article.image %}
+        {% if forloop.first %}
+            {% image sub_article.image width-290 class="article-list__image" %}
+        {% else %}
+            {% image sub_article.image width-100 height-100 class="article-list__image article-list__image--small" %}
+        {% endif %}
+      {% endif %}
+    </a>
+    <a href="{% pageurl sub_article %}" {% if not forloop.first %}class="article-list__inner-content"{% endif %}>
+      <h2 class="article-list__title section-article-list__title">{{sub_article.title}}</h2>
+      {% if sub_article.subtitle %}
+      <h4 class="article-list__subtitle">{{sub_article.subtitle}}</h4>
+      {% endif %}
+    </a>
+    </div>
+  </li>
+{% endfor %}
+</ul>
+  {% if articles %}
+  <div class="pagination pagination--numbered">
+    {% if articles_paginated.has_previous %}
+      <a href="?p={{ articles_paginated.previous_page_number }}" class="pagination__previous-anchor">&lt; {% trans "Prev" %}</a>
+    {% endif %}
+    <div class="pagination__pages-numbers">
+      {% get_pages articles_paginated as pages %}
+      {% for page in pages.start %}
+        <a href="?p={{ page }}">{{ page }}</a>
+      {% endfor %}
+      {% if pages.ellipses_before %}
+        ...
+      {% endif %}
+      {% for page in pages.before_current %}
+        <a href="?p={{ page }}">{{ page}}</a>
+      {% endfor %}
+      <span class="pagination__current">
+        {% if articles_paginated.has_next %}
+          {{ articles_paginated.number }}
+        {% endif %}
+      </span>
+      {% for page in pages.after_current %}
+        <a href="?p={{ page }}">{{ page }}</a>
+      {% endfor %}
+      {% if pages.ellipses_after %}
+        ...
+      {% endif %}
+      {% for page in pages.end %}
+        <a href="?p={{ page }}">{{ page }}</a>
+      {% endfor %}
+    </div>
+    {% if articles_paginated.has_next %}
+      <a href="?p={{ articles_paginated.next_page_number }}" class="pagination__next-anchor">
+        {% trans "Next" %} &gt;
+      </a>
+    {% endif %}
+  </ul>
+  </div>
+  {% endif %}
+{% load_child_sections_for_section self as sections %}
+{% for section in sections %}
+    {% load_descendant_articles_for_section section count=5 as section_featured_articles %}
+    {% if section_featured_articles %}
+    <div class="subsections section-list section-list{{self.get_effective_extra_style_hints}}">
+      <h3 class="section-list__title sub-section-list__title"><a href="{% pageurl section %}">{{section.title}}</a></h3>
+      <ul class="article-list">
+        {% for article in section_featured_articles %}
+           <li class="article-list__item">
+              <div class="article-list__container {% if forloop.first %} article-list__container--hero{% endif %}">
+              <a href="{% pageurl article %}" {% if not forloop.first %}class="article-list__image-content"{% endif %}>
+                {% if article.image %}
+                  {% if forloop.first %}
+                      {% image article.image width-290 class="article-list__image" %}
+                  {% else %}
+                      {% image article.image width-100 height-100 class="article-list__image article-list__image--small" %}
+                  {% endif %}
+                {% endif %}
+              </a>
+              <a href="{% pageurl article %}" {% if not forloop.first %}class="article-list__inner-content"{% endif %}>
+                <h2 class="article-list__title section-article-list__title">{{article.title}}</h2>
+                {% if article.subtitle %}
+                <h4 class="article-list__subtitle">{{article.subtitle}}</h4>
+                {% endif %}
+              </a>
+              </div>
+            </li>
+        {% endfor %}
+      </ul>
+      {% if section_featured_articles|length > 1 %}
+        <a href="{% pageurl section %}" class="section-list__more">{% trans "View more" %}</a>
+      {% endif %}
+      </div>
+    {% endif %}
+{% endfor %}
+</div>
+
+
+{% endblock %}
