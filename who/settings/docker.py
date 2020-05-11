@@ -23,9 +23,8 @@ UNICORE_DISTRIBUTE_API = environ.get('UNICORE_DISTRIBUTE_API') or ''
 
 COMPRESS_OFFLINE = True
 
-DATABASES = {
-    'default': dj_database_url.config(
-        default='sqlite:///%s' % (join(PROJECT_ROOT, 'molo.db'),))}
+DATABASES = {'default': dj_database_url.config(
+    default='sqlite:///%s' % (join(PROJECT_ROOT, 'db.sqlite3'),))}
 
 MEDIA_ROOT = join(PROJECT_ROOT, 'media')
 
