@@ -1,8 +1,9 @@
 from os import environ
+from os.path import join
 
 import dj_database_url
 
-from .production import *
+from who.settings.production import *
 
 
 # Disable debug mode

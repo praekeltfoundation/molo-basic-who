@@ -1,4 +1,4 @@
-from .base import *  # noqa
+from who.settings.base import *  # noqa
 
 
 # Disable debug mode
@@ -44,7 +44,7 @@ COMPRESS_OFFLINE = True
 
 
 COMPRESS_OFFLINE_CONTEXT = {
-    'STATIC_URL': STATIC_URL,
+    'STATIC_URL': '/static/',
     'ENV': ENV,
 }
 
