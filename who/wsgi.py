@@ -8,6 +8,8 @@ https://docs.djangoproject.com/en/1.6/howto/deployment/wsgi/
 """
 
 import os
+import django
+django.setup()
 
 os.environ.setdefault(
     "DJANGO_SETTINGS_MODULE", "who.settings.production")
