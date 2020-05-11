@@ -15,8 +15,8 @@ ENV PROJECT_ROOT /app/
 ENV DJANGO_SETTINGS_MODULE=who.settings.docker \
     CELERY_APP=who
 
-# RUN LANGUAGE_CODE=en SECRET_KEY=compilemessages-key django-admin compilemessages && \
-# RUN SECRET_KEY=collectstatic-key django-admin collectstatic --noinput && \
-#     SECRET_KEY=compress-key django-admin compress
+RUN LANGUAGE_CODE=en SECRET_KEY=compilemessages-key django-admin compilemessages && \
+    SECRET_KEY=collectstatic-key django-admin collectstatic --noinput && \
+    SECRET_KEY=compress-key django-admin compress
 
 CMD ["who.wsgi:application", "--timeout", "1800"]
