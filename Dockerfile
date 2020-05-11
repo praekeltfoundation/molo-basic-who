@@ -14,4 +14,4 @@ ENV DJANGO_SETTINGS_MODULE=who.settings.docker \
 #     SECRET_KEY=collectstatic-key django-admin collectstatic --noinput && \
 #     SECRET_KEY=compress-key django-admin compress
 
-CMD ["who.wsgi:application", "--timeout", "1800"]
+CMD ["./manage.py", "runserver", "0.0.0.0:8000"]
