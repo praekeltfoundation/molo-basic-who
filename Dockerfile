@@ -1,12 +1,16 @@
-FROM python:3
+FROM praekeltfoundation/django-bootstrap
 ENV PYTHONUNBUFFERED 1
-RUN mkdir /code
-WORKDIR /code
-COPY requirements.txt /code/
-RUN pip install -e git+https://github.com/praekeltfoundation/molo-basic#egg=package.json
-RUN pip install -r requirements.txt
-COPY . /code/
+# RUN mkdir /code
+# WORKDIR /code
+# COPY requirements.txt /code/
+RUN pip install https://github.com/praekeltfoundation/molo-basic/archive/master.zip#egg=package.json
 
+COPY . /app/
+COPY requirements.txt /requirements/
+RUN pip install -r /requirements/requirements.txt
+RUN pip install -e .
+
+ENV PROJECT_ROOT /app/
 ENV DJANGO_SETTINGS_MODULE=who.settings.docker \
     CELERY_APP=who
 
@@ -14,4 +18,4 @@ ENV DJANGO_SETTINGS_MODULE=who.settings.docker \
 #     SECRET_KEY=collectstatic-key django-admin collectstatic --noinput && \
 #     SECRET_KEY=compress-key django-admin compress
 
-CMD ["./manage.py", "runserver", "0.0.0.0:8000"]
+CMD ["who.wsgi:application", "--timeout", "1800"]
