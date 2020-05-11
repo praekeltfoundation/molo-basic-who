@@ -1,0 +1,1 @@
+default_app_config = 'who.apps.AppnameConfig'
