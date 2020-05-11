@@ -1,7 +1,7 @@
 import os
 
-from django.urls import include, url
-from django.urls.static import static
+from django.urls import include, path
+from django.conf.urls.static import static
 from django.conf import settings
 from django.contrib import admin
 from django.contrib.auth.decorators import login_required
@@ -17,26 +17,26 @@ from who.views import health_who
 
 if settings.ENABLE_SSO:
     urlpatterns = [
-        url(r'^admin/login/',
+        path(r'^admin/login/',
             cas_views.LoginView.as_view(), name='cas_ng_login'),
-        url(r'^admin/logout/',
+        path(r'^admin/logout/',
             cas_views.LogoutView.as_view(), name='cas_ng_logout'),
-        url(r'^admin/callback/',
+        path(r'^admin/callback/',
             cas_views.CallbackView.as_view(), name='cas_ng_callback'),
     ]
 else:
     urlpatterns = []
 
 urlpatterns += [
-    url(r'^django-admin/', admin.site.urls),
-    url(r'^admin/', include(wagtailadmin_urls)),
-    url(r'^documents/', include(wagtaildocs_urls)),
-    url(r'^robots\.txt$', TemplateView.as_view(
+    path(r'^django-admin/', admin.site.urls),
+    path(r'^admin/', include(wagtailadmin_urls)),
+    path(r'^documents/', include(wagtaildocs_urls)),
+    path(r'^robots\.txt$', TemplateView.as_view(
         template_name='robots.txt', content_type='text/plain')),
-    url(r'^sitemap\.xml$', sitemap),
-    url(r'^health/$', health_who, name='health_who'),
-    url(r'', include('molo.core.urls')),
-    url(r'', include(wagtail_urls)),
+    path(r'^sitemap\.xml$', sitemap),
+    path(r'^health/$', health_who, name='health_who'),
+    path(r'', include('molo.core.urls')),
+    path(r'', include(wagtail_urls)),
 ]
 
 if settings.DEBUG:
