@@ -6,7 +6,7 @@
   overflow: auto;
   a {
     display: block;
-    color: #666666;
+    color: var(--very-dark-grayish-blue);
   }
   :last-child {
     border: none;
