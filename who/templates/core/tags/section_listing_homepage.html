@@ -4,6 +4,9 @@
 {% for section in sections %}
   {% load_descendant_articles_for_section section featured_in_homepage=True as featured_articles %}
   {% if featured_articles %}
+    <a href="{% pageurl section %}" {% if not forloop.first %}class="article-list__inner-content"{% endif %}>
+      <h3 class="section-list__title section-list__title--homepage">{{section.title}}</h3>
+    </a>
     <div class="section-list section-list{{section.get_effective_extra_style_hints}}">
       <ul class="article-list">
       {% for article in featured_articles %}
@@ -18,9 +21,6 @@
             {% endif %}
             </a>
           {% endif %}
-          <a href="{% pageurl article.get_parent_section %}" {% if not forloop.first %}class="article-list__inner-content"{% endif %}>
-            <h3 class="section-list__title section-list__title--homepage">{{section.title}}</h3>
-          </a>
           <a href="{% pageurl article %}" {% if not forloop.first %}class="article-list__inner-content"{% endif %}>
             <h2 class="article-list__title">{{article.title}}</h2>
             {% if article.subtitle %}

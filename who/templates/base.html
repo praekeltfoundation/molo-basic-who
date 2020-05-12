@@ -156,15 +156,13 @@
       </a>
     </div>
 
-    {% block content %}{% endblock %}
-
     {% block section_menu %}
     <div id="section_menu" class="section-menu">
-      <div class="section-heading">
+      <!-- <div class="section-heading">
         <a href="/">
           <img src="{% static 'img/h-logo-white.svg' %}" alt="World Health Organization" width="40%"/>
         </a>
-      </div>
+      </div> -->
       <ul class="menu-list">
       {% load_sections as sections %}
       {% for section in sections %}
@@ -178,6 +176,8 @@
       </ul>
     </div>
     {% endblock %}
+
+    {% block content %}{% endblock %}
 
 
     {% block search %}
