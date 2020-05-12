@@ -1,4 +1,6 @@
-FROM praekeltfoundation/django-bootstrap
+ARG PYTHON_TAG=py3.6-stretch
+FROM praekeltfoundation/django-bootstrap:${PYTHON_TAG}
+
 ENV PYTHONUNBUFFERED 1
 # RUN mkdir /code
 # WORKDIR /code
