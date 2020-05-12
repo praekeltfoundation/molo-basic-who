@@ -46,7 +46,7 @@
 }
 .article-list__title {
   color: #000;
-  font-size: $font-x-large;
+  font-size: $font-large;
   line-height: 1.1;
   word-wrap: break-all;
 }
@@ -69,7 +69,7 @@
   border-top: 2px solid var(--very-dark-grayish-blue);
   padding: 10px 0 0 0;
   .article-list__title {
-   font-size: $font-x-large;
+   font-size: $font-large;
   }
   .article-list__image img {
     max-width: 100%;
