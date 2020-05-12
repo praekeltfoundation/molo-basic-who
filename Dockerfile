@@ -10,6 +10,7 @@ RUN pip install https://github.com/praekeltfoundation/molo-basic/archive/master.
 
 COPY . /app/
 COPY requirements.txt /requirements/
+RUN mkdir -p /app/media/
 RUN pip install -r /requirements/requirements.txt
 RUN pip install -e .
 
