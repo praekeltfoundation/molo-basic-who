@@ -93,3 +93,21 @@
     text-decoration: underline;
   }
 }
+
+.section-list__container {
+  clear: both;
+  background: var(--strong-blue);
+  padding: 5px 15px;
+  overflow: auto;
+  border-bottom: 1px solid var(--dark-blue);
+  color: #727172;
+  font-size: $font-x-small;
+  padding: 5px 15px;
+  a {
+    color: #fff;
+    display: inline-block;
+    font-size: $font-small;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}

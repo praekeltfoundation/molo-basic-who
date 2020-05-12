@@ -4,7 +4,7 @@
 {% for section in sections %}
   {% load_descendant_articles_for_section section featured_in_homepage=True as featured_articles %}
   {% if featured_articles %}
-  <div class="article-list__container">
+  <div class="section-list__container">
     <a href="{% pageurl section %}" {% if not forloop.first %}class="article-list__inner-content"{% endif %}>
       <h3 class="section-list__title section-list__title--homepage">{{section.title}}</h3>
     </a>

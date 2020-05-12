@@ -11,8 +11,8 @@ var gulp              =   require('gulp'),
     sourcemaps        =   require('gulp-sourcemaps');
 
 var sassPaths = [
-  'who/styles/who/style.scss',
-  'who/styles/who/style-rtl.scss'
+  'who/styles/iogt/style.scss',
+  'who/styles/iogt/style-rtl.scss'
 ];
 
 var sassDest = {

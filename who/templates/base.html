@@ -176,15 +176,14 @@
       </ul>
     </div>
     {% endblock %}
-
-    {% block content %}{% endblock %}
-
-
     {% block search %}
       {% if languages %}
         {% include "search/search_block.html" %}
       {% endif %}
     {% endblock %}
+
+    {% block content %}{% endblock %}
+
     {% block footer %}
     <div class="footer">
       <ul class="menu-list">
