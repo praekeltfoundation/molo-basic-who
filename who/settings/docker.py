@@ -27,7 +27,7 @@ COMPRESS_OFFLINE = True
 DATABASES = {'default': dj_database_url.config(
     default='sqlite:///%s' % (join(PROJECT_ROOT, 'db.sqlite3'),))}
 
-MEDIA_ROOT = join(PROJECT_ROOT, 'media')
+MEDIA_ROOT = join(PROJECT_ROOT, 'media/')
 
 STATIC_ROOT = join(PROJECT_ROOT, 'static')
 
