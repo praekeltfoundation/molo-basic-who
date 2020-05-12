@@ -7,12 +7,17 @@
       padding: 10px 15px;
       color: #000;
       font-size: $font-x-medium;
-      a {color: #000;}
+      a {color: #000;
+        padding: 10px 15px;
+        display: block;}
     }
     .call-to-action {
       padding: 0 15px;
+      background: var(--strong-blue);
+      border-top: 1px solid var(--dark-blue);
+      border-bottom: 1px solid var(--dark-blue);
       &__nav-item-text  {
-        color: #000;
+        color: white;
         font-weight: bold;
         display: block;
         outline: none;
