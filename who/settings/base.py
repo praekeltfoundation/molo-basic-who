@@ -60,8 +60,9 @@ INSTALLED_APPS = [
     'who',
     'molo.core',
 
-    'wagtail.core',
     'wagtail.admin',
+    'wagtail.core',
+    
     'wagtail.documents',
     'wagtail.snippets',
     'wagtail.users',
