@@ -7,10 +7,9 @@
   }
 }
 .search-form--main {
-  background: $victoria;
-  padding: 15px 15px 30px;
+  padding: 15px 0px 15px;
   input[type="submit"] {
-    right: 30px;
+    right: 15px;
   }
 }
 @each $name, $color in $color_list {
