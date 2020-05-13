@@ -18,6 +18,7 @@
     display: flex;
     justify-content: center;
     &--hero {
+      display: block;
       padding: 0 0 5px;
       .article-list__section,
       .article-list__title,
