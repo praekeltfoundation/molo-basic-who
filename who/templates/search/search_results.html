@@ -3,10 +3,6 @@
 {% block title %}{% trans "Search" %}{% endblock %}
 {% block content %}
 {% if search_results %}
-  <form action="{% url 'search' %}" id="search-form" class="search-form search-form--main">
-    <input placeholder="{% trans "Search the site..." %}" name="q" type="search">
-    <input type="submit" value="{% trans "Search"%}">
-  </form>
   <h2 class="heading heading--search">{% trans "Search Results for:" %} &quot;{{search_query}}&quot;</h2>
   <div class="search search--result">
     <ul class="article-list">
