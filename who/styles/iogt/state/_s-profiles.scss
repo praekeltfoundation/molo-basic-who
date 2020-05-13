@@ -2,7 +2,7 @@
   font-size: $font-x-small;
 }
 .call-to-action--profile {
-  background: $victoria;
+  background: var(--very-dark-grayish-blue);
   color: #fff;
 }
 .call-to-action--view-profile,
@@ -38,7 +38,7 @@ input[type="submit"] {
 }
 .profiles__form {
     input[type=submit] {
-      background: $victoria;
+      background: var(--very-dark-grayish-blue);
       color: #fff;
       margin: 10px 0;
       padding: 10px 0;

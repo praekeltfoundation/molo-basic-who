@@ -11,7 +11,7 @@
     margin: 5px 0;
     font-weight: normal;
     text-align: center;
-    background: $victoria;
+    background: var(--very-dark-grayish-blue);
     color: #fff;
   }
   input[name~="submit_anonymously"] {

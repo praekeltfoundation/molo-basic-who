@@ -7,7 +7,7 @@
 }
 .call-to-action__nav-item--login {
   background: #fff;
-  color: $victoria;
+  color: var(--very-dark-grayish-blue);
   margin: 10px 0;
   padding: 10px 0;
   text-align: center;
@@ -17,7 +17,7 @@
 .call-to-action__nav-item--editprofile,
 .call-to-action__nav-item--change-password,
 .call-to-action__button--primary {
-  background: $victoria;
+  background: var(--very-dark-grayish-blue);
   color: #fff;
   text-align: center;
   text-decoration: none;
