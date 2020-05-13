@@ -1,0 +1,87 @@
+.related-articles {
+  &-up-next {
+    padding: 0 0 10px;
+    &__title {
+      padding: 10px 15px;
+      color: #000;
+      font-size: $font-x-medium;
+      a {color: #000;
+        padding: 10px 15px;
+        display: block;}
+    }
+    .call-to-action {
+      padding: 0 15px;
+      background: var(--strong-blue);
+      border-top: 1px solid var(--dark-blue);
+      border-bottom: 1px solid var(--dark-blue);
+      &__nav-item-text  {
+        color: white;
+        font-weight: bold;
+        display: block;
+        outline: none;
+      }
+    }
+  }
+
+  &__recommended {
+    padding: 10px 15px;
+    font-size: $font-small;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  &-recommended {
+    overflow: auto;
+    margin: 8px 0;
+    &-list__content {
+      padding: 0 10px;
+      clear: both;
+      overflow: auto;
+      .article-list__comments-counter {
+        padding: 0;
+      }
+    }
+    &__title {
+      word-wrap: break-word;
+      padding: 0;
+      color: #000;
+      font-size: $font-large;
+      line-height: 1.1;
+      a {color: #000;}
+    }
+    &__desc {margin: 8px 0;}
+    &-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      &__item {
+        margin: 0 0 20px;
+        padding: 15px 0 0;
+        overflow: auto;
+        clear: both;
+        border-top: 1px solid #cfd4d5;
+      }
+    }
+  }
+}
+
+.related-articles-up-next .call-to-action__nav-item-text {
+  text-align: left;
+    &:after {
+    display: inline-block;
+    margin-left: 5px;
+    @media only screen and (min-width: 320px) {
+      content: ">";
+    }
+    @media only screen and (min-width: 490px) {
+      content: "❯";
+    }
+  }
+}
+.related-articles-recommended-list__content {
+  padding: 0 15px;
+}
+
+.promoted-article-list__anchor-grid {
+  display: block;
+  height: auto;
+}

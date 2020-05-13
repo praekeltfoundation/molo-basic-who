@@ -1,0 +1,65 @@
+.heading {
+  padding: 0 0 15px;
+}
+.heading--subtitle {
+  padding: 10px 15px;
+}
+.heading--feedback-title {
+  padding: 0 15px 10px;
+}
+.heading--large {
+  font-size: $font-x-large;
+  padding: 15px 15px 0;
+  text-transform: capitalize;
+}
+.heading--profiles,
+.heading__profiles {
+  color: var(--very-dark-grayish-blue);
+  font-size: $font-x-large;
+  text-transform: capitalize;
+  padding: 10px 15px;
+}
+.heading--personae {
+  background: var(--very-dark-grayish-blue);
+  padding: 15px;
+  color: #fff;
+  font-size: $font-medium;
+  text-transform: uppercase;
+}
+.heading--navigation {
+  color: #fff;
+  background: var(--very-dark-grayish-blue);
+}
+.heading--homepage {
+  background: transparent;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  color: #fff;
+  background: var(--strong-blue);
+  font-size: $font-medium;
+}
+.heading--comment {
+  text-transform: uppercase;
+  padding: 0 10px;
+}
+.comment__description {
+  padding: 0 10px 30px;
+  font-weight: 400;
+}
+.heading--search {
+  text-transform: uppercase;
+  font-size: $font-medium;
+  padding: 0 15px 10px;
+  border-bottom: 1px solid #B0B9BB;
+}
+.heading--polls {
+  color: var(--strong-blue);
+  font-size: $font-small;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  border-top: 2px solid var(--strong-blue);
+}
+.heading--footerpage {
+  font-size: $font-x-large;
+  padding: 5px 15px;
+}

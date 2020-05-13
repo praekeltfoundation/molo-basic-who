@@ -9,24 +9,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
-      WHO |
-      {% if title %}
-        {% block title %}
-          {% if self.seo_title %}
-            {% if self.seo_title == "Main" %}
-              World Health Organization
-            {% else %}
-              {{ self.seo_title }}
-            {% endif %}
-          {% else %}
-            {% if self.title == "Main" %}
-              World Health Organization
-            {% else %}
-              {{ self.title }}
-            {% endif %}
-          {% endif %}
-        {% endblock %}
-      {% endif %}
+      WHO | {% block title %}
+              {% if self.seo_title %}
+                {% if self.seo_title == "Main" %}
+                  World Health Organization
+                {% else %}
+                  {{ self.seo_title }}
+                {% endif %}
+              {% else %}
+                {% if self.title == "Main" %}
+                  World Health Organization
+                {% else %}
+                  {{ self.title }}
+                {% endif %}
+              {% endif %}
+            {% endblock %}
     </title>
     <link rel="shortcut icon" href="{% static 'img/favicon.ico' %}">
     <meta name="theme-color" content="#F4F4F4">
@@ -58,65 +55,67 @@
 
     {% compress css %}
       <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/{{ ENV }}/style.css">
-    {% endcompress %}    
+    {% endcompress %}
     {% if LANGUAGE_CODE|language_bidi == True %}
       {% compress css %}
         <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/{{ ENV }}/style-rtl.css">
       {% endcompress %}
     {% endif %}
-      
+
     {% comment %}
-    <!-- NOTE: GA, FB TRACKING - ADD APPROPRIATE CREDS  -->
-    <meta name="google-site-verification" content="4IkZu3E_jAGipGtiFKqjpKESIxS6-oB6aatHcmJM_bY" />
-    <!-- Facebook Pixel Code -->
-    <script>
-      !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-      n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-      n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-      t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-      document,'script','https://connect.facebook.net/en_US/fbevents.js');
+      <!-- ADD APPROPRIATE CREDS --- GA, FB TRACKING -->
+      <meta name="google-site-verification" content="4IkZu3E_jAGipGtiFKqjpKESIxS6-oB6aatHcmJM_bY" />
+      <!-- Facebook Pixel Code -->
+      <script>
+        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+        n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+        document,'script','https://connect.facebook.net/en_US/fbevents.js');
 
-      fbq('init', '{{ FACEBOOK_PIXEL }}');
-      fbq('track', 'PageView');
+        fbq('init', '{{ FACEBOOK_PIXEL }}');
+        fbq('track', 'PageView');
 
+        {% if FACEBOOK_PIXEL_HISTORY_COUNT > 2 %}
+          fbq('track', 'PageViewMinimum3Pages');
+        {% endif %}
+
+        {% block facebook_pixel_tracking_js %}{% endblock %}
+      </script>
+      <noscript>
+        <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id={{ FACEBOOK_PIXEL }}&ev=PageView&noscript=1"/>
+      </noscript>
       {% if FACEBOOK_PIXEL_HISTORY_COUNT > 2 %}
-        fbq('track', 'PageViewMinimum3Pages');
+        <noscript>
+          <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id={{ FACEBOOK_PIXEL }}&ev=PageViewMinimum3Pages&noscript=1&value=VisitingMinimum3Pages"/>
+        </noscript>
       {% endif %}
 
-      {% block facebook_pixel_tracking_js %}{% endblock %}
-    </script>
-    <noscript>
-      <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id={{ FACEBOOK_PIXEL }}&ev=PageView&noscript=1"/>
-    </noscript>
-    {% if FACEBOOK_PIXEL_HISTORY_COUNT > 2 %}
-      <noscript>
-        <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id={{ FACEBOOK_PIXEL }}&ev=PageViewMinimum3Pages&noscript=1&value=VisitingMinimum3Pages"/>
-      </noscript>
-    {% endif %}
-    {% block facebook_pixel_tracking_no_js %}{% endblock %}
-    <!-- End Facebook Pixel Code -->  
-    {% if settings.core.SiteSettings.ga_tag_manager %}
-      <!--Google Tag Manager -->
-      <noscript><iframe src="//www.googletagmanager.com/ns.html?id={{settings.core.SiteSettings.ga_tag_manager}}&client_session_id={{request.session.MOLO_GA_SESSION_FOR_NOSCRIPT}}{% if persona_selected_value%}&persona={{ persona_selected_value }}&event=persona{% endif %}{%if request.META.HTTP_X_IORG_FBS_UIP %}&freebasics_uip={{request.META.HTTP_X_IORG_FBS_UIP}}{%endif%}"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','{{settings.core.SiteSettings.ga_tag_manager}}');</script>
-      <!-- End Google Tag Manager -->
-    {% endif %}
-    {% if settings.core.SiteSettings.global_ga_tag_manager %}
-      <!--Global Google Tag Manager -->
-      <noscript><iframe src="//www.googletagmanager.com/ns.html?id={{settings.core.SiteSettings.global_ga_tag_manager}}&client_session_id={{request.session.MOLO_GA_SESSION_FOR_NOSCRIPT}}"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','{{settings.core.SiteSettings.global_ga_tag_manager}}');</script>
-      <!-- End Global Google Tag Manager -->
-    {% endif %}
+      {% block facebook_pixel_tracking_no_js %}{% endblock %}
+      <!-- End Facebook Pixel Code -->
+      {% if settings.core.SiteSettings.ga_tag_manager %}
+        <!--Google Tag Manager -->
+        <noscript><iframe src="//www.googletagmanager.com/ns.html?id={{settings.core.SiteSettings.ga_tag_manager}}&client_session_id={{request.session.MOLO_GA_SESSION_FOR_NOSCRIPT}}{% if persona_selected_value%}&persona={{ persona_selected_value }}&event=persona{% endif %}{%if request.META.HTTP_X_IORG_FBS_UIP %}&freebasics_uip={{request.META.HTTP_X_IORG_FBS_UIP}}{%endif%}"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','{{settings.core.SiteSettings.ga_tag_manager}}');</script>
+        <!-- End Google Tag Manager -->
+      {% endif %}
+
+      {% if settings.core.SiteSettings.global_ga_tag_manager %}
+        <!--Global Google Tag Manager -->
+        <noscript><iframe src="//www.googletagmanager.com/ns.html?id={{settings.core.SiteSettings.global_ga_tag_manager}}&client_session_id={{request.session.MOLO_GA_SESSION_FOR_NOSCRIPT}}"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','{{settings.core.SiteSettings.global_ga_tag_manager}}');</script>
+        <!-- End Global Google Tag Manager -->
+      {% endif %}
     {% endcomment %}
   </head>
   <body {% if LANGUAGE_CODE|language_bidi == True %}dir="rtl"{% endif %}>
@@ -145,44 +144,47 @@
     {% endif %}
 
     <div class="header">
-      <a href="/" class="logo">
+      <a href="/" class="logo header__anchor">
         {% if settings.core.SiteSettings.logo %}
           {% image settings.core.SiteSettings.logo original %}
         {% else %}
           {% block logo %}
-            <img src="{% static 'img/h-logo.svg' %}" alt="{% trans 'WHO' %}" />
+            <img src="{% static 'img/h-logo.svg' %}" alt="{% trans 'WHO' %}" class="header__logo-image"  />
           {% endblock %}
         {% endif %}
       </a>
+      <a id="header__burger" href="#section_menu" class="header__anchor">Menu</a>
     </div>
 
-    {% block section_menu %}
-    <div id="section_menu" class="section-menu">
-      <!-- <div class="section-heading">
-        <a href="/">
-          <img src="{% static 'img/h-logo-white.svg' %}" alt="World Health Organization" width="40%"/>
-        </a>
-      </div> -->
-      <ul class="menu-list">
-      {% load_sections as sections %}
-      {% for section in sections %}
-        <li class="menu-list__item menu-list__item{{section.get_effective_extra_style_hints}}">
-          <a href="{% pageurl section %}">
-            {{section.title}}
-          </a>
-          <span class="menu-list__description">{{section.description}}</span>
-        </li>
-      {% endfor %}
-      </ul>
-    </div>
-    {% endblock %}
+    {% block content %}{% endblock %}
     {% block search %}
       {% if languages %}
         {% include "search/search_block.html" %}
       {% endif %}
     {% endblock %}
 
-    {% block content %}{% endblock %}
+    {% block section_menu %}
+      <div id="section_menu" class="section-menu">
+        <ul class="menu-list">
+        {% load_sections as sections %}
+        {% for section in sections %}
+          <li class="menu-list__item menu-list__item{{section.get_effective_extra_style_hints}}">
+            <div class="">
+              <a href="{% pageurl section %}" class="menu-list__anchor">
+                {{section.title}}
+              </a>
+              <span class="menu-list__description">{{section.description}}</span>
+            </div>
+          </li>
+        {% endfor %}
+        </ul>
+        <div class="menu-brand">
+          <a href="/" class="menu-brand__anchor">
+            <img src="{% static 'img/h-logo-white.svg' %}" alt="World Health Organization" class="menu-brand__image"/>
+          </a>
+        </div>
+      </div>
+    {% endblock %}
 
     {% block footer %}
     <div class="footer">
@@ -205,12 +207,12 @@
           </li>
         {% endif %}
         {% footer_page %}
-        
+
       </ul>
     </div>
 
     <div class="copyright">
-      <p>&copy; WHO</p>
+      <p>WHO &copy; {% now "Y" %}</p>
     </div>
     {% endblock %}
     {% block extra_js %}{% endblock %}

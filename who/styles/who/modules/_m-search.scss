@@ -1,0 +1,52 @@
+.search {
+  position: relative;
+  padding: 5px 15px;
+  &__feedback-title {
+    font-size: $font-x-medium;
+    padding: 15px 0 0;
+  }
+}
+.search-form {
+  position: relative;
+  padding: 15px 0;
+  input[type="submit"] {
+    background: transparent;
+    color: var(--very-dark-gray);
+    text-align: left;
+    width: auto;
+    text-decoration: underline;
+    position: absolute;
+    right: 15px;
+    top: 5px;
+  }
+  &--main {
+    padding: 5px 15px;
+  }
+}
+
+.search--result {
+  padding: 0;
+  &-item {
+    display: block;
+    color: var(--very-dark-grayish-blue);
+  }
+  &__section-title {
+    text-transform: uppercase;
+    padding: 5px 0;
+  }
+  &__title {
+    color: #000;
+    font-size: $font-large;
+    line-height: 1.1;
+    &-highlight {
+      font-style: italic;
+    }
+  }
+  &__subtitle {
+    margin: 8px 0;
+    padding: 5px 0 0;
+  }
+  .highlight-description {
+    font-style: italic;
+  }
+}

@@ -1,0 +1,18 @@
+.heading--comment {
+  padding: 10px 15px;
+}
+.heading--profiles {
+  background: var(--very-dark-grayish-blue);
+  color: #fff;
+}
+.heading--search  {
+  font-size: $font-small;
+}
+.comment__description {
+  padding: 0 40px 30px 15px;
+}
+.comment__post-message {
+  .comment__description {
+    padding: 0 40px 30px 0;
+  }
+}

@@ -1,0 +1,26 @@
+.polls {
+  .call-to-action__nav-item--back-home {
+    padding: 10px;
+  }
+}
+.call-to-action__nav-item--poll-login,
+.polls__form input[type="submit"] {
+  background: var(--strong-blue);
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-weight: normal;
+}
+.call-to-action--polls {
+  .call-to-action__nav-item--poll-login,
+  .polls__form input[type="submit"] {
+    background: var(--strong-blue);
+    color: #fff;
+  }
+}
+.choice-result__percent-bar {
+  background: var(--strong-blue);
+  display: block;
+  padding: 10px 0;
+  border-radius: 10px;
+}
