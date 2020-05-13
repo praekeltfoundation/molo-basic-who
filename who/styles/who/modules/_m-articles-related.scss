@@ -1,6 +1,4 @@
 .related-articles {
-  p {margin: 0;}
-  //UP NEXT - LIST
   &-up-next {
     padding: 0 0 10px;
     &__title {
@@ -24,8 +22,7 @@
       }
     }
   }
-  //RECOMMENDED - LIST
-  //Recommended Title
+
   &__recommended {
     padding: 10px 15px;
     font-size: $font-small;
@@ -66,6 +63,24 @@
     }
   }
 }
+
+.related-articles-up-next .call-to-action__nav-item-text {
+  text-align: left;
+    &:after {
+    display: inline-block;
+    margin-left: 5px;
+    @media only screen and (min-width: 320px) {
+      content: ">";
+    }
+    @media only screen and (min-width: 490px) {
+      content: "❯";
+    }
+  }
+}
+.related-articles-recommended-list__content {
+  padding: 0 15px;
+}
+
 .promoted-article-list__anchor-grid {
   display: block;
   height: auto;

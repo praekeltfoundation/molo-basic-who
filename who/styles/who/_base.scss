@@ -1,6 +1,7 @@
 :root {
   --very-light-gray: #f4f4f4;
-  --very-dark-gray: #333333;
+  --very-dark-gray: #6a6a6a;
+  --very-dark-gray-1: #e8e8e8;
   --very-dark-grayish-blue: #3c4245;
   --dark-gray: #757575;
   --strong-orange: #d86422;
@@ -61,4 +62,6 @@ ul, ol, li {
 
 img {
   margin: 0;
+  width: 100%;
+  height: auto;
 }

@@ -1,26 +1,29 @@
 .search {
   position: relative;
   padding: 5px 15px;
+  &__feedback-title {
+    font-size: $font-x-medium;
+    padding: 15px 0 0;
+  }
 }
 .search-form {
   position: relative;
   padding: 15px 0;
   input[type="submit"] {
-    color: #000;
+    background: transparent;
+    color: var(--very-dark-gray);
     text-align: left;
     width: auto;
-    background: transparent;
-    padding: 0;
+    text-decoration: underline;
+    position: absolute;
+    right: 15px;
+    top: 5px;
+  }
+  &--main {
+    padding: 5px 15px;
   }
 }
-.search-form--main {
-  padding: 5px 15px;
-}
-.search__feedback-title {
-  font-size: $font-x-medium;
-  padding: 15px 0 0;
-}
-//Search Results
+
 .search--result {
   padding: 0;
   &-item {

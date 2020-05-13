@@ -2,10 +2,6 @@
   &__image {
     margin: 0 auto;
     text-align: center;
-    img {
-      width: 100%;
-      height: auto;
-    }
   }
   &__title-heading {
     padding: 5px 10px 10px;
@@ -18,18 +14,30 @@
     padding: 0 15px 10px;
   }
   &__title {
+    color: var(--very-dark-grayish-blue);
     font-size: $font-x-large;
     padding: 15px 15px 0;
   }
 
-  &-heading {
-    text-align: center;
-    margin: 0 auto;
-    padding: 2em 0 1.5em;
-    .menu-list__anchor {
-      display: block;
+  //Is this here?
+  &__more {
+    text-decoration: none;
+    text-align: right;
+    &:after {
+      padding: 0 10px;
+      @media only screen and (min-width: 320px) {
+        content: ">";
+        margin-left: 5px;
+      }
+      @media only screen and (min-width: 490px) {
+        content: "❯";
+        margin-left: 10px;
+        font-size: 0.75em;
+      }
     }
   }
+  &-image {}
+
   &-menu {
     background: var(--strong-blue);
     border-top: 2px solid var(--dark-blue);
@@ -46,45 +54,24 @@
       }
     }
   }
-  &-image {
-    width: 100%;
-    height: auto;
-  }
 }
 
-.section-list-nav {
-  padding: 10px 15px 15px;
-  text-transform: uppercase;
-  font-weight: bold;
-  &__link {
-    font-size: $font-x-small;
-    padding-right: 10px;
-    text-decoration: underline;
-    vertical-align: middle;
-  }
-  &__item {
-    display: inline;
-    &:after {
-      margin: 0 3px 0 -3px;
-      font-size: $font-x-small;
-       @media only screen and (min-width: 320px) {
-        content: ">";
-      }
-      @media only screen and (min-width: 490px) {
-        content: "❯";
-      }
-    }
-    &--current:after {
-      content: "";
-    }
-  }
-}
+
 
 .section-list {
   &__title {
     text-transform: uppercase;
     padding: 10px 15px;
     border-bottom: 1px solid var(--very-blue);
+    &:after {
+      padding: 0 10px 0;
+      @media only screen and (min-width: 320px) {
+        content: ">";
+      }
+      @media only screen and (min-width: 490px) {
+        content: "❯";
+      }
+    }
     &--homepage {
       padding: 10px 0 0;
       border-bottom: none;
@@ -97,22 +84,53 @@
     font-weight: bold;
     text-decoration: underline;
   }
-}
+  &__container {
+    clear: both;
+    background: var(--strong-blue);
+    padding: 5px 15px;
+    overflow: auto;
+    border-bottom: 1px solid var(--dark-blue);
+    color: #727172;
+    font-size: $font-x-small;
+    padding: 5px 15px;
+    a {
+      color: #fff;
+      display: inline-block;
+      font-size: $font-small;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+  }
 
-.section-list__container {
-  clear: both;
-  background: var(--strong-blue);
-  padding: 5px 15px;
-  overflow: auto;
-  border-bottom: 1px solid var(--dark-blue);
-  color: #727172;
-  font-size: $font-x-small;
-  padding: 5px 15px;
-  a {
-    color: #fff;
-    display: inline-block;
-    font-size: $font-small;
-    font-weight: bold;
+  &-nav {
+    padding: 10px 15px 15px;
     text-transform: uppercase;
+    font-weight: bold;
+    &__link {
+      color: var(--very-dark-gray);
+      font-size: $font-x-small;
+      padding-right: 10px;
+      vertical-align: middle;
+      &:hover,
+      &:focus {
+        text-decoration: underline;
+      }
+    }
+    &__item {
+      display: inline;
+      &:after {
+        margin: 0 3px 0 -3px;
+        font-size: $font-x-small;
+         @media only screen and (min-width: 320px) {
+          content: ">";
+        }
+        @media only screen and (min-width: 490px) {
+          content: "❯";
+        }
+      }
+      &--current:after {
+        content: "";
+      }
+    }
   }
 }
