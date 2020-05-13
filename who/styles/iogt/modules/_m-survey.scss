@@ -56,7 +56,7 @@
     }
     &__terms {
       display: inline-block !important;
-      color: $victoria;
+      color: var(--very-dark-grayish-blue);
       font-size: $font-small;
       text-transform: inherit;
       font-weight: normal;

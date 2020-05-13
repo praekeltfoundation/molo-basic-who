@@ -14,13 +14,13 @@
 }
 .heading--profiles,
 .heading__profiles {
-  color: $victoria;
+  color: var(--very-dark-grayish-blue);
   font-size: $font-x-large;
   text-transform: capitalize;
   padding: 10px 15px;
 }
 .heading--personae {
-  background: $victoria;
+  background: var(--very-dark-grayish-blue);
   padding: 15px;
   color: #fff;
   font-size: $font-medium;
@@ -28,7 +28,7 @@
 }
 .heading--navigation {
   color: #fff;
-  background: $victoria;
+  background: var(--very-dark-grayish-blue);
 }
 .heading--homepage {
   background: transparent;

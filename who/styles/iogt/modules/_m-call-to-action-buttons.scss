@@ -1,5 +1,5 @@
 .call-to-action__nav-item {
-  color: $victoria;
+  color: var(--very-dark-grayish-blue);
   text-decoration: underline;
   font-weight: normal;
 }
@@ -19,7 +19,7 @@
   font-size: $font-x-medium;
 }
 .call-to-action__nav-item--login {
-  color: $victoria;
+  color: var(--very-dark-grayish-blue);
   font-size: $font-small;
   text-transform: uppercase;
   font-weight: bold;
@@ -39,6 +39,6 @@
 }
 //Articles & General Pages
 .call-to-action__nav-item--back-home {
-  color: $victoria;
+  color: var(--very-dark-grayish-blue);
   font-weight: bold;
 }

@@ -1,5 +1,5 @@
 .media-player {
-  background-color: $victoria;
+  background-color: var(--very-dark-grayish-blue);
   margin: 5px auto;
   overflow: auto;
   &__title {
@@ -84,7 +84,7 @@ video::-webkit-media-controls-panel,
 video::-moz-media-controls-panel,
 video::-o-media-controls-panel,
 video::-ms-media-controls-panel {
-  background: rgba($victoria,0.5) !important;
+  background: rgba(var(--very-dark-grayish-blue),0.5) !important;
   -webkit-border-radius: 0 !important;
   -moz-border-radius: 0 !important;
   -o-border-radius: 0 !important;

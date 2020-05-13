@@ -10,7 +10,7 @@
   }
   a {
       text-decoration: none;
-      color: $victoria;
+      color: var(--very-dark-grayish-blue);
       padding: 0 5px;
       text-decoration: underline;
   }
@@ -45,14 +45,14 @@ label.profiles__terms {
 }
 .profiles__terms {
   display: inline-block !important;
-  color: $victoria;
+  color: var(--very-dark-grayish-blue);
   font-size: $font-small;
   text-transform: inherit;
   font-weight: normal;
   text-decoration: underline;
 }
 .profiles__nav-item {
-  color: $victoria;
+  color: var(--very-dark-grayish-blue);
   display: inline;
   text-transform: capitalize;
   text-decoration: underline;
@@ -65,7 +65,7 @@ label.profiles__terms {
   font-weight: bold;
 }
 .profiles__forgotten-password {
-  color: $victoria;
+  color: var(--very-dark-grayish-blue);
   font-weight: bold;
   text-transform: uppercase;
   font-size: $font-small;
