@@ -15,8 +15,6 @@
     clear: both;
     padding: 15px 15px 5px;
     overflow: auto;
-    display: flex;
-    justify-content: center;
     &--hero {
       display: block;
       padding: 0 0 5px;
@@ -47,6 +45,11 @@
     height: auto;
     margin: 0 15px 0 0;
     width: 100%;
+    &--small {
+      float: left;
+      padding: 10px 15px 0 0;
+      width: 50%;
+    }
     &--content {
       text-align: center;
     }
