@@ -11,8 +11,8 @@ var gulp              =   require('gulp'),
     sourcemaps        =   require('gulp-sourcemaps');
 
 var sassPaths = [
-  'who/styles/iogt/style.scss',
-  'who/styles/iogt/style-rtl.scss'
+  'who/styles/who/style.scss',
+  'who/styles/who/style-rtl.scss'
 ];
 
 var sassDest = {
@@ -25,7 +25,7 @@ function styles(env) {
   var s = gulp.src(sassPaths);
   var isDev = env === 'dev';
 
-  if (isDev) 
+  if (isDev)
     s = s
      .pipe(sourcemaps.init());
     s = s
@@ -33,7 +33,7 @@ function styles(env) {
     .pipe(sass().on('error', sass.logError))
     .pipe(cleanCSSMinify())
     .pipe(gulpAutoprefixer())
-    if (isDev) 
+    if (isDev)
       s = s
       .pipe(sourcemaps.write('/maps'));
       return s

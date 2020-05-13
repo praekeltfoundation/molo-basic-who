@@ -7,17 +7,28 @@
     color: #fff;
     font-size: $font-x-small;
     padding: 5px 15px;
+    &:after {
+      display: inline-block;
+      float: right;
+      margin-top: 3%;
+      @media only screen and (min-width: 320px) {
+        content: ">";
+      }
+      @media only screen and (min-width: 490px) {
+        content: "❯";
+      }
+    }
     a {
       color: #fff;
       display: inline-block;
-      font-size: $font-small;
+      font-size: $font-medium;
       font-weight: bold;
-      text-transform: uppercase;
+      text-transform: capitalize;
       text-decoration: underline;
     }
   }
   &__description {
-    color: #727172;
+      color: #fff;
     display: block;
     text-transform: initial;
     font-weight: normal;
@@ -25,4 +36,3 @@
     padding: 0 15px 0 0;
   }
 }
-

@@ -10,22 +10,22 @@
   &__bar {
     overflow: auto;
   }
-
   &-current {
     color: var(--strong-blue);
     display: inline-block;
     padding: 0 10px;
-    margin: 3px 2em 0 0; //REVIEW
+    margin: 3px 4em 0 0; //REVIEW
     opacity: .8;
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 12px;
     span {
-      color: var(--dark-grey);
+      color: var(--strong-orange);
       font-weight: bold;
     }
   }
 
   &-selection {
+    border-bottom: 2px solid var(--dark-blue);
     &__toggle-input {
       display: none;
       &:not(checked) ~ .language-selection {
@@ -61,7 +61,7 @@
     height: 15px;
   }
   &:hover, &:focus {
-    color: var(--dark-gray);
+    color: var(--strong-orange);
     &:after {
       background: url('/static/img/arrow-down-orange.svg') no-repeat 0 0, 100%;
     }
@@ -104,10 +104,3 @@
     }
   }
 }
-
-
-
-
-
-
-
