@@ -42,8 +42,13 @@
       &:after {
         float: none;
         margin: 0;
+        cursor: pointer;
       }
     }
+  }
+  &-image {
+    width: 100%;
+    height: auto;
   }
 }
 
@@ -52,20 +57,13 @@
   text-transform: uppercase;
   font-weight: bold;
   &__link {
-    font-size: 14px;
-  }
-  a {
-    color: #757575;
+    font-size: $font-x-small;
+    padding-right: 10px;
+    text-decoration: underline;
+    vertical-align: middle;
   }
   &__item {
     display: inline;
-    .section-list-nav__link {
-      color: #757575;
-      padding-right: 10px;
-      text-decoration: underline;
-      vertical-align: middle;
-    }
-
     &:after {
       margin: 0 3px 0 -3px;
       font-size: $font-x-small;
@@ -93,7 +91,6 @@
     }
   }
   &__more {
-    color: $dove_gray;
     display: block;
     text-transform: uppercase;
     padding: 5px 15px;

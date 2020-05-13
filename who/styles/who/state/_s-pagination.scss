@@ -31,20 +31,3 @@
     margin: 0 auto;
   }
 }
-@each $name, $color in $color_list {
-  .section--#{$name} {
-    .pagination {
-      &__next-anchor,
-      &__previous-anchor
-      &__pages-numbers a,
-      &__current {
-        color: $color;
-      }
-    }
-  }
-  .pagination--#{$name}  {
-    .pagination__link--current {
-      color: $color;
-    }
-  }
-}

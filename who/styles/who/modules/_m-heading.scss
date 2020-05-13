@@ -53,14 +53,13 @@
   border-bottom: 1px solid #B0B9BB;
 }
 .heading--polls {
-  color: $robin_egg_blue;
+  color: var(--strong-blue);
   font-size: $font-small;
   padding: 10px 15px;
   text-transform: uppercase;
-  border-top: 2px solid $robin_egg_blue;
+  border-top: 2px solid var(--strong-blue);
 }
 .heading--footerpage {
   font-size: $font-x-large;
   padding: 5px 15px;
 }
-

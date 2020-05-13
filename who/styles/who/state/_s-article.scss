@@ -3,9 +3,7 @@
   margin: 0 auto;
 }
 .article-list__image--small {
-  float: right;
-  padding: 10px 0 0 3px;
-  width: 40%;
+  width: 100%;
 }
 .section-article-list__title {
   padding: 7px 0;
@@ -76,7 +74,7 @@
 .call-to-action__item-share--footer {
   border-color: #a3a3a3;
   .call-to-action__item-share-title {
-    margin: 4% 0;
+    margin: 5px 0;
   }
   .call-to-action__item-share-img {
     border-right-color: #a3a3a3;
@@ -87,17 +85,4 @@
 //Please check status
 .call-to-action__item-share-with-image:after {
   margin-top: 3%;
-}
-@each $name, $color in $color_list {
-  .article--#{$name} {
-    ol li:before,
-    .article-numbered-list__item:before {
-        color: $color;
-    }
-  }
-  .article-list__container--#{$name} {
-    .article-list__section {
-      color: $color;
-    }
-  }
 }

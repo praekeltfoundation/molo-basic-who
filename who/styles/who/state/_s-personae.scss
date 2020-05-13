@@ -30,7 +30,7 @@
   }
 }
 .personae-list__item--image-container {
-  background: $east_bay;
+  background: var(--strong-blue);
   border-radius: 100%;
   overflow: hidden;
   width: 65px;

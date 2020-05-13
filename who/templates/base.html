@@ -144,15 +144,16 @@
     {% endif %}
 
     <div class="header">
-      <a href="/" class="logo">
+      <a href="/" class="logo header__anchor">
         {% if settings.core.SiteSettings.logo %}
           {% image settings.core.SiteSettings.logo original %}
         {% else %}
           {% block logo %}
-            <img src="{% static 'img/h-logo.svg' %}" alt="{% trans 'WHO' %}" />
+            <img src="{% static 'img/h-logo.svg' %}" alt="{% trans 'WHO' %}" class="header__logo-image"  />
           {% endblock %}
         {% endif %}
       </a>
+      <a id="header__burger" href="#section_menu" class="header__anchor">Menu</a>
     </div>
 
     {% block content %}{% endblock %}

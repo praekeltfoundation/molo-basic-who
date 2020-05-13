@@ -42,7 +42,7 @@
     .language-list {
       background: #f0f0f0;
       &__item a {
-        color: $tiber;
+        color: var(--tiber);
       }
     }
   }

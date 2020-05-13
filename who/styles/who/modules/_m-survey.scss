@@ -1,12 +1,12 @@
 .surveys {
-  background: $washed_gray;
+  background: var(--strong-blue);
   overflow: auto;
   input:focus {
-    border: 1px solid $roman;
+    border: 1px solid var(--strong-blue);
   }
   &__title {
-    color: $roman;
-    border-top: 2px solid $roman;
+    color: #fff;
+    border-top: 2px solid var(--strong-blue);
     padding: 5px 15px;
     font-size: $font-x-large;
   }
@@ -21,8 +21,8 @@
   &__results {
     padding: 5px 10px;
     margin: 15px 0;
-    border-top: 1px solid $mineral_gray ;
-    border-bottom: 1px solid $mineral_gray ;
+    border-top: 1px solid var(--strong-blue);
+    border-bottom: 1px solid var(--strong-blue);
   }
   &__helptext {
     color: #999;
@@ -31,7 +31,7 @@
     display: block;
   }
   &__answer {
-    background: $mineral_gray;
+    background: var(--strong-blue);
     padding: 10px 5px;
     margin: 10px 5px;
     word-wrap: break-all;
@@ -65,7 +65,7 @@
   }
   .call-to-action {
     &__nav-item--back-home {
-      color: $roman;
+      color: var(--strong-blue);
       padding: 0 10px 10px;
       margin: 0;
     }

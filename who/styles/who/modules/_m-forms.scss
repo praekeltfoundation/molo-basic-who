@@ -20,6 +20,8 @@ input[type="tel"],
 input[type="search"] {
   border: 1px solid var(--dark-gray);
   box-sizing: border-box;
+  color: var(--very-dark-grayish-blue);
+  font-size: $font-medium;
   padding: 8px 10px;
   width: 100%;
 }
@@ -54,4 +56,10 @@ input[type="submit"] {
     font-weight: 400;
     text-align: left;
   }
+}
+
+.error {
+  font-size: $font-x-small;
+  display: block;
+  color: #ff0000;
 }

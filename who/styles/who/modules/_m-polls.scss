@@ -31,7 +31,7 @@
 .call-to-action--polls {
   .call-to-action__nav-item,
   .call-to-action__nav-item--back-home {
-      color: $robin_egg_blue;
+      color: var(--strong-blue);
       &:before {
         font-size: $font-medium;
       }
@@ -44,7 +44,7 @@
   padding: 10px 0;
 }
 .polls--results {
- border-top: 2px solid $robin_egg_blue;
+ border-top: 2px solid var(--strong-blue);
 }
 .polls__results {
   padding: 0 15px;
@@ -53,7 +53,7 @@
   padding: 10px 15px;
   font-size: $font-medium;
   text-transform: uppercase;
-  color: $robin_egg_blue;
+  color: var(--strong-blue);
   font-weight: normal;
 }
 .polls-result-list__item {
@@ -64,5 +64,5 @@
 }
 .choice-result__percent {
   font-size: $font-xx-large;
-  color: $robin_egg_blue;
+  color: var(--strong-blue);
 }
