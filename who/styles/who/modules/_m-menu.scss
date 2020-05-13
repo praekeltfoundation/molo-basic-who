@@ -18,6 +18,9 @@
         content: "❯";
       }
     }
+    &:last-child {
+      border-bottom: none;
+    }
     a {
       color: #fff;
       display: inline-block;
