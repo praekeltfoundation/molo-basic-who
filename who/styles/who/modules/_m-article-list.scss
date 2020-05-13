@@ -7,7 +7,7 @@
       display: block;
       color: var(--very-dark-gray);
     }
-    :last-child {
+    &:last-child {
       border: none;
     }
   }
