@@ -20,7 +20,7 @@
     text-transform: uppercase;
     font-size: 13px;
     span {
-      color: var(--strong-orange);
+      color: var(--dark-grey);
       font-weight: bold;
     }
   }
@@ -61,7 +61,7 @@
     height: 15px;
   }
   &:hover, &:focus {
-    color: var(--strong-orange);
+    color: var(--dark-gray);
     &:after {
       background: url('/static/img/arrow-down-orange.svg') no-repeat 0 0, 100%;
     }
@@ -90,7 +90,7 @@
         height: 15px;
       }
       &:hover, &:focus {
-        color: var(--strong-orange);
+        color: var(--dark-gray);
         &:after {
           background: url('/static/img/arrow-down-orange.svg') no-repeat 0 0, 100%;
         }
