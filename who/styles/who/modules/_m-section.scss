@@ -37,7 +37,6 @@
     }
   }
   &-image {}
-
   &-menu {
     background: var(--strong-blue);
     border-top: 2px solid var(--dark-blue);
@@ -113,6 +112,7 @@
       vertical-align: middle;
       &:hover,
       &:focus {
+        color: var(--strong-orange);
         text-decoration: underline;
       }
     }

@@ -1,9 +1,7 @@
 {% extends "base.html" %}
 {% load static core_tags i18n static wagtailcore_tags wagtailimages_tags pagination %}
 
-
 {% block content %}
-
 <div class="section section{{self.get_effective_extra_style_hints}}">
   {% if self.image %}
     <div class="section__image">
