@@ -17,12 +17,10 @@
               {% endif %}
             </a>
             <a href="{% pageurl page %}" class="search__result-item article-list__inner-content">
-              <h3 class="search--result__section-title">
-                {{ancestor.title}}</h3>
               {% if page.title_highlight %}
-                <h1 class="search--result__title search--result__title-highlight">{{page.title_highlight|safe}}</h1>
+                <h2 class="search--result__title search--result__title-highlight">{{page.title_highlight|safe}}</h2>
               {% else %}
-                <h1 class="search--result__title">{{page.title}}</h1>
+                <h2 class="search--result__title">{{page.title}}</h2>
               {% endif %}
               {% if page.subtitle_highlight or page.body_highlight %}
                 <p class="search--result__subtitle highlight-description">
@@ -43,12 +41,10 @@
               {% endif %}
             </a>
             <a href="{% pageurl page %}" class="search__result-item article-list__inner-content">
-              <h3 class="search--result__section-title">
-                {{parent_section.title}}</h3>
               {% if page.title_highlight %}
-                <h1 class="search--result__title search--result__title-highlight">{{page.title_highlight|safe}}</h1>
+                <h2 class="search--result__title search--result__title-highlight">{{page.title_highlight|safe}}</h2>
               {% else %}
-                <h1 class="search--result__title">{{page.title}}</h1>
+                <h2 class="search--result__title">{{page.title}}</h2>
               {% endif %}
               {% if page.subtitle_highlight or page.body_highlight %}
                 <p class="search--result__subtitle highlight-description">

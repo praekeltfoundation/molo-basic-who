@@ -32,14 +32,16 @@
     padding: 5px 0;
   }
   &__title {
+    color: #000;
+    font-size: $font-large;
     line-height: 1.1;
-    font-size: $font-x-large;
+    padding: 10px 0 5px;
     &-highlight {
       font-style: italic;
     }
   }
   &__subtitle {
-    margin: 5px 0;
+    margin: 8px 0;
   }
   .highlight-description {
     font-style: italic;
