@@ -68,9 +68,9 @@
 }
 .article-list__item--hero {
   border-top: 2px solid var(--very-dark-grayish-blue);
-  padding: 10px 0 0 0;
   .article-list__title {
    font-size: $font-large;
+   padding: 10px 15px 0;
   }
   .article-list__image img {
     max-width: 100%;
