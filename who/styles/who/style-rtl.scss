@@ -1,5 +1,6 @@
 //Buttons
-.search-form input[type="submit"] {
+.search-form input[type="submit"],
+.search__submit {
   text-indent: 0;
 }
 //Languages Select
@@ -29,9 +30,12 @@
 .footer-link__thumbnail-icon {
   float: right;
 }
-
-.section-list__more:after {padding-right: 10px;}
-.header__nav-item:last-child {margin: 0 12px 0 0;}
+.section-list__more:after {
+  padding-right: 10px;
+}
+.header__nav-item:last-child {
+  margin: 0 12px 0 0;
+}
 
 //Articles
 //To Look closely
@@ -49,6 +53,7 @@
   input[type="search"] {
     padding: 8px 45px;
   }
+  .search__submit,
   .search-form input[type="submit"] {
     text-indent: 5em;
     left: 15px;

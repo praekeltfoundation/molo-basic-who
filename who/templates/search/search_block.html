@@ -3,6 +3,6 @@
 <div class="search">
   <form action="{% url 'search' %}" id="search-form" class="search-form">
     <input id="search__input" placeholder="{% trans "Search the site..." %}" name="q" type="search" value="{{search_query}}">
-    <input type="submit" value="{% trans "SEARCH"%}">
+    <button class="search__submit" type="submit" value="{% trans 'Search' %}">{% trans 'Search' %}</button>
   </form>
 </div>

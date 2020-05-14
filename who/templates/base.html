@@ -153,16 +153,18 @@
       </a>
       <a id="header__burger" href="#section_menu" class="header__anchor">Menu</a>
     </div>
-
-    {% block content %}{% endblock %}
     {% block search %}
       {% if languages %}
         {% include "search/search_block.html" %}
       {% endif %}
     {% endblock %}
+    {% block content %}{% endblock %}
+
+
 
     {% block section_menu %}
       <div id="section_menu" class="section-menu">
+        {% include "search/search_block.html" %}
         <ul class="menu-list">
         {% load_sections as sections %}
         {% for section in sections %}

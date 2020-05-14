@@ -10,12 +10,9 @@
         display: block;}
     }
     .call-to-action {
-      padding: 0 15px;
-      background: var(--strong-blue);
-      border-top: 1px solid var(--dark-blue);
-      border-bottom: 1px solid var(--dark-blue);
+      padding: 20px 15px 0;
       &__nav-item-text  {
-        color: white;
+        color: var(--dark-blue);
         font-weight: bold;
         display: block;
         outline: none;
@@ -24,7 +21,7 @@
   }
 
   &__recommended {
-    padding: 10px 15px;
+    padding: 10px 15px !important;
     font-size: $font-small;
     text-transform: uppercase;
     font-weight: 600;
@@ -48,13 +45,15 @@
       line-height: 1.1;
       a {color: #000;}
     }
-    &__desc {margin: 8px 0;}
+    &__desc {
+      margin: 8px 0;
+    }
     &-list {
       list-style: none;
       padding: 0;
       margin: 0;
       &__item {
-        margin: 0 0 20px;
+        margin: 0 10px 20px;
         padding: 15px 0 0;
         overflow: auto;
         clear: both;

@@ -1,6 +1,7 @@
 .search {
   position: relative;
   padding: 5px 15px;
+  margin: -10px 0 0;
   &__feedback-title {
     font-size: $font-x-medium;
     padding: 15px 0 0;
@@ -9,18 +10,26 @@
 .search-form {
   position: relative;
   padding: 15px 0;
+  .search__submit,
   input[type="submit"] {
     background: transparent;
-    color: var(--very-dark-gray);
+    color: var(--very-dark-grayish-blue);
     text-align: left;
     width: auto;
-    text-decoration: underline;
+    text-decoration: none;
     position: absolute;
     right: 15px;
-    top: 5px;
-  }
-  &--main {
-    padding: 5px 15px;
+    top: 15px;
+    &:after {
+      margin-left: 5px;
+      content: "❯";
+      display: inline-block;
+    }
+    &:hover,
+    &:focus {
+      color: var(--strong-orange);
+      text-decoration: underline;
+    }
   }
 }
 

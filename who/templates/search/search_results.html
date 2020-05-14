@@ -79,14 +79,14 @@
     {% endif %}
   </div>
 {% else %}
-  <div class="search">
-    <form action="{% url 'search' %}" id="search-form" class="search-form search-form--main">
+  <div class="search search--results">
+    <form action="{% url 'search' %}" id="search-form" class="search-form">
       <input placeholder="{% trans "Search the site..." %}" name="q" type="search">
-      <input type="submit" value="{% trans "Search"%}">
+      <button class="search__submit" type="submit" value="{% trans 'Search' %}">{% trans 'Search' %}</button>
     </form>
   </div>
-  <h2 class="heading heading--search">{% trans "Search Results for:" %} &quot;{{search_query}}&quot;</h2>
   <div class="search">
+    <h2 class="heading heading--search">{% trans "Search Results for:" %} &quot;{{search_query}}&quot;</h2>
     <h3 class="search__feedback-title">
       {% trans "No search results were found for " %} &quot;{{search_query}}&quot;
     </h3>

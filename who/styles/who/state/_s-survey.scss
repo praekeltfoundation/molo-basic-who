@@ -2,7 +2,9 @@
   .call-to-action__nav-item--back-home {
     padding: 0 15px 10px;
   }
-  input[type="submit"] {width: 100%;}
+  input[type="submit"] {
+    width: 100%;
+  }
   input[type="submit"],
   .call-to-action__nav-item--surveys {
     background: var(--strong-blue);

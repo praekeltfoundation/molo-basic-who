@@ -18,7 +18,7 @@ input[type="password"],
 input[type="email"],
 input[type="tel"],
 input[type="search"] {
-  border: 1px solid var(--dark-gray);
+  border: 1px solid #d8d5d5;
   box-sizing: border-box;
   color: var(--very-dark-grayish-blue);
   font-size: $font-medium;
@@ -34,6 +34,7 @@ select {
 textarea {
   width: 100%;
 }
+.search__submit,
 .call-to-action__nav-item,
 input[type="submit"] {
   background: transparent;
