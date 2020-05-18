@@ -14,3 +14,21 @@
         <span class="call-to-action__item-share-title">{% trans 'Share on Twitter' %}</span>
     </a>
 {% endif %}
+
+{% if settings.core.SiteSettings.whatsapp_sharing %}
+    <a href="whatsapp://send?text=http{% if request.is_secure %}s{%endif %}://{{ request.get_host }}{{ path }}" target="_blank" class="social-media__anchor social-media__anchor--whatsapp " data-action="share/whatsapp/share">
+        {% if whatsapp %}{% image whatsapp width-35 format-png class="call-to-action__item-share-img" %}{% else %}{% trans "Whatsapp" %}{% endif %}
+    </a>
+{% endif %}
+
+{% if settings.core.SiteSettings.telegram_sharing %}
+    <a  href="https://telegram.me/share/url?url=http{% if request.is_secure %}s{%endif %}://{{ request.get_host }}{{ path }}" target="_blank" class="social-media__anchor social-media__anchor--telegram">
+    {% if telegram %}{% image telegram width-35 format-png class="call-to-action__item-share-img" %}{% else %}{% trans "Telegram" %}{% endif %}
+    </a>
+{% endif %}
+
+{% if settings.core.SiteSettings.viber_sharing %}
+    <a  href="viber://forward?text=http{% if request.is_secure %}s{%endif %}://{{ request.get_host }}{{ path }}" target="_blank" class="social-media__anchor social-media__anchor--viber">
+        {% if viber %}{% image viber width-35 format-png class="call-to-action__item-share-img" %}{% else %}{% trans "Viber" %}{% endif %}
+    </a>
+{% endif %}
