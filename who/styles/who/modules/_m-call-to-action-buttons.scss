@@ -1,6 +1,6 @@
 .call-to-action__nav-item {
   color: var(--very-dark-grayish-blue);
-  text-decoration: underline;
+  text-decoration: none;
   font-weight: normal;
   padding: 10px 15px;
 }
@@ -17,15 +17,18 @@
   margin: 0;
   text-decoration: none;
   text-transform: inherit;
-  font-size: $font-x-medium;
+  font-size: $font-large;
 }
 .call-to-action__nav-item--login {
+  background: #fff;
   color: var(--very-dark-grayish-blue);
   font-size: $font-small;
-  text-transform: uppercase;
   font-weight: bold;
   margin: 0;
-  padding: 0;
+  padding: 10px 0;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
 }
 //Comments
 .call-to-action__nav-item--response {
