@@ -133,6 +133,24 @@ TEMPLATES = [
 ROOT_URLCONF = 'who.urls'
 WSGI_APPLICATION = 'who.wsgi.application'
 
+AUTH_PASSWORD_VALIDATORS = [
+    {
+        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+    },
+    {
+        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
+        'OPTIONS': {
+            'min_length': 10,
+        },
+    },
+    {
+        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
+    },
+    {
+        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
+    },
+]
+
 
 # Database
 # https://docs.djangoproject.com/en/1.7/ref/settings/#databases
