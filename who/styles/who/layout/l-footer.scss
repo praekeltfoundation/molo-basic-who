@@ -21,6 +21,11 @@
       font-size: $font-small;
       text-transform: inherit;
       text-decoration: none;
+      &:hover,
+      &:focus,
+      &:active {
+        text-decoration: underline;
+      }
       &__title {
         margin: 0;
         display: inline-block;
@@ -41,11 +46,4 @@
       }
     }
   }
-}
-
-.copyright {
-  background: var(--dark-saturated-blue);
-	color: #fff;
-	font-size: $font-x-small;
-	padding: 5px 15px;
 }

@@ -1,6 +1,11 @@
 .menu {
   &-links {
     margin-top: 5px;
+    &:hover,
+    &:focus,
+    &:active {
+      text-decoration: underline;
+    }
   }
   &-brand {
     text-align: center;
