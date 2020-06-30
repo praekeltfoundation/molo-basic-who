@@ -28,9 +28,9 @@
   }
   &-recommended {
     overflow: auto;
-    margin: 8px 0;
+    margin: 5px 0;
     &-list__content {
-      padding: 0 10px;
+      padding: 0 5px;
       clear: both;
       overflow: auto;
       .article-list__comments-counter {
@@ -41,12 +41,14 @@
       word-wrap: break-word;
       padding: 0;
       color: #000;
-      font-size: $font-large;
+      font-size: $font-medium ;
       line-height: 1.1;
-      a {color: #000;}
+      a {
+        color: #000;
+      }
     }
     &__desc {
-      margin: 8px 0;
+      margin: 5px 0;
     }
     &-list {
       list-style: none;
@@ -75,9 +77,6 @@
       content: "❯";
     }
   }
-}
-.related-articles-recommended-list__content {
-  padding: 0 15px;
 }
 
 .promoted-article-list__anchor-grid {

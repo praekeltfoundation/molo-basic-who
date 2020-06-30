@@ -2,7 +2,8 @@
 {% load static core_tags i18n static wagtailcore_tags wagtailimages_tags pagination %}
 
 {% block content %}
-<div class="section section{{self.get_effective_extra_style_hints}}">
+<div class="section section--{{self.get_effective_extra_style_hints}}">
+
   {% if self.image %}
     <div class="section__image">
       {% image self.image width-320 %}
@@ -14,33 +15,47 @@
     {% endblock %}
   </ul>
 
+  {% if self.get_effective_extra_style_hints %}
+    <h1 class="heading heading--homepage">{{self.title}}</h1>
+  {% endif %}
+
   {% load_child_articles_for_section self count=10 as articles %}
   <ul class="article-list">
   {% for sub_article in articles %}
-    <li class="article-list__item{% if forloop.first %} article-list__item--hero{% endif %}">
-      <div class="article-list__container{% if forloop.first %} article-list__container--hero{% endif %}">
-          <div class="article-list__image{% if not forloop.first %} article-list__image--content{% endif %}">
-            {% if sub_article.image %}
-              {% if forloop.first %}
-                  <a href="{% pageurl sub_article %}" class="article-list__link">
-                    {% image sub_article.image width-480 class="article-list__image" %}
-                  </a>
-              {% else %}
-                  <a href="{% pageurl sub_article %}" class="article-list__link">
-                    {% image sub_article.image width-480 class="article-list__image article-list__image--small" %}
-                  </a>
-              {% endif %}
+    <li class="article-list__item{% if forloop.first and not self.get_effective_extra_style_hints %} article-list__item--hero{% endif %}">
+      <div class="article-list__container{% if forloop.first and not self.get_effective_extra_style_hints %} article-list__container--hero{% endif %}">
+        <div class="article-list__image{% if not forloop.first %} article-list__image--content{% endif %}">
+          {% if sub_article.image %}
+            {% if forloop.first %}
+                <a href="{% pageurl sub_article %}" class="article-list__link">
+                  {% image sub_article.image width-480 class="article-list__image" %}
+                </a>
+            {% else %}
+                <a href="{% pageurl sub_article %}" class="article-list__link">
+                  {% image sub_article.image width-480 class="article-list__image article-list__image--small" %}
+                </a>
             {% endif %}
-          </div>
+          {% endif %}
+        </div>
 
-          <div class="article-list__inner{% if not forloop.first %} article-list__inner--content{% endif %}">
-            <a href="{% pageurl sub_article %}" class="article-list__link">
-              <h2 class="article-list__title section-article-list__title">{{sub_article.title}}</h2>
-            </a>
-            {% if sub_article.subtitle %}
-            <h4 class="article-list__subtitle">{{sub_article.subtitle}}</h4>
-            {% endif %}
+        <div class="article-list__inner{% if not forloop.first %} article-list__inner--content{% endif %}{% if self.get_effective_extra_style_hints %} article-list__inner--regions{% endif %}">
+          <a href="{% pageurl sub_article %}" class="article-list__link">
+            <h2 class="article-list__title section-article-list__title">{{sub_article.title}}</h2>
+          </a>
+          {% if sub_article.subtitle %}
+          <h4 class="article-list__subtitle">{{sub_article.subtitle}}</h4>
+          {% endif %}
+        </div>
+
+        {% if self.get_effective_extra_style_hints %}
+          <div class="article-list__buttons">
+            {% for block in sub_article.body %}
+              {% if block.block_type == 'richtext' %}
+                {{block.value }}
+              {% endif %}
+            {% endfor %}
           </div>
+        {% endif %}
       </div>
     </li>
   {% endfor %}

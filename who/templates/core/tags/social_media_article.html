@@ -2,33 +2,61 @@
 {% get_settings %}
 
 {% if settings.core.SiteSettings.facebook_sharing %}
-    <a href="http://www.facebook.com/sharer.php?u=http{% if request.is_secure %}s{%endif %}://{{ request.get_host }}{{ request.path }}" target="_blank" class="call-to-action__item-share call-to-action__item-share--facebook {% if facebook %} call-to-action__item-share-with-image {% endif %}">
+    <a href="http://www.facebook.com/sharer.php?u=http{% if request.is_secure %}s{%endif %}://{{ request.get_host }}{{ request.path }}" target="_blank" class="call-to-action__item-share">
+      {% if facebook %}
         {% image facebook width-35 class="call-to-action__item-share-img" %}
-        <span class="call-to-action__item-share-title">{% trans 'Share on Facebook'%}</span>
+      {% else %}
+        <span class="call-to-action__item-share-title">
+          {% trans 'Facebook'%}
+        </span>
+      {% endif %}
     </a>
 {% endif %}
 
 {% if settings.core.SiteSettings.twitter_sharing %}
-    <a href="https://twitter.com/share?url=http{% if request.is_secure %}s{%endif %}://{{ request.get_host }}{{ request.path }}" target="_blank" class="call-to-action__item-share call-to-action__item-share--twitter {% if twitter %} call-to-action__item-share-with-image {% endif %}">
+    <a href="https://twitter.com/share?url=http{% if request.is_secure %}s{%endif %}://{{ request.get_host }}{{ request.path }}" target="_blank" class="call-to-action__item-share">
+      {% if twitter %}
         {% image twitter width-35 class="call-to-action__item-share-img" %}
-        <span class="call-to-action__item-share-title">{% trans 'Share on Twitter' %}</span>
+      {% else %}
+        <span class="call-to-action__item-share-title">
+          {% trans 'Twitter' %}
+        </span>
+      {% endif %}
     </a>
 {% endif %}
 
 {% if settings.core.SiteSettings.whatsapp_sharing %}
-    <a href="whatsapp://send?text=http{% if request.is_secure %}s{%endif %}://{{ request.get_host }}{{ path }}" target="_blank" class="social-media__anchor social-media__anchor--whatsapp " data-action="share/whatsapp/share">
-        {% if whatsapp %}{% image whatsapp width-35 format-png class="call-to-action__item-share-img" %}{% else %}{% trans "Whatsapp" %}{% endif %}
+    <a href="whatsapp://send?text=http{% if request.is_secure %}s{%endif %}://{{ request.get_host }}{{ path }}" target="_blank" class="social-media__anchor" data-action="share/whatsapp/share">
+      {% if whatsapp %}
+        {% image whatsapp width-35 format-png class="call-to-action__item-share-img" %}
+      {% else %}
+        <span class="call-to-action__item-share-title">
+          {% trans "Whatsapp" %}
+        </span>
+      {% endif %}
     </a>
 {% endif %}
 
 {% if settings.core.SiteSettings.telegram_sharing %}
-    <a  href="https://telegram.me/share/url?url=http{% if request.is_secure %}s{%endif %}://{{ request.get_host }}{{ path }}" target="_blank" class="social-media__anchor social-media__anchor--telegram">
-    {% if telegram %}{% image telegram width-35 format-png class="call-to-action__item-share-img" %}{% else %}{% trans "Telegram" %}{% endif %}
-    </a>
+    <a  href="https://telegram.me/share/url?url=http{% if request.is_secure %}s{%endif %}://{{ request.get_host }}{{ path }}" target="_blank" class="social-media__anchor">
+      {% if telegram %}
+        {% image telegram width-35 format-png class="call-to-action__item-share-img" %}
+      {% else %}
+        <span class="call-to-action__item-share-title">
+          {% trans "Telegram" %}
+        </span>
+      {% endif %}
+      </a>
 {% endif %}
 
 {% if settings.core.SiteSettings.viber_sharing %}
-    <a  href="viber://forward?text=http{% if request.is_secure %}s{%endif %}://{{ request.get_host }}{{ path }}" target="_blank" class="social-media__anchor social-media__anchor--viber">
-        {% if viber %}{% image viber width-35 format-png class="call-to-action__item-share-img" %}{% else %}{% trans "Viber" %}{% endif %}
+    <a  href="viber://forward?text=http{% if request.is_secure %}s{%endif %}://{{ request.get_host }}{{ path }}" target="_blank" class="social-media__anchor">
+      {% if viber %}
+        {% image viber width-35 format-png class="call-to-action__item-share-img" %}
+      {% else %}
+        <span class="call-to-action__item-share-title">
+          {% trans "Viber" %}
+        </span>
+      {% endif %}
     </a>
 {% endif %}

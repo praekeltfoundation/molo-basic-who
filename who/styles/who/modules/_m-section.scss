@@ -18,8 +18,6 @@
     font-size: $font-x-large;
     padding: 15px 15px 0;
   }
-
-  //Is this here?
   &__more {
     text-decoration: none;
     text-align: right;
@@ -53,84 +51,85 @@
       }
     }
   }
-}
-
-
-
-.section-list {
-  &__title {
-    text-transform: uppercase;
-    padding: 10px 15px;
-    border-bottom: 1px solid var(--very-blue);
-    &:after {
-      padding: 0 10px 0;
-      @media only screen and (min-width: 320px) {
-        content: ">";
-      }
-      @media only screen and (min-width: 490px) {
-        content: "❯";
-      }
-    }
-    &--homepage {
-      padding: 10px 0 0;
-      border-bottom: none;
-    }
-  }
-  &__more {
-    display: block;
-    text-transform: uppercase;
-    padding: 5px 15px;
-    font-weight: bold;
-    text-decoration: underline;
-  }
-  &__container {
-    clear: both;
-    background: var(--strong-blue);
-    padding: 5px 15px;
-    overflow: auto;
-    border-bottom: 1px solid var(--dark-blue);
-    color: #727172;
-    font-size: $font-x-small;
-    padding: 5px 15px;
-    a {
-      color: #fff;
-      display: inline-block;
-      font-size: $font-small;
-      font-weight: bold;
+  &-list {
+    &__title {
       text-transform: uppercase;
-    }
-  }
-
-  &-nav {
-    padding: 10px 15px 15px;
-    text-transform: uppercase;
-    font-weight: bold;
-    &__link {
-      color: var(--very-dark-gray);
-      font-size: $font-x-small;
-      padding-right: 10px;
-      vertical-align: middle;
-      &:hover,
-      &:focus {
-        color: var(--strong-orange);
-        text-decoration: underline;
-      }
-    }
-    &__item {
-      display: inline;
+      padding: 10px 15px;
+      border-bottom: 1px solid var(--very-blue);
       &:after {
-        margin: 0 3px 0 -3px;
-        font-size: $font-x-small;
-         @media only screen and (min-width: 320px) {
+        padding: 0 10px 0;
+        @media only screen and (min-width: 320px) {
           content: ">";
         }
         @media only screen and (min-width: 490px) {
           content: "❯";
         }
       }
-      &--current:after {
-        content: "";
+      &--homepage {
+        padding: 10px 0 0;
+        border-bottom: none;
       }
     }
+    &__more {
+      display: block;
+      text-transform: uppercase;
+      padding: 5px 15px;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    &__container {
+      clear: both;
+      background: var(--strong-blue);
+      padding: 5px 15px;
+      overflow: auto;
+      border-bottom: 1px solid var(--dark-blue);
+      color: #727172;
+      font-size: $font-x-small;
+      padding: 5px 15px;
+      a {
+        color: #fff;
+        display: inline-block;
+        font-size: $font-small;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+    }
+
+    &-nav {
+      padding: 10px 15px 15px;
+      text-transform: uppercase;
+      font-weight: bold;
+      &__link {
+        color: var(--very-dark-gray);
+        font-size: $font-x-small;
+        padding-right: 10px;
+        vertical-align: middle;
+        &:hover,
+        &:focus {
+          color: var(--strong-orange);
+          text-decoration: underline;
+        }
+      }
+      &__item {
+        display: inline;
+        &:after {
+          margin: 0 3px 0 -3px;
+          font-size: $font-x-small;
+           @media only screen and (min-width: 320px) {
+            content: ">";
+          }
+          @media only screen and (min-width: 490px) {
+            content: "❯";
+          }
+        }
+        &--current:after {
+          content: "";
+        }
+      }
+    }
+  }
+  &--reqions,
+  &--reqion {
+
   }
 }
