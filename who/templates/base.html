@@ -207,13 +207,15 @@
             </li>
           {% endif %}
           {% footer_page %}
-
         </ul>
       </div>
-
-      <div class="copyright">
-        <p>WHO &copy; {% now "Y" %}</p>
+      <div class="semi-footer">
+        <div class="copyright">
+          <p>WHO &copy; {% now "Y" %}</p>
+        </div>
+        {% social_media_footer %}
       </div>
+
     {% endblock %}
     {% block extra_js %}{% endblock %}
     {% wagtailuserbar %}

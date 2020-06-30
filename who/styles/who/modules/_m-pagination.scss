@@ -1,21 +1,28 @@
 .pagination {
-  padding: 5px 0px 30px;
+  padding: 5px 15px;
   overflow: auto;
+  position: relative;
   &__current {
     color: #000;
     font-weight: bold;
     text-decoration: underline;
+    padding: 0 5px;
   }
   &__previous-anchor,
   &__next-anchor {
+    color: var(--very-dark-grayish-blue);
     display: inline-block;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 11px;
+    font-weight: bold;
   }
 
   &__link {
     color: var(--very-dark-grayish-blue);
     font-size: $font-x-small;
     font-weight: bold;
-    display: block;
+      display: inline-block;
     text-transform: uppercase;
     padding: 15px 0;
     &--arrow {
@@ -23,10 +30,19 @@
     }
   }
   &--numbered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
+    text-align: center;
+
   }
   &__pages-numbers {
     display: inline-block;
-    a {color: var(--very-dark-grayish-blue);}
+    padding: 0 10px;
+    font-size: 12px;
+    a {
+      color: var(--very-dark-grayish-blue);
+    }
   }
 }
