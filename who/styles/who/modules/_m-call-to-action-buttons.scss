@@ -4,7 +4,8 @@
   font-weight: normal;
   padding: 10px 15px;
 }
-//Profiles
+
+//PROFILES
 .call-to-action--profile {
   padding: 0 15px 15px;
 }
@@ -30,17 +31,20 @@
   text-align: center;
   text-decoration: none;
 }
+
 //Comments
 .call-to-action__nav-item--response {
   text-transform: capitalize;
   font-weight: bold;
 }
+
 //Poll
 .call-to-action__nav-item-show-results {
   color: #000;
   text-decoration: underline;
   text-transform: uppercase;
 }
+
 //Articles & General Pages
 .call-to-action__nav-item--back-home {
   color: var(--very-dark-grayish-blue);

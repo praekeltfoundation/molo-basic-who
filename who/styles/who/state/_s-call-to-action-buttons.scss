@@ -7,12 +7,14 @@
   text-align: center;
   text-decoration: none;
 }
+
 //Comments Report Buttons
 .call-to-action__nav-item--response {
   text-decoration: none;
   font-size: $font-small;
   margin: 0;
 }
+
 //Section
 .call-to-action__nav-item--back,
 .call-to-action__nav-item--back-home {
@@ -26,7 +28,7 @@
       content: "<";
     }
     @media only screen and (min-width: 490px) {
-       content: "❮";
+      content: "❮";
     }
   }
 }

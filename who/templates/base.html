@@ -151,7 +151,9 @@
           {% endblock %}
         {% endif %}
       </a>
-      <a id="header__burger" href="#section_menu" class="header__anchor">Menu</a>
+      <a id="header__burger" href="#section_menu" class="header__anchor">
+        Menu
+      </a>
     </div>
     {% block search %}
       {% if languages %}
@@ -159,8 +161,6 @@
       {% endif %}
     {% endblock %}
     {% block content %}{% endblock %}
-
-
 
     {% block section_menu %}
       <div id="section_menu" class="section-menu">
@@ -173,7 +173,9 @@
               <a href="{% pageurl section %}" class="menu-list__anchor">
                 {{section.title}}
               </a>
-              <span class="menu-list__description">{{section.description}}</span>
+              <span class="menu-list__description">
+                {{section.description}}
+              </span>
             </div>
           </li>
         {% endfor %}

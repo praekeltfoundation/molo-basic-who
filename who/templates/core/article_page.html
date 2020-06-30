@@ -13,7 +13,7 @@
 <div class="article article{{self.get_parent_section.get_effective_extra_style_hints}}">
   <h1 class="article__title">{{self.title}}</h1>
   <p class="article__subtitle">{{self.subtitle}}</p>
-  
+
   <div class="article__content">
     {% for block in self.body %}
       {% if block.block_type == 'heading' %}
@@ -124,7 +124,9 @@
       {% endif %}
     {% endfor %}
   </div>
-  {% social_media_article page=self %}
+  <div class="article__social">
+    {% social_media_article page=self %}
+  </div>
 </div>
 {% include "core/next-article.html" %}
 {% include "core/related-article-list.html" %}

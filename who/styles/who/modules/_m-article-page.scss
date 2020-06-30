@@ -23,58 +23,63 @@
     height: auto;
     margin: 0 auto 10px;
   }
+  &__social {
+    display: flex;
+    padding: 10px;
+    border-bottom: solid 1px var(--very-light-gray);
+  }
+  &__content {
+    word-wrap: break-word;
+    padding: 0 15px;
+    h1, h2, h3, h4, h5, h6 {
+      padding: 5px 0;
+    }
+    a {
+      color: #000;
+      display: block;
+      font-weight: bold;
+      text-decoration: underline;
+      padding: 5px 0;
+    }
+    //General article ol, ul, li entered inside the Body P tags - no way of adding classes
+    ol li, ul li {
+      padding: 0 0 10px;
+      p {
+        margin: 0;
+        padding: 0;
+      }
+    }
+    ol {
+      padding: 0 30px;
+      li  {
+        list-style-type: decimal;
+        p {
+          display: inline;
+        }
+      }
+    }
+    ul {
+      padding: 0 30px;
+      li {
+        list-style-type: disc;
+      }
+    }
+    //Article ol, ul, li entered inside the  List and Numbered List Wagtail streamfields
+    .article-unordered-list {
+      .article-unordered-list__item {
+        list-style-type: disc;
+      }
+    }
+    .article-numbered-list__item {
+      padding: 0 0 10px;
+    }
+    .codehilite {
+      padding: 0 15px;
+      white-space: pre-wrap;
+    }
+  }
   &-numbered-list {
     padding: 0 15px;
     counter-reset:li;
-  }
-}
-.article__content {
-  word-wrap: break-word;
-  padding: 0 15px;
-  h1, h2, h3, h4, h5, h6 {
-    padding: 5px 0;
-  }
-  a {
-    color: #000;
-    display: block;
-    font-weight: bold;
-    text-decoration: underline;
-    padding: 5px 0;
-  }
-  //General article ol, ul, li entered inside the Body P tags - no way of adding classes
-  ol li, ul li {
-    padding: 0 0 10px;
-    p {
-      margin: 0;
-      padding: 0;
-    }
-  }
-  ol {
-    padding: 0 30px;
-    li  {
-      list-style-type: decimal;
-      p {
-        display: inline;
-      }
-    }
-  }
-  ul {
-    padding: 0 30px;
-    li {
-      list-style-type: disc;
-    }
-  }
-  //Article ol, ul, li entered inside the  List and Numbered List Wagtail streamfields
-  .article-unordered-list {
-    .article-unordered-list__item {
-      list-style-type: disc;
-    }
-  }
-  .article-numbered-list__item {
-    padding: 0 0 10px;
-  }
-  .codehilite {
-    padding: 0 15px;
-    white-space: pre-wrap;
   }
 }
