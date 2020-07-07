@@ -1,4 +1,8 @@
 /* jshint esnext: true */
+/*
+This is a copy of the file below with the django admin login bits removed
+https://github.com/AngellusMortis/django_microsoft_auth/blob/master/microsoft_auth/static/microsoft/js/login.js
+*/
 (function () {
     'use strict';
 
