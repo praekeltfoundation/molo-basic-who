@@ -25,6 +25,10 @@ if settings.ENABLE_SSO:
         url(r'^admin/callback/',
             cas_views.CallbackView.as_view(), name='cas_ng_callback'),
     ]
+elif settings.MICROSOFT_AUTH_LOGIN_ENABLED:
+    urlpatterns = [
+        path('microsoft/', include('microsoft_auth.urls', namespace='microsoft')),
+    ]
 else:
     urlpatterns = []
 

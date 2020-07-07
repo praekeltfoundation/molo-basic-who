@@ -83,7 +83,8 @@ INSTALLED_APPS = [
     'djcelery',
     'django_cas_ng',
     'compressor',
-    'storages'
+    'storages',
+    'microsoft_auth'
 ]
 
 SITE_ID = 1
