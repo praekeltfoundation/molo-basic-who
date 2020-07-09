@@ -87,7 +87,12 @@ class ViewsTestCase(MoloTestCaseMixin, TestCase):
         self.assertTemplateUsed(response, 'maintenance.html')
 
     @override_settings(MICROSOFT_AUTH_LOGIN_ENABLED=True)
-    def test_microsoft_login(self):
+    @patch('microsoft_auth.client.reverse')
+    def test_microsoft_login(self, reverse_mock):
+        # It's really hard to get Django to load a new url namespace after the
+        # config has been loaded so I just patch reverse() where it is used instead
+        reverse_mock.return_value="/microsoft/auth-callback/"
+
         templates_setting = settings.TEMPLATES
         templates_setting[0]['OPTIONS']['context_processors'].append(
             'microsoft_auth.context_processors.microsoft')
