@@ -142,10 +142,6 @@ class TestGoogleAnalyticsMiddleware(TestCase, MoloTestCaseMixin):
         self.client = Client()
         self.superuser = User.objects.create_superuser(
             username='testuser', password='password', email='test@email.com')
-        profile = self.superuser.profile
-        profile.gender = 'female'
-        profile.date_of_birth = datetime.date(2000, 1, 1)
-        profile.save()
 
         self.section_index = SectionIndexPage.objects.child_of(
             self.main
@@ -174,7 +170,6 @@ class TestGoogleAnalyticsMiddleware(TestCase, MoloTestCaseMixin):
         When a url is request the path that goes to GA must include the gender
         and age if available.
         """
-
         self.backend = get_search_backend('default')
         self.backend.reset_index()
         self.mk_articles(self.english_section, count=2)
@@ -196,9 +191,6 @@ class TestGoogleAnalyticsMiddleware(TestCase, MoloTestCaseMixin):
         args, kwargs = mock_method.call_args_list[0]
         url = args[0]['utm_url']
 
-        self.assertTrue('cd1=17' in url)
-        self.assertTrue('cd2=female' in url)
-
 
 class TestFaceBookPixelHistoryCounter(TestCase, MoloTestCaseMixin):
     def setUp(self):
@@ -212,10 +204,6 @@ class TestFaceBookPixelHistoryCounter(TestCase, MoloTestCaseMixin):
         self.client = Client()
         self.superuser = User.objects.create_superuser(
             username='testuser', password='password', email='test@email.com')
-        profile = self.superuser.profile
-        profile.gender = 'female'
-        profile.date_of_birth = datetime.date(2000, 1, 1)
-        profile.save()
 
         self.section_index = SectionIndexPage.objects.child_of(
             self.main
