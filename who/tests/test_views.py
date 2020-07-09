@@ -4,6 +4,7 @@ from mock import Mock, patch
 from datetime import datetime
 
 from django.urls import reverse
+from django.conf import settings
 from django.contrib.auth.models import User
 from django.contrib.sites.models import Site
 from django.contrib.contenttypes.models import ContentType
@@ -84,3 +85,15 @@ class ViewsTestCase(MoloTestCaseMixin, TestCase):
     def test_maintenance_mode(self):
         response = self.client.get('/')
         self.assertTemplateUsed(response, 'maintenance.html')
+
+    @override_settings(MICROSOFT_AUTH_LOGIN_ENABLED=True)
+    def test_microsoft_login(self):
+        templates_setting = settings.TEMPLATES
+        templates_setting[0]['OPTIONS']['context_processors'].append(
+            'microsoft_auth.context_processors.microsoft')
+        with self.settings(TEMPLATES=templates_setting):
+            response = self.client.get('/admin', follow=True)
+
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
+        self.assertContains(response, '</span><em>Microsoft</em></a>')
+        self.assertContains(response, '<script type="text/javascript" src="/static/js/wagtail_login.js">')
