@@ -67,7 +67,7 @@ if CAS_SERVER_URL:
     CAS_VERSION = '3'
 
 # Setup for Microsoft auth
-MICROSOFT_AUTH_LOGIN_ENABLED = environ.get('MICROSOFT_AUTH_CLIENT_ID') or False
+MICROSOFT_AUTH_LOGIN_ENABLED = environ.get('MICROSOFT_AUTH_LOGIN_ENABLED') or False
 if MICROSOFT_AUTH_LOGIN_ENABLED:
     AUTHENTICATION_BACKENDS = [
         'microsoft_auth.backends.MicrosoftAuthenticationBackend',
