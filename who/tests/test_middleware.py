@@ -4,7 +4,7 @@ import responses
 
 from django.conf import settings
 from django.contrib.auth.models import User
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 from django.utils.encoding import escape_uri_path
 from django.contrib.sessions.middleware import SessionMiddleware
 from django.test import TestCase, Client, RequestFactory, override_settings
@@ -13,7 +13,7 @@ from molo.core.models import (
     Languages, SiteLanguageRelation, Main, SectionIndexPage)
 from molo.core.tests.base import MoloTestCaseMixin
 
-from wagtail.wagtailsearch.backends import get_search_backend
+from wagtail.search.backends import get_search_backend
 
 from who.middleware import (
     SSLRedirectMiddleware, whoMoloGoogleAnalyticsMiddleware, clean_path,
