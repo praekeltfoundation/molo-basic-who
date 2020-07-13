@@ -4,7 +4,7 @@ import responses
 
 from django.conf import settings
 from django.contrib.auth.models import User
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 from django.utils.encoding import escape_uri_path
 from django.contrib.sessions.middleware import SessionMiddleware
 from django.test import TestCase, Client, RequestFactory, override_settings
@@ -13,7 +13,7 @@ from molo.core.models import (
     Languages, SiteLanguageRelation, Main, SectionIndexPage)
 from molo.core.tests.base import MoloTestCaseMixin
 
-from wagtail.wagtailsearch.backends import get_search_backend
+from wagtail.search.backends import get_search_backend
 
 from who.middleware import (
     SSLRedirectMiddleware, whoMoloGoogleAnalyticsMiddleware, clean_path,
@@ -142,10 +142,6 @@ class TestGoogleAnalyticsMiddleware(TestCase, MoloTestCaseMixin):
         self.client = Client()
         self.superuser = User.objects.create_superuser(
             username='testuser', password='password', email='test@email.com')
-        profile = self.superuser.profile
-        profile.gender = 'female'
-        profile.date_of_birth = datetime.date(2000, 1, 1)
-        profile.save()
 
         self.section_index = SectionIndexPage.objects.child_of(
             self.main
@@ -174,7 +170,6 @@ class TestGoogleAnalyticsMiddleware(TestCase, MoloTestCaseMixin):
         When a url is request the path that goes to GA must include the gender
         and age if available.
         """
-
         self.backend = get_search_backend('default')
         self.backend.reset_index()
         self.mk_articles(self.english_section, count=2)
@@ -195,54 +190,3 @@ class TestGoogleAnalyticsMiddleware(TestCase, MoloTestCaseMixin):
 
         args, kwargs = mock_method.call_args_list[0]
         url = args[0]['utm_url']
-
-        self.assertTrue('cd1=17' in url)
-        self.assertTrue('cd2=female' in url)
-
-
-class TestFaceBookPixelHistoryCounter(TestCase, MoloTestCaseMixin):
-    def setUp(self):
-        # Creates Main language
-        self.mk_main()
-        self.main = Main.objects.all().first()
-        self.english = SiteLanguageRelation.objects.create(
-            language_setting=Languages.for_site(self.main.get_site()),
-            locale='en', is_active=True,
-        )
-        self.client = Client()
-        self.superuser = User.objects.create_superuser(
-            username='testuser', password='password', email='test@email.com')
-        profile = self.superuser.profile
-        profile.gender = 'female'
-        profile.date_of_birth = datetime.date(2000, 1, 1)
-        profile.save()
-
-        self.section_index = SectionIndexPage.objects.child_of(
-            self.main
-        ).first()
-        self.english_section = self.mk_section(
-            self.section_index, title='English section')
-
-    def test_more_that_3_page_views(self):
-        """ test if the no script html tag exists """
-        view_count = 5
-        self.client.cookies.load(
-            {settings.FACEBOOK_PIXEL_COOKIE_KEY: view_count}
-        )
-        response = self.client.get(reverse('search'))
-        self.assertEqual(
-            int(response.client.cookies.get(
-                settings.FACEBOOK_PIXEL_COOKIE_KEY
-            ).value),
-            view_count + 1
-        )
-
-    def test_less_that_3_page_views(self):
-        """ test if the no script html tag exists """
-        response = self.client.get(reverse('search'))
-        self.assertEqual(
-            int(response.client.cookies.get(
-                settings.FACEBOOK_PIXEL_COOKIE_KEY
-            ).value),
-            1
-        )

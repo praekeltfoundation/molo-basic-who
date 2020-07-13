@@ -3,7 +3,8 @@ import requests
 from mock import Mock, patch
 from datetime import datetime
 
-from django.core.urlresolvers import reverse
+from django.urls import reverse
+from django.conf import settings
 from django.contrib.auth.models import User
 from django.contrib.sites.models import Site
 from django.contrib.contenttypes.models import ContentType
@@ -13,7 +14,6 @@ from rest_framework import status
 
 from molo.core.models import Main, Languages, SiteLanguageRelation
 from molo.core.tests.base import MoloTestCaseMixin
-from molo.commenting.models import MoloComment
 
 
 class ViewsTestCase(MoloTestCaseMixin, TestCase):
@@ -31,31 +31,6 @@ class ViewsTestCase(MoloTestCaseMixin, TestCase):
         self.content_type = ContentType.objects.get_for_model(self.user)
         self.client = Client()
 
-    def mk_comment(self, comment):
-        return MoloComment.objects.create(
-            content_type=self.content_type,
-            object_pk=self.user.pk,
-            content_object=self.user,
-            site=Site.objects.get_current(),
-            user=self.user,
-            comment=comment,
-            submit_date=datetime.now())
-
-    def test_reporting_comment(self):
-        comment = self.mk_comment('the comment')
-
-        response = self.client.get(reverse(
-            'molo.commenting:molo-comments-report', args=(comment.pk,)))
-
-        self.assertEqual(
-            response['location'],
-            '/profiles/login/?next=/commenting/molo/report/1/')
-
-        self.client.login(username='test', password='test')
-
-        response = self.client.get(reverse(
-            'molo.commenting:molo-comments-report', args=(comment.pk,)))
-        self.assertEqual(response['location'], '/cr/4/1/#c1')
 
     def test_health_no_interface_set(self):
         """
@@ -110,3 +85,20 @@ class ViewsTestCase(MoloTestCaseMixin, TestCase):
     def test_maintenance_mode(self):
         response = self.client.get('/')
         self.assertTemplateUsed(response, 'maintenance.html')
+
+    @override_settings(MICROSOFT_AUTH_LOGIN_ENABLED=True)
+    @patch('microsoft_auth.client.reverse')
+    def test_microsoft_login(self, reverse_mock):
+        # It's really hard to get Django to load a new url namespace after the
+        # config has been loaded so I just patch reverse() where it is used instead
+        reverse_mock.return_value="/microsoft/auth-callback/"
+
+        templates_setting = settings.TEMPLATES
+        templates_setting[0]['OPTIONS']['context_processors'].append(
+            'microsoft_auth.context_processors.microsoft')
+        with self.settings(TEMPLATES=templates_setting):
+            response = self.client.get('/admin', follow=True)
+
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
+        self.assertContains(response, '</span><em>Microsoft</em></a>')
+        self.assertContains(response, '<script type="text/javascript" src="/static/js/wagtail_login.js">')

@@ -65,3 +65,16 @@ if CAS_SERVER_URL:
     CAS_ADMIN_PREFIX = '/admin/'
     LOGIN_URL = 'molo.profiles:auth_login'
     CAS_VERSION = '3'
+
+# Setup for Microsoft auth
+MICROSOFT_AUTH_LOGIN_ENABLED = environ.get('MICROSOFT_AUTH_LOGIN_ENABLED') or False
+if MICROSOFT_AUTH_LOGIN_ENABLED:
+    AUTHENTICATION_BACKENDS = [
+        'microsoft_auth.backends.MicrosoftAuthenticationBackend',
+        'django.contrib.auth.backends.ModelBackend'
+    ]
+    MICROSOFT_AUTH_CLIENT_ID = environ.get('MICROSOFT_AUTH_CLIENT_ID')
+    MICROSOFT_AUTH_CLIENT_SECRET = environ.get('MICROSOFT_AUTH_CLIENT_SECRET')
+    MICROSOFT_AUTH_LOGIN_TYPE = 'ma'
+    TEMPLATES[0]['OPTIONS']['context_processors'].append(
+            'microsoft_auth.context_processors.microsoft')

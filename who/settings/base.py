@@ -83,7 +83,8 @@ INSTALLED_APPS = [
     'djcelery',
     'django_cas_ng',
     'compressor',
-    'storages'
+    'storages',
+    'microsoft_auth'
 ]
 
 SITE_ID = 1
@@ -151,6 +152,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+MICROSOFT_AUTH_LOGIN_ENABLED = environ.get('MICROSOFT_AUTH_LOGIN_ENABLED') or False
 
 # Database
 # https://docs.djangoproject.com/en/1.7/ref/settings/#databases
