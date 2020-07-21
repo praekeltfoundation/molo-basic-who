@@ -29,7 +29,6 @@
       list-style-type: none;
       content:counter(li);
       padding: 5px 0;
-
       &:before {
         content: counter(li)'.';
         counter-increment:li;
