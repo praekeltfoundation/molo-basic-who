@@ -98,7 +98,6 @@
     .rich-text p {
       display: inline-block;
       padding: 5px 10px 5px 0;
-      margin: 0;
       width: auto;
     }
     .cta_button,
@@ -123,6 +122,10 @@
         color: var(--strong-orange);
         border: 1px solid var(--strong-orange);
       }
+    }
+
+    .rich-text a ~ p {
+      display: inline-block;
     }
   }
 }
