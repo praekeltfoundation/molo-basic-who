@@ -35,11 +35,11 @@
       padding: 5px 0;
     }
     a {
-      color: #000;
-      display: block;
-      font-weight: bold;
-      text-decoration: underline;
+      color: var(--strong-orange);
       padding: 5px 0;
+      &:hover, &:focus, {
+        text-decoration: underline;
+      }
     }
     //General article ol, ul, li entered inside the Body P tags - no way of adding classes
     ol li, ul li {
