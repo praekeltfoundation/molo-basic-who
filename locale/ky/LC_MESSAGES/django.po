@@ -135,8 +135,8 @@ msgid "Change Language"
 msgstr "Тилди өзгөртүү"
 
 #: whomplates/base.html:148
-msgid "who
-msgstr "who
+msgid "who"
+msgstr "who"
 
 #: whomplates/base.html:154
 #: whomplates/profiles/register.html:6

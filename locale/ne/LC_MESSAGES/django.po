@@ -134,8 +134,8 @@ msgid "Change Language"
 msgstr "भाषा परिवर्तन"
 
 #: whotemplates/base.html:148
-msgid "who
-msgstr "who
+msgid "who"
+msgstr "who"
 
 #: whotemplates/base.html:154
 #: whotemplates/profiles/register.html:6

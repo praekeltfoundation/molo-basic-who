@@ -136,8 +136,8 @@ msgid "Change Language"
 msgstr "ဘာသာစကား ေျပာင္းလဲမည္။"
 
 #: whoemplates/base.html:148
-msgid "who
-msgstr "who
+msgid "who"
+msgstr "who"
 
 #: whoemplates/base.html:154
 #: whoemplates/profiles/register.html:6
