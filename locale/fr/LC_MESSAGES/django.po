@@ -341,7 +341,7 @@ msgstr ""
 #: who/templates/search/search_block.html:5
 #: who/templates/search/search_results.html:84
 msgid "Search the site..."
-msgstr "Faites une recherche sur le site...."
+msgstr "Rechercher sur le site..."
 
 #: who/templates/search/search_block.html:6
 #: who/templates/search/search_results.html:3
