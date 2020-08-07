@@ -221,7 +221,7 @@ msgstr "Changer la langue"
 
 #: who/templates/base.html:151
 msgid "WHO"
-msgstr "OMS"
+msgstr "WHO"
 
 #: who/templates/base.html:199
 msgid "Change your language"
