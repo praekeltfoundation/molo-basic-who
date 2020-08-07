@@ -72,23 +72,23 @@ msgstr "Diciembre"
 
 #: who/settings/base.py:495
 msgid "Add anonymously"
-msgstr ""
+msgstr "Añadir anónimamente"
 
 #: who/settings/base.py:497
 msgid "This field is required"
-msgstr ""
+msgstr "Este campo es requerido"
 
 #: who/settings/base.py:498
 msgid "Ensure this value has at least 4 characters (it has 1)"
-msgstr ""
+msgstr "Asegurar este valor tiene al menos 4 caracteres (que tiene 1)"
 
 #: who/settings/base.py:499
 msgid "Type your comment here"
-msgstr ""
+msgstr "Escriba su comentario aquí"
 
 #: who/settings/base.py:500
 msgid "Enter a valid phone number."
-msgstr ""
+msgstr "Ingrese su número del teléfono"
 
 #: who/templates/403.html:8
 msgid "Access Denied"
@@ -381,16 +381,16 @@ msgstr ""
 
 #: who/templates/wagtailadmin/login.html:57
 msgid "Forgotten it?"
-msgstr ""
+msgstr "Olvidé el PIN"
 
 #: who/templates/wagtailadmin/login.html:84
 #: who/templates/wagtailadmin/login.html:87
 msgid "Signing in…"
-msgstr ""
+msgstr "Entrar"
 
 #: who/templates/wagtailadmin/login.html:84
 msgid "Sign In"
-msgstr ""
+msgstr "Entrar"
 
 #: who/templates/wagtailadmin/login.html:87
 msgid "Microsoft"
