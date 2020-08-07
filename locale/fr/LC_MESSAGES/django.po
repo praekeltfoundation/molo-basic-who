@@ -2,10 +2,10 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # Mitso Qalaba <mitso@praekelt.org>, 2020
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -368,7 +368,7 @@ msgstr "Retour à la page d'acceuil"
 
 #: who/templates/wagtailadmin/login.html:3
 msgid "Sign in"
-msgstr ""
+msgstr "se connecter"
 
 #: who/templates/wagtailadmin/login.html:19
 #, python-format
