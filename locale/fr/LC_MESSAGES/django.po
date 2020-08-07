@@ -1,18 +1,26 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Mitso Qalaba <mitso@praekelt.org>, 2020
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-22 11:21+0200\n"
-"PO-Revision-Date: 2020-07-22 11:53+0200\n"
-"Last-Translator: Kaitlyn Crawford <kaitlyn@praekelt.org>\n"
-"Language: fre_FR\n"
+"POT-Creation-Date: 2020-08-07 16:11+0200\n"
+"PO-Revision-Date: 2020-08-07 14:14+0000\n"
+"Last-Translator: Mitso Qalaba <mitso@praekelt.org>, 2020\n"
+"Language-Team: French (https://www.transifex.com/praekeltorg/teams/112351/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.7.1\n"
-"X-POOTLE-MTIME: 1529859972.864560\n"
-"Language-Team: \n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Pootle 2.5.1.1\n"
+"X-POOTLE-MTIME: 1485935090.268670\n"
 
 #: who/settings/base.py:483
 msgid "January"
@@ -64,23 +72,23 @@ msgstr "Décembre"
 
 #: who/settings/base.py:495
 msgid "Add anonymously"
-msgstr "Ajouter en tant qu'anonyme"
+msgstr ""
 
 #: who/settings/base.py:497
 msgid "This field is required"
-msgstr "Ce champ est obligatoire"
+msgstr ""
 
 #: who/settings/base.py:498
 msgid "Ensure this value has at least 4 characters (it has 1)"
-msgstr "Veiller à cette valeur a au moins 4 caractères (il a 1)"
+msgstr ""
 
 #: who/settings/base.py:499
 msgid "Type your comment here"
-msgstr "Entrez votre commentaire ici"
+msgstr ""
 
 #: who/settings/base.py:500
 msgid "Enter a valid phone number."
-msgstr "Entrez un numéro de téléphone valide svp"
+msgstr ""
 
 #: who/templates/403.html:8
 msgid "Access Denied"
@@ -97,8 +105,8 @@ msgstr "Connection impossible"
 #: who/templates/403_csrf.html:9
 msgid ""
 "Sorry, you are having trouble accessing this feature! Due to a temporary "
-"technical issue, login and registrations are not available on the who app for "
-"now."
+"technical issue, login and registrations are not available on the who app "
+"for now."
 msgstr ""
 "Désolé, vous rencontrez des difficultés pour accéder à cette fonction! En "
 "raison d'un problème technique temporaire, se connecter et les inscriptions "
@@ -109,8 +117,8 @@ msgid ""
 "To login or register for a profile, visit our free mobisite through your "
 "mobile browser at"
 msgstr ""
-"Pour vous identifier ou vous inscrire pour un profil, visitez notre mobisite "
-"gratuitement par votre navigateur mobile à"
+"Pour vous identifier ou vous inscrire pour un profil, visitez notre mobisite"
+" gratuitement par votre navigateur mobile à"
 
 #: who/templates/403_csrf.html:11
 msgid " We're working hard to get this problem resolved. Thank you."
@@ -131,7 +139,8 @@ msgstr "Erreur interne du serveur"
 
 #: who/templates/500.html:17
 msgid "Sorry, there seems to be an error. Please try again soon."
-msgstr "Oups, il semble qu'une erreur se soit produite. Essayez de nouveau svp."
+msgstr ""
+"Oups, il semble qu'une erreur se soit produite. Essayez de nouveau svp."
 
 #: who/templates/admin/frontend_users_admin_view.html:29
 msgid "Email CSV"
@@ -157,8 +166,7 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"                                                Why not <a href=\"%(url)s"
-"\">add one</a>?\n"
+"                                                Why not <a href=\"%(url)s\">add one</a>?\n"
 "                                            "
 msgstr ""
 
@@ -213,7 +221,7 @@ msgstr "Changer la langue"
 
 #: who/templates/base.html:151
 msgid "WHO"
-msgstr ""
+msgstr "OMS"
 
 #: who/templates/base.html:199
 msgid "Change your language"
@@ -223,19 +231,19 @@ msgstr "Changer la langue"
 #: who/templates/core/article_page.html:63
 #: who/templates/core/footer_page.html:26
 msgid "Download Video"
-msgstr "Télécharger la video"
+msgstr "Télécharger le fichier vidéo"
 
 #: who/templates/core/article_page.html:39
 #: who/templates/core/footer_page.html:32
 #: who/templates/core/tags/media_listing_homepage.html:16
 msgid "Click to watch on youtube!"
-msgstr "Cliquez pour regarder sur youtube!"
+msgstr "Cliquez pour regarder sur YouTube !"
 
 #: who/templates/core/article_page.html:41
 #: who/templates/core/footer_page.html:34
 #: who/templates/core/tags/media_listing_homepage.html:18
 msgid "Media will be played externally in a new window"
-msgstr "Le média sera lu en externe dans une nouvelle fenêtre"
+msgstr "Le fichier audio ou vidéo sera lu dans une nouvelle fenêtre."
 
 #: who/templates/core/article_page.html:58
 #: who/templates/core/footer_page.html:49
@@ -247,13 +255,13 @@ msgstr "Votre navigateur ne prend pas en charge la balise vidéo."
 #: who/templates/core/footer_page.html:56
 #: who/templates/core/tags/media_listing_homepage.html:35
 msgid "Click here to download video"
-msgstr "Cliquez ici pour télécharger la vidéo"
+msgstr "Cliquez ici pour télécharger le fichier vidéo."
 
 #: who/templates/core/article_page.html:71
 #: who/templates/core/footer_page.html:58
 #: who/templates/core/tags/media_listing_homepage.html:37
 msgid "Video files will not be played, you can download them"
-msgstr "Les fichiers vidéo ne seront pas lus, vous pouvez les télécharger"
+msgstr "Les fichiers vidéo ne seront pas lus, vous pouvez les télécharger."
 
 #: who/templates/core/article_page.html:88
 #: who/templates/core/footer_page.html:71
@@ -263,27 +271,27 @@ msgstr "Votre navigateur ne prend pas en charge la balise audio."
 
 #: who/templates/core/article_page.html:93
 msgid "Download Audio"
-msgstr "Télécharger l'audio"
+msgstr "Télécharger le fichier audio."
 
 #: who/templates/core/article_page.html:99
 #: who/templates/core/footer_page.html:78
 #: who/templates/core/tags/media_listing_homepage.html:54
 msgid "Click here to download audio"
-msgstr "Cliquez ici pour télécharger l'audio"
+msgstr "Cliquez ici pour télécharger le fichier audio."
 
 #: who/templates/core/article_page.html:101
 #: who/templates/core/footer_page.html:80
 #: who/templates/core/tags/media_listing_homepage.html:56
 msgid "Audio files will not be played, you can download them"
-msgstr "Les fichiers audio ne seront pas lus, vous pouvez les télécharger"
+msgstr "Les fichiers audio ne seront pas lus, vous pouvez les télécharger."
 
 #: who/templates/core/footer_page.html:52
 msgid "Download video"
-msgstr "Télécharger la video"
+msgstr "Télécharger le fichier vidéo."
 
 #: who/templates/core/footer_page.html:74
 msgid "Download audio"
-msgstr "Télécharger l'audio"
+msgstr "Télécharger le fichier audio."
 
 #: who/templates/core/next-article.html:8
 #: who/templates/core/section_page.html:97
@@ -315,33 +323,29 @@ msgid "Download"
 msgstr "Télécharger"
 
 #: who/templates/core/tags/social_media_article.html:10
-#, fuzzy
-#| msgid "Share on Facebook"
 msgid "Facebook"
-msgstr "Partage sur Facebook"
+msgstr "Partager sur Facebook"
 
 #: who/templates/core/tags/social_media_article.html:22
-#, fuzzy
-#| msgid "Share on Twitter"
 msgid "Twitter"
-msgstr "Partage sur Twitter"
+msgstr "Partager sur Twitter"
 
 #: who/templates/core/tags/social_media_article.html:34
 msgid "Whatsapp"
-msgstr ""
+msgstr "Partager sur WhatsApp"
 
 #: who/templates/core/tags/social_media_article.html:46
 msgid "Telegram"
-msgstr ""
+msgstr "Partager sur Telegram"
 
 #: who/templates/core/tags/social_media_article.html:58
 msgid "Viber"
-msgstr ""
+msgstr "Partager sur Viber"
 
 #: who/templates/search/search_block.html:5
 #: who/templates/search/search_results.html:84
 msgid "Search the site..."
-msgstr "Rechercher sur le site..."
+msgstr "Rechercher sur le site...."
 
 #: who/templates/search/search_block.html:6
 #: who/templates/search/search_results.html:3
@@ -364,38 +368,29 @@ msgstr "Retour à la page d'acceuil"
 
 #: who/templates/wagtailadmin/login.html:3
 msgid "Sign in"
-msgstr "se connecter"
+msgstr ""
 
 #: who/templates/wagtailadmin/login.html:19
-#, fuzzy, python-format
-#| msgid "Your username and password do not match. Please try again."
+#, python-format
 msgid "Your %(username_field)s and password didn't match. Please try again."
 msgstr ""
-"Oups, votre nom d'utilisateur et votre mot de passe ne correspondent pas. "
-"Essayez de nouveau svp."
 
 #: who/templates/wagtailadmin/login.html:37
 msgid "Sign in to Wagtail"
 msgstr ""
 
 #: who/templates/wagtailadmin/login.html:57
-#, fuzzy
-#| msgid "Forgot PIN"
 msgid "Forgotten it?"
-msgstr "Code PIN oublié"
+msgstr ""
 
 #: who/templates/wagtailadmin/login.html:84
 #: who/templates/wagtailadmin/login.html:87
-#, fuzzy
-#| msgid "Sign in"
 msgid "Signing in…"
-msgstr "se connecter"
+msgstr ""
 
 #: who/templates/wagtailadmin/login.html:84
-#, fuzzy
-#| msgid "Sign in"
 msgid "Sign In"
-msgstr "se connecter"
+msgstr ""
 
 #: who/templates/wagtailadmin/login.html:87
 msgid "Microsoft"
@@ -404,748 +399,3 @@ msgstr ""
 #: who/templates/wagtailadmin/pages/listing/_page_title_explore.html:7
 msgid "Edit this page"
 msgstr ""
-
-#~ msgid ""
-#~ "Internet of Good Things (who) is a set of free, mobile-ready web-based "
-#~ "resources and applications that bring good to your life by helping you and "
-#~ "your community access educational and lifesaving information."
-#~ msgstr ""
-#~ "Internet of Good Things (who) est une collection de ressources mobiles et "
-#~ "d'applications qui aident à vivre mieux dans la vie de tous les jours en "
-#~ "vous permettant d'accéder à des ressources éducatives et de l'information "
-#~ "qui peuvent sauver des vies. "
-
-#~ msgid "who"
-#~ msgstr "who"
-
-#~ msgid "Join"
-#~ msgstr "Inscription"
-
-#~ msgid "Menu"
-#~ msgstr "Menu"
-
-#~ msgid "Anonymous"
-#~ msgstr "Anonyme"
-
-#~ msgid ""
-#~ "This comment has been removed by the community. Please read our platform "
-#~ "rules."
-#~ msgstr ""
-#~ "Ce commentaire a été retiré par la communauté car il ne respecte pas les "
-#~ "conditions d'utilisation de ce site."
-
-#~ msgid "Report"
-#~ msgstr "Signaler"
-
-#~ msgid "Reply"
-#~ msgstr "Répondre"
-
-#~ msgid "Have something to add to this article?"
-#~ msgstr "Vous avez quelque chose à ajouter à cet article? "
-
-#~ msgid "Log in to comment"
-#~ msgstr "Connectez-vous pour commenter"
-
-#~ msgid "Commenting on this article is currently disabled"
-#~ msgstr "Les commentaires ne sont pas disponibles pour cet article"
-
-#~ msgid "Comments"
-#~ msgstr "Commentaire"
-
-#~ msgid "comment"
-#~ msgstr "Commentaire"
-
-#~ msgid "view more comments"
-#~ msgstr "Plus de "
-
-#~ msgid "Comment"
-#~ msgstr "Commentaire"
-
-#~ msgid "Comment Anonymously"
-#~ msgstr "Commenter en anonyme"
-
-#~ msgid "Recommended"
-#~ msgstr "Recommandé"
-
-#~ msgid "Vote"
-#~ msgstr "Voter"
-
-#~ msgid "Back to Home page"
-#~ msgstr "Retour à la page d'accueil"
-
-#~ msgid "Submit"
-#~ msgstr "Validez"
-
-#~ msgid "Thank you! Your response has already been submitted."
-#~ msgstr "Merci! Votre réponse a déjà été enregistrée."
-
-#~ msgid "Show Results"
-#~ msgstr "Montrer les résultats"
-
-#~ msgid "You voted: "
-#~ msgstr "Vous avez voté :"
-
-#~ msgid "Polls"
-#~ msgstr "Sondages"
-
-#~ msgid "Thank you for voting!"
-#~ msgstr "Merci pour votre vote!"
-
-#~ msgid "Already a member?"
-#~ msgstr "Vous avez déjà un compte?"
-
-#~ msgid "Not a member yet?"
-#~ msgstr "Vous n'avez pas encore de compte ?"
-
-#~ msgid "Join us by signing up below."
-#~ msgstr "Créez un compte en vous inscrivant ici"
-
-#~ msgid "Choose a username"
-#~ msgstr "Choisir un nom d'utilisateur"
-
-#~ msgid "Choose a display name"
-#~ msgstr "Choisissez un nom d'affichage"
-
-#~ msgid "Select date of birth"
-#~ msgstr "Entrez votre date de naissance"
-
-#~ msgid "Let us know your birthday to get access to exclusive content."
-#~ msgstr "Entrez votre date d'anniversaire pour accéder à du contenu exclusif"
-
-#~ msgid "I identify my gender as:"
-#~ msgstr "J'identifie mon genre comme :"
-
-#~ msgid "Only you will see this"
-#~ msgstr "Vous serez le/la seul(e) à voir ceci"
-
-#~ msgid "Where do you live?"
-#~ msgstr "Où habitez-vous? "
-
-#~ msgid "What is your highest level of education?"
-#~ msgstr "Quel est votre plus haut niveau d'éducation? "
-
-#~ msgid "e.g. 0900000013"
-#~ msgstr "(Ex: 0900000013)"
-
-#~ msgid "Enter your email address"
-#~ msgstr "Entrez votre adresse email"
-
-#~ msgid "e.g."
-#~ msgstr "Ex:"
-
-#~ msgid "Please accept the T&amp;Cs in order to complete the registration"
-#~ msgstr "Acceptez les conditions pour poursuivre l'inscription"
-
-#~ msgid "I accept the Terms and Conditions"
-#~ msgstr "J'accepte les conditions d'utilisation "
-
-#~ msgid "Log in"
-#~ msgstr "Connexion"
-
-#~ msgid "Login by signing in below."
-#~ msgstr "Connectez-vous ci-dessous."
-
-#~ msgid "Username"
-#~ msgstr "Nom d'utilisateur"
-
-#~ msgid "4-digit pin"
-#~ msgstr "Code PIN à 4 chiffres"
-
-#~ msgid "Eg.: 2086"
-#~ msgstr "Ex: 2086"
-
-#~ msgid "Forgotten your password?"
-#~ msgstr "Vous avez oublié votre mot de passe?"
-
-#~ msgid "Your password has been set. You may go ahead and log in now."
-#~ msgstr ""
-#~ "Votre mot de passe a bien été réinitialisé, vous pouvez de nouveau vous "
-#~ "connecter."
-
-#~ msgid "Confirm password:"
-#~ msgstr "Confirmez votre mot de passe :"
-
-#~ msgid "Change my password"
-#~ msgstr "Changer mon mot de passe"
-
-#~ msgid ""
-#~ "We've emailed you instructions for setting your password, if an account "
-#~ "exists with the email you entered. You should receive them shortly."
-#~ msgstr ""
-#~ "Nous vous avons envoyé un e-instructions pour régler votre mot de passe, "
-#~ "si un compte existe avec l'e-mail que vous avez entrée. Vous devriez les "
-#~ "recevoir sous peu."
-
-#~ msgid ""
-#~ "If you don't receive an email, please make sure you've entered the address "
-#~ "you registered with, and check your spam folder."
-#~ msgstr ""
-#~ "Si vous ne recevez pas de courriel, s'il vous plaît assurez-vous que vous "
-#~ "avez entré l'adresse de votre inscription, et vérifiez votre dossier spam."
-
-#~ msgid "Back to home page"
-#~ msgstr "Retour à l'accueil"
-
-#~ msgid ""
-#~ "Enter your email address below, and we'll email instructions for setting a "
-#~ "new one."
-#~ msgstr ""
-#~ "Renseignez votre adresse email ci-dessous et nous vous enverrons les "
-#~ "informations pour créer un nouveau mot de passe"
-
-#~ msgid "Reset my password"
-#~ msgstr "Réinitialiser mon mot de passe"
-
-#~ msgid "SEARCH"
-#~ msgstr "Recherche"
-
-#~ msgid "Next Question"
-#~ msgstr "Question suivante"
-
-#~ msgid "You have already completed this survey."
-#~ msgstr "Vous avez déjà répondu à ces questions, merci!"
-
-#~ msgid "Please log in to take this survey"
-#~ msgstr "Svp, connectez-vous pour remplir ce questionnaire"
-
-#~ msgid "Start here"
-#~ msgstr "Commencez"
-
-#~ msgid "Reply successfully created."
-#~ msgstr "Ce nom d'utilisateur existe déjà."
-
-#~ msgid "Email address"
-#~ msgstr "Adresse e-mail"
-
-#~ msgid "Type your comment here..."
-#~ msgstr "Entrez votre commentaire ici...."
-
-#~ msgid "URL"
-#~ msgstr "Lien "
-
-#~ msgid "Ago"
-#~ msgstr "Il y a"
-
-#~ msgid "Replies"
-#~ msgstr "Réponses"
-
-#~ msgid "Share a Comment"
-#~ msgstr "Commentez cet article"
-
-#~ msgid "Thanks!"
-#~ msgstr "Merci!"
-
-#~ msgid "Your comment has been successfully posted"
-#~ msgstr "Votre commentaire a été posté avec succès"
-
-#~ msgid "Back to article"
-#~ msgstr "Retour à l'article"
-
-#~ msgid "Please "
-#~ msgstr "S'il vous plaît "
-
-#~ msgid " to leave a comment."
-#~ msgstr " à laisser un commentaire."
-
-#~ msgid "Recent replies"
-#~ msgstr "Réponses récentes"
-
-#~ msgid "Earlier replies"
-#~ msgstr "Réponses précédentes"
-
-#~ msgid "of"
-#~ msgstr "de"
-
-#~ msgid "This comment has been reported."
-#~ msgstr "Ce commentaire a été signalé."
-
-#~ msgid ""
-#~ "It will be reviewed by the team and may be removed if it breaks our "
-#~ "Platform rules"
-#~ msgstr ""
-#~ "Il sera examiné par l'équipe et peut être retirée si elle se casse nos "
-#~ "règles de plate-forme"
-
-#~ msgid "replied to your comment on: "
-#~ msgstr "a répondu à votre commentaire :"
-
-#~ msgid "ago"
-#~ msgstr "Il y a"
-
-#~ msgid "You have"
-#~ msgstr "vous avez"
-
-#~ msgid "Read replies:"
-#~ msgstr "Réponses lues"
-
-#~ msgid "Back home"
-#~ msgstr "Retour à la page d'accueil"
-
-#~ msgid "Notification:"
-#~ msgstr "Notification :"
-
-#~ msgid "Reporting comment replies is not allowed."
-#~ msgstr "Rapports commentaire réponses n'est pas autorisé."
-
-#~ msgid "Zulu"
-#~ msgstr "Zulu"
-
-#~ msgid "Xhosa"
-#~ msgstr "Xhosa"
-
-#~ msgid "Venda"
-#~ msgstr "Venda"
-
-#~ msgid "Tsonga"
-#~ msgstr "Tsonga"
-
-#~ msgid "Swati"
-#~ msgstr "Swati"
-
-#~ msgid "Ndebele"
-#~ msgstr "Ndebele"
-
-#~ msgid "Hi"
-#~ msgstr "Salut"
-
-#~ msgid ""
-#~ "Sorry, you are having trouble accessing this feature! Due to a temporary "
-#~ "technical issue, login and registrations are not available on the Free "
-#~ "Basics app for now. To login or register for a profile, visit our free "
-#~ "mobisite through your mobile browser at"
-#~ msgstr ""
-#~ "Désolé, il y a une erreur! En raison de problèmes techniques temporaires, "
-#~ "la connexion et la création de profil n'est pas disponible sur "
-#~ "l'application Free Basics. Pour vous connecter ou créer un profil, vous "
-#~ "pouvez visiter la version web mobile gratuite de notre site via votre "
-#~ "navigateur en suivant le lien suivant :"
-
-#~ msgid "Site Language:"
-#~ msgstr "Langue"
-
-#~ msgid "Topic of the Day"
-#~ msgstr "Sujet du jour"
-
-#~ msgid "LOGIN TO YOUR ACCOUNT!"
-#~ msgstr "Connectez-vous à votre compte"
-
-#~ msgid "We’re excited to have you..."
-#~ msgstr "Nous sommes ravis de vous avoir ..."
-
-#~ msgid "Your username and password does not match. Please try again."
-#~ msgstr ""
-#~ "Oups, votre nom d'utilisateur et votre mot de passe ne correspondent pas. "
-#~ "Essayez de nouveau svp."
-
-#~ msgid "Your password has been set.  You may go ahead and log in now."
-#~ msgstr ""
-#~ "Votre mot de passe a été défini. Vous pouvez maintenant ouvrir une session."
-
-#~ msgid ""
-#~ "The password reset link was invalid, possibly because it has already been "
-#~ "used.  Please request a new password reset."
-#~ msgstr ""
-#~ "Le lien de réinitialisation du mot de passe est invalide, peut-être parce "
-#~ "qu'il a déjà été utilisé. S'il vous plaît demander un nouvelle "
-#~ "réinitialisation."
-
-#~ msgid "I am looking for"
-#~ msgstr "Je recherche"
-
-#~ msgid "That page is not translatable."
-#~ msgstr "Cette page est intraduisible."
-
-#~ msgid "You didn't select a choice"
-#~ msgstr "Vous ne l'avez pas sélectionné un choix"
-
-#~ msgid "Type"
-#~ msgstr "Type "
-
-#~ msgid "Admin Users"
-#~ msgstr "administrateur utilisateurs"
-
-#~ msgid ""
-#~ "Your email address is not configured. Please update it before exporting."
-#~ msgstr ""
-#~ "Votre adresse e-mail est pas configuré. S'il vous plaît mettre à jour "
-#~ "avant de l'exporter."
-
-#~ msgid "This value must contain only letters, numbers and underscores."
-#~ msgstr ""
-#~ "Cette valeur doit contenir uniquement des lettres, des chiffres ou des "
-#~ "tirets."
-
-#~ msgid "PIN"
-#~ msgstr "Pin"
-
-#~ msgid "Display Name"
-#~ msgstr "Nom affiché"
-
-#~ msgid "Location"
-#~ msgstr "Emplacement"
-
-#~ msgid "Username already exists."
-#~ msgstr "Ce nom d'utilisateur existe déjà."
-
-#~ msgid ""
-#~ "Sorry, but that is an invalid username. Please don't use your %s in your "
-#~ "username."
-#~ msgstr ""
-#~ "Désolé, mais qui est un nom d'utilisateur non valide. S'il vous plaît ne "
-#~ "pas utiliser votre %s dans votre nom d' utilisateur."
-
-#~ msgid ""
-#~ "Sorry, but that is an invalid display name. Please don't use your %s in "
-#~ "your display name."
-#~ msgstr ""
-#~ "Désolé, mais qui est un nom d'affichage non valide. S'il vous plaît ne pas "
-#~ "utiliser votre %s dans votre nom d'affichage."
-
-#~ msgid "Old Password"
-#~ msgstr "Ancien mot de passe"
-
-#~ msgid "New Password"
-#~ msgstr "Nouveau mot de passe :"
-
-#~ msgid "Confirm Password"
-#~ msgstr "Confirmez le nouveau mot de passe"
-
-#~ msgid "Confirm PIN"
-#~ msgstr "Confirmer PIN"
-
-#~ msgid "Confirm New Password"
-#~ msgstr "Confirmez le nouveau mot de passe"
-
-#~ msgid "I IDENTIFY MY GENDER AS:"
-#~ msgstr "J'identifions mon sexe AS:"
-
-#~ msgid "WHAT IS YOUR HIGHEST LEVEL OF EDUCATION?"
-#~ msgstr "QUEL EST TON PLUS HAUT NIVEAU D'ÉDUCATION?"
-
-#~ msgid "Home Page"
-#~ msgstr "Accueil"
-
-#~ msgid "Update your display name:"
-#~ msgstr "Mettez à jour votre nom d'affichage:"
-
-#~ msgid "Update your date of birth:"
-#~ msgstr "Mettre à jour ma date de naissance:"
-
-#~ msgid "Update your gender:"
-#~ msgstr "Mettre à jour de votre Sexe:"
-
-#~ msgid "Update where you live:"
-#~ msgstr "Mise à jour où vous vivez:"
-
-#~ msgid "Update your Education Level:"
-#~ msgstr "Mettez à jour votre niveau d'éducation:"
-
-#~ msgid "Update your mobile number:"
-#~ msgstr "Mettez à jour votre numéro de téléphone mobile:"
-
-#~ msgid "(e.g. 0914556789)"
-#~ msgstr "Par exemple: 8, 8.25, 8.5, 8.75"
-
-#~ msgid "Update your email address:"
-#~ msgstr "Mettez à jour votre adresse e-mail:"
-
-#~ msgid "(e.g. example@foo.com)"
-#~ msgstr "(Par exemple example@foo.com)"
-
-#~ msgid "Security question"
-#~ msgstr "Question de sécurité"
-
-#~ msgid "Please answer the following security question."
-#~ msgstr "Svp, répondez aux questions de sécurité suivantes."
-
-#~ msgid "Welcome Back!"
-#~ msgstr "Heureux de vous revoir!"
-
-#~ msgid "Register"
-#~ msgstr "S'inscrire"
-
-#~ msgid "CHOOSE A USERNAME"
-#~ msgstr "CHOISISSEZ UN NOM D'UTILISATEUR"
-
-#~ msgid "CHOOSE A 4-DIGIT PIN"
-#~ msgstr "CHOISIS 4-DIGIT PIN"
-
-#~ msgid "e.g. 2086"
-#~ msgstr "(Ex: 2086)"
-
-#~ msgid "CHOOSE A DISPLAY NAME"
-#~ msgstr "CHOISISSEZ UN NOM D'AFFICHAGE"
-
-#~ msgid "(e.g. 0900000013)"
-#~ msgstr "Par exemple: 8, 8.25, 8.5, 8.75"
-
-#~ msgid "ENTER YOUR EMAIL ADDRESS"
-#~ msgstr "entrez votre adresse e-mail"
-
-#~ msgid "Reset PIN"
-#~ msgstr "Réinitialiser mon mot de passe"
-
-#~ msgid "PIN Changed"
-#~ msgstr "PIN changé"
-
-#~ msgid "Your PIN has been changed sucessfully."
-#~ msgstr "Votre NIP a été changé avec succès."
-
-#~ msgid "Continue to Sign In"
-#~ msgstr "Continuer à connecter"
-
-#~ msgid "Hello "
-#~ msgstr "Bonjour"
-
-#~ msgid "As you type your name comment will appear as:"
-#~ msgstr "Lorsque vous entrez un commentaire votre nom apparaitra comme"
-
-#~ msgid "Date of Birth: "
-#~ msgstr "Date de naissance:"
-
-#~ msgid "Not set."
-#~ msgstr "Aucune information"
-
-#~ msgid "Mobile number:"
-#~ msgstr "Numéro Mobile"
-
-#~ msgid "Gender:"
-#~ msgstr "Le genre:"
-
-#~ msgid "Location:"
-#~ msgstr "Emplacement :"
-
-#~ msgid "Education Level:"
-#~ msgstr "Niveau de l'éducation"
-
-#~ msgid "Email Address:"
-#~ msgstr "Adresse e-mail:"
-
-#~ msgid "log out"
-#~ msgstr "Déconnexion"
-
-#~ msgid "Edit My Profile"
-#~ msgstr "Mettre à jour mon profil"
-
-#~ msgid "The old password is incorrect."
-#~ msgstr "Le mot de passe est incorrect."
-
-#~ msgid "Too many attempts. Please try again later."
-#~ msgstr "Trop d'essais. Veuillez réessayer plus tard."
-
-#~ msgid "The two PINs that you entered do not match. Please try again."
-#~ msgstr ""
-#~ "Les deux codes PIN que vous avez entré ne correspondent pas. Veuillez "
-#~ "réessayer."
-
-#~ msgid "Submit Survey"
-#~ msgstr "Soumettre vos réponses"
-
-#~ msgid "Survey Results"
-#~ msgstr "RÉSULTATS DE L'ENQUÊTE"
-
-#~ msgid ""
-#~ "Your survey has been completed successfully. Please see your submission "
-#~ "results below."
-#~ msgstr ""
-#~ "Votre enquête a été terminée avec succès. S'il vous plaît voir vos "
-#~ "résultats de soumission ci-dessous."
-
-#~ msgid "Take The Survey"
-#~ msgstr "Participer au questionnaire"
-
-#~ msgid "Are you a ..."
-#~ msgstr "Êtes-vous"
-
-#~ msgid "Skip"
-#~ msgstr "Passez"
-
-#~ msgid "Profile"
-#~ msgstr "Profil"
-
-#~ msgid "Login"
-#~ msgstr "Connexion"
-
-#~ msgid "Log in to vote"
-#~ msgstr "Connectez-vous pour voter"
-
-#~ msgid "Your answers:"
-#~ msgstr "_______________ vos réponses."
-
-#~ msgid ""
-#~ "This name you will use to log in and won't appear to other users. Only you "
-#~ "will see this."
-#~ msgstr ""
-#~ "Vous utiliserez ce nom d'utilisateur seulement pour vous connecter et il "
-#~ "n'apparaitra aux autres utilisateurs. Seulement, vous pourrez le voir."
-
-#~ msgid ""
-#~ "We value your online security, therefore we hide your username and allow "
-#~ "you to comment and interact with the site with a display name."
-#~ msgstr ""
-#~ "Votre sécurité en ligne est très importante. Nous cachons votre nom "
-#~ "d'utilisateur et vous proposons d'utiliser un nom d'affichage pour "
-#~ "commenter et d'interagir avec le site. Vous pouvez utiliser un pseudonyme "
-#~ "pour ce nom d'affichage."
-
-#~ msgid "Enter your mobile number"
-#~ msgstr "Entrez votre numéro de téléphone"
-
-#~ msgid "e.g. example@foo.com"
-#~ msgstr "(Ex: example@foo.com)"
-
-#~ msgid "Choose a 4-digit pin"
-#~ msgstr "Choisir un code PIN à 4 chiffres"
-
-#~ msgid ""
-#~ "Please enter your new password twice so we can verify you typed it in "
-#~ "correctly."
-#~ msgstr ""
-#~ "S'il vous plaît entrez votre nouveau mot de passe deux fois afin que nous "
-#~ "puissions vérifier que vous l'avez tapé correctement."
-
-#~ msgid "New password:"
-#~ msgstr "Nouveau mot de passe:"
-
-#~ msgid ""
-#~ "The password reset link was invalid, possibly because it has already been "
-#~ "used. Please request a new password reset."
-#~ msgstr ""
-#~ "Le lien de réinitialisation du mot de passe était invalide, peut-être "
-#~ "parce qu'il a déjà été utilisé. S'il vous plaît demander un nouveau mot de "
-#~ "passe réinitialisé."
-
-#~ msgid "Email address:"
-#~ msgstr "Adresse émail:"
-
-#~ msgid "Name"
-#~ msgstr "Prénom"
-
-#~ msgid "log in"
-#~ msgstr "connexion"
-
-#~ msgid "Page"
-#~ msgstr "Page"
-
-#~ msgid "unread replies"
-#~ msgstr "Réponses non lues"
-
-#~ msgid "Next up in"
-#~ msgstr "Suivant en"
-
-#~ msgid "The comment has been reported."
-#~ msgstr "Ce commentaire a été signalé."
-
-#~ msgid "Sotho"
-#~ msgstr "Sotho"
-
-#~ msgid "Tswana"
-#~ msgstr "Tswana"
-
-#~ msgid ""
-#~ "Forgotten your password? Enter your email address below, and we'll email "
-#~ "instructions for setting a new one."
-#~ msgstr ""
-#~ "Vous avez oublié votre mot de passe? Entrez votre adresse émail ci-"
-#~ "dessous, et nous vous enverrons des instructions pour installer un nouveau."
-
-#~ msgid "Looking for something?"
-#~ msgstr "à la recherche de quelque chose?"
-
-#~ msgid "No search results for "
-#~ msgstr "Aucun résultat pour la recherche"
-
-#~ msgid "What's your opinion?"
-#~ msgstr "Qu'en penses-tu?"
-
-#~ msgid "Frontend Users"
-#~ msgstr "Frontend utilisateurs"
-
-#~ msgid "CSV emailed to '{0}'"
-#~ msgstr "CSV envoyé à ' {0} '"
-
-#~ msgid "This value must contain only numbers."
-#~ msgstr "Cette valeur ne doit contenir que des chiffres."
-
-#~ msgid "Gender"
-#~ msgstr "Sexe"
-
-#~ msgid "Education Level"
-#~ msgstr "Niveau de l'éducation"
-
-#~ msgid "This value must contain only           numbers."
-#~ msgstr "Cette valeur ne doit contenir que des chiffres."
-
-#~ msgid "New passwords do not match."
-#~ msgstr "Les nouveaux mots de passe ne sont pas les mêmes."
-
-#~ msgid "(e.g. 2086)"
-#~ msgstr "(Ex: 2086)"
-
-#~ msgid "Save"
-#~ msgstr "Sauvegarder"
-
-#~ msgid "Thank you for joining!"
-#~ msgstr "Merci de nous avoir rejoint!"
-
-#~ msgid "Let us know more about yourself to get access to exclusive content."
-#~ msgstr ""
-#~ "Faites-nous savoir plus sur vous-même pour obtenir l'accès à des contenus "
-#~ "exclusifs."
-
-#~ msgid "SELECT DATE OF BIRTH"
-#~ msgstr "SELECT DATE DE NAISSANCE"
-
-#~ msgid "DISPLAY NAME"
-#~ msgstr "Afficher un nom"
-
-#~ msgid "WHERE DO YOU LIVE?"
-#~ msgstr "OÙ HABITES-TU?"
-
-#~ msgid "Login Success"
-#~ msgstr "Connexion réussie"
-
-#~ msgid "ENTER YOUR MOBILE NUMBER"
-#~ msgstr "Entrez votre numéro de téléphone"
-
-#~ msgid "Change My Password"
-#~ msgstr "Changer mon mot de passe"
-
-#~ msgid "Type new display name:"
-#~ msgstr "Entrez un nouveau nom d'utilisateur:"
-
-#~ msgid "View More"
-#~ msgstr "Voir plus"
-
-#~ msgid "More"
-#~ msgstr "En savoir plus"
-
-#~ msgid "Wolof"
-#~ msgstr "Wolof"
-
-#~ msgid "Yoruba"
-#~ msgstr "Yoruba"
-
-#~ msgid "Igbo"
-#~ msgstr "Igbo"
-
-#~ msgid "Hausa"
-#~ msgstr "Hausa"
-
-#~ msgid "Amharic"
-#~ msgstr "Amharic"
-
-#~ msgid "Malay"
-#~ msgstr "Malay"
-
-#~ msgid "Guarani"
-#~ msgstr "Guarani"
-
-#~ msgid "Gujarati"
-#~ msgstr "Gujarati"
-
-#~ msgid "Filipino"
-#~ msgstr "Filipino"
-
-#~ msgid "N'ko"
-#~ msgstr "N'ko"
