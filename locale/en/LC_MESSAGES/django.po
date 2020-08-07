@@ -2,102 +2,102 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-21 18:11+0200\n"
+"POT-Creation-Date: 2020-08-07 16:11+0200\n"
 "PO-Revision-Date: 2017-02-01 07:44+0000\n"
 "Last-Translator: Ntu2ko Trevor <trevor@praekelt.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.1.1\n"
 "X-POOTLE-MTIME: 1485935090.268670\n"
 
 #: who/settings/base.py:483
 msgid "January"
-msgstr ""
+msgstr "January"
 
 #: who/settings/base.py:484
 msgid "February"
-msgstr ""
+msgstr "February"
 
 #: who/settings/base.py:485
 msgid "March"
-msgstr ""
+msgstr "March"
 
 #: who/settings/base.py:486
 msgid "April"
-msgstr ""
+msgstr "April"
 
 #: who/settings/base.py:487
 msgid "May"
-msgstr ""
+msgstr "May"
 
 #: who/settings/base.py:488
 msgid "June"
-msgstr ""
+msgstr "June"
 
 #: who/settings/base.py:489
 msgid "July"
-msgstr ""
+msgstr "July"
 
 #: who/settings/base.py:490
 msgid "August"
-msgstr ""
+msgstr "August"
 
 #: who/settings/base.py:491
 msgid "September"
-msgstr ""
+msgstr "September"
 
 #: who/settings/base.py:492
 msgid "October"
-msgstr ""
+msgstr "October"
 
 #: who/settings/base.py:493
 msgid "November"
-msgstr ""
+msgstr "November"
 
 #: who/settings/base.py:494
 msgid "December"
-msgstr ""
+msgstr "December"
 
 #: who/settings/base.py:495
 msgid "Add anonymously"
-msgstr ""
+msgstr "Add anonymously"
 
 #: who/settings/base.py:497
 msgid "This field is required"
-msgstr ""
+msgstr "This field is required"
 
 #: who/settings/base.py:498
 msgid "Ensure this value has at least 4 characters (it has 1)"
-msgstr ""
+msgstr "Ensure this value has at least 4 characters (it has 1)"
 
 #: who/settings/base.py:499
 msgid "Type your comment here"
-msgstr ""
+msgstr "Type your comment here"
 
 #: who/settings/base.py:500
 msgid "Enter a valid phone number."
-msgstr ""
+msgstr "Enter a valid phone number."
 
 #: who/templates/403.html:8
 msgid "Access Denied"
-msgstr ""
+msgstr "Access Denied"
 
 #: who/templates/403.html:9
 msgid "You do not have permssion to access this site."
-msgstr ""
+msgstr "You do not have permssion to access this site."
 
 #: who/templates/403_csrf.html:7
 msgid "Unable to Login"
-msgstr ""
+msgstr "Unable to Login"
 
 #: who/templates/403_csrf.html:9
 msgid ""
@@ -105,40 +105,45 @@ msgid ""
 "technical issue, login and registrations are not available on the who app "
 "for now."
 msgstr ""
+"Sorry, you are having trouble accessing this feature! Due to a temporary "
+"technical issue, login and registrations are not available on the who app "
+"for now."
 
 #: who/templates/403_csrf.html:10
 msgid ""
 "To login or register for a profile, visit our free mobisite through your "
 "mobile browser at"
 msgstr ""
+"To login or register for a profile, visit our free mobisite through your "
+"mobile browser at"
 
 #: who/templates/403_csrf.html:11
 msgid " We're working hard to get this problem resolved. Thank you."
-msgstr ""
+msgstr " We're working hard to get this problem resolved. Thank you."
 
 #: who/templates/404.html:8
 msgid "Page not found"
-msgstr ""
+msgstr "Page not found"
 
 #: who/templates/404.html:9
 msgid "Sorry, this page could not be found."
-msgstr ""
+msgstr "Sorry, this page could not be found."
 
 #: who/templates/500.html:12 who/templates/500.html:16
 msgid "Internal server error"
-msgstr ""
+msgstr "Internal server error"
 
 #: who/templates/500.html:17
 msgid "Sorry, there seems to be an error. Please try again soon."
-msgstr ""
+msgstr "Sorry, there seems to be an error. Please try again soon."
 
 #: who/templates/admin/frontend_users_admin_view.html:29
 msgid "Email CSV"
-msgstr ""
+msgstr "Email CSV"
 
 #: who/templates/admin/frontend_users_admin_view.html:45
 msgid "Filter"
-msgstr ""
+msgstr "Filter"
 
 #: who/templates/admin/frontend_users_admin_view.html:56
 #, python-format
@@ -146,247 +151,251 @@ msgid ""
 "No %(name)s have been created yet. One of the following must be created "
 "before you can add any %(name)s:"
 msgstr ""
+"No %(name)s have been created yet. One of the following must be created "
+"before you can add any %(name)s:"
 
 #: who/templates/admin/frontend_users_admin_view.html:61
 #, python-format
 msgid "No %(name)s have been created yet."
-msgstr ""
+msgstr "No %(name)s have been created yet."
 
 #: who/templates/admin/frontend_users_admin_view.html:63
 #, python-format
 msgid ""
 "\n"
-"                                                Why not <a href=\"%(url)s"
-"\">add one</a>?\n"
+"                                                Why not <a href=\"%(url)s\">add one</a>?\n"
 "                                            "
 msgstr ""
+"\n"
+"                                                Why not <a href=\"%(url)s\">add one</a>?\n"
+"                                            "
 
 #: who/templates/admin/frontend_users_admin_view.html:77
 #, python-format
 msgid "Page %(current_page)s of %(num_pages)s."
-msgstr ""
+msgstr "Page %(current_page)s of %(num_pages)s."
 
 #: who/templates/admin/import_from_git.html:9
 msgid "Import content"
-msgstr ""
+msgstr "Import content"
 
 #: who/templates/admin/import_from_git.html:12
 msgid "Import content from a Universal Core site"
-msgstr ""
+msgstr "Import content from a Universal Core site"
 
 #: who/templates/admin/versions.html:8
 msgid "Plugin"
-msgstr ""
+msgstr "Plugin"
 
 #: who/templates/admin/versions.html:9
 msgid "PyPI Version"
-msgstr ""
+msgstr "PyPI Version"
 
 #: who/templates/admin/versions.html:10
 msgid "Runing Version"
-msgstr ""
+msgstr "Runing Version"
 
 #: who/templates/admin/versions.html:11
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: who/templates/admin/versions.html:19
 msgid "UpToDate"
-msgstr ""
+msgstr "UpToDate"
 
 #: who/templates/admin/versions.html:22
 msgid "Not installed"
-msgstr ""
+msgstr "Not installed"
 
 #: who/templates/admin/versions.html:24
 msgid "Compare"
-msgstr ""
+msgstr "Compare"
 
 #: who/templates/base.html:124
 msgid "Language"
-msgstr ""
+msgstr "Language"
 
 #: who/templates/base.html:129
 msgid "Change Language"
-msgstr ""
+msgstr "Change Language"
 
 #: who/templates/base.html:151
 msgid "WHO"
-msgstr ""
+msgstr "WHO"
 
 #: who/templates/base.html:199
 msgid "Change your language"
-msgstr ""
+msgstr "Change your language"
 
 #: who/templates/core/article_page.html:33
 #: who/templates/core/article_page.html:63
 #: who/templates/core/footer_page.html:26
 msgid "Download Video"
-msgstr ""
+msgstr "Download Video"
 
 #: who/templates/core/article_page.html:39
 #: who/templates/core/footer_page.html:32
 #: who/templates/core/tags/media_listing_homepage.html:16
 msgid "Click to watch on youtube!"
-msgstr ""
+msgstr "Click to watch on youtube!"
 
 #: who/templates/core/article_page.html:41
 #: who/templates/core/footer_page.html:34
 #: who/templates/core/tags/media_listing_homepage.html:18
 msgid "Media will be played externally in a new window"
-msgstr ""
+msgstr "Media will be played externally in a new window"
 
 #: who/templates/core/article_page.html:58
 #: who/templates/core/footer_page.html:49
 #: who/templates/core/tags/media_listing_homepage.html:29
 msgid "Your browser does not support the video tag."
-msgstr ""
+msgstr "Your browser does not support the video tag."
 
 #: who/templates/core/article_page.html:69
 #: who/templates/core/footer_page.html:56
 #: who/templates/core/tags/media_listing_homepage.html:35
 msgid "Click here to download video"
-msgstr ""
+msgstr "Click here to download video"
 
 #: who/templates/core/article_page.html:71
 #: who/templates/core/footer_page.html:58
 #: who/templates/core/tags/media_listing_homepage.html:37
 msgid "Video files will not be played, you can download them"
-msgstr ""
+msgstr "Video files will not be played, you can download them"
 
 #: who/templates/core/article_page.html:88
 #: who/templates/core/footer_page.html:71
 #: who/templates/core/tags/media_listing_homepage.html:48
 msgid "Your browser does not support the audio tag."
-msgstr ""
+msgstr "Your browser does not support the audio tag."
 
 #: who/templates/core/article_page.html:93
 msgid "Download Audio"
-msgstr ""
+msgstr "Download Audio"
 
 #: who/templates/core/article_page.html:99
 #: who/templates/core/footer_page.html:78
 #: who/templates/core/tags/media_listing_homepage.html:54
 msgid "Click here to download audio"
-msgstr ""
+msgstr "Click here to download audio"
 
 #: who/templates/core/article_page.html:101
 #: who/templates/core/footer_page.html:80
 #: who/templates/core/tags/media_listing_homepage.html:56
 msgid "Audio files will not be played, you can download them"
-msgstr ""
+msgstr "Audio files will not be played, you can download them"
 
 #: who/templates/core/footer_page.html:52
 msgid "Download video"
-msgstr ""
+msgstr "Download video"
 
 #: who/templates/core/footer_page.html:74
 msgid "Download audio"
-msgstr ""
+msgstr "Download audio"
 
 #: who/templates/core/next-article.html:8
 #: who/templates/core/section_page.html:97
 msgid "Next"
-msgstr ""
+msgstr "Next"
 
 #: who/templates/core/related-article-list.html:6
 msgid "Related Articles"
-msgstr ""
+msgstr "Related Articles"
 
 #: who/templates/core/section_page.html:67
 msgid "Prev"
-msgstr ""
+msgstr "Prev"
 
 #: who/templates/core/section_page.html:142
 msgid "View more"
-msgstr ""
+msgstr "View more"
 
 #: who/templates/core/tags/breadcrumbs.html:5
 msgid "Home"
-msgstr ""
+msgstr "Home"
 
 #: who/templates/core/tags/latest_listing_homepage.html:4
 msgid "Latest"
-msgstr ""
+msgstr "Latest"
 
 #: who/templates/core/tags/media_listing_homepage.html:65
 msgid "Download"
-msgstr ""
+msgstr "Download"
 
 #: who/templates/core/tags/social_media_article.html:10
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: who/templates/core/tags/social_media_article.html:22
 msgid "Twitter"
-msgstr ""
+msgstr "Twitter"
 
 #: who/templates/core/tags/social_media_article.html:34
 msgid "Whatsapp"
-msgstr ""
+msgstr "Whatsapp"
 
 #: who/templates/core/tags/social_media_article.html:46
 msgid "Telegram"
-msgstr ""
+msgstr "Telegram"
 
 #: who/templates/core/tags/social_media_article.html:58
 msgid "Viber"
-msgstr ""
+msgstr "Viber"
 
 #: who/templates/search/search_block.html:5
 #: who/templates/search/search_results.html:84
 msgid "Search the site..."
-msgstr ""
+msgstr "Search the site..."
 
 #: who/templates/search/search_block.html:6
 #: who/templates/search/search_results.html:3
 #: who/templates/search/search_results.html:85
 msgid "Search"
-msgstr ""
+msgstr "Search"
 
 #: who/templates/search/search_results.html:6
 #: who/templates/search/search_results.html:89
 msgid "Search Results for:"
-msgstr ""
+msgstr "Search Results for:"
 
 #: who/templates/search/search_results.html:91
 msgid "No search results were found for "
-msgstr ""
+msgstr "No search results were found for "
 
 #: who/templates/search/search_results.html:93
 msgid "Back to homepage"
-msgstr ""
+msgstr "Back to homepage"
 
 #: who/templates/wagtailadmin/login.html:3
 msgid "Sign in"
-msgstr ""
+msgstr "Sign in"
 
 #: who/templates/wagtailadmin/login.html:19
 #, python-format
 msgid "Your %(username_field)s and password didn't match. Please try again."
-msgstr ""
+msgstr "Your %(username_field)s and password didn't match. Please try again."
 
 #: who/templates/wagtailadmin/login.html:37
 msgid "Sign in to Wagtail"
-msgstr ""
+msgstr "Sign in to Wagtail"
 
 #: who/templates/wagtailadmin/login.html:57
 msgid "Forgotten it?"
-msgstr ""
+msgstr "Forgotten it?"
 
 #: who/templates/wagtailadmin/login.html:84
 #: who/templates/wagtailadmin/login.html:87
 msgid "Signing in…"
-msgstr ""
+msgstr "Signing in…"
 
 #: who/templates/wagtailadmin/login.html:84
 msgid "Sign In"
-msgstr ""
+msgstr "Sign In"
 
 #: who/templates/wagtailadmin/login.html:87
 msgid "Microsoft"
-msgstr ""
+msgstr "Microsoft"
 
 #: who/templates/wagtailadmin/pages/listing/_page_title_explore.html:7
 msgid "Edit this page"
-msgstr ""
+msgstr "Edit this page"
