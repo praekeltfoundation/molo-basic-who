@@ -223,6 +223,10 @@ msgstr "Cambiar idioma"
 msgid "WHO"
 msgstr "WHO"
 
+#: who/templates/base.html:156
+msgid "Menu"
+msgstr "Menú"
+
 #: who/templates/base.html:199
 msgid "Change your language"
 msgstr "Cambiar el idioma"
