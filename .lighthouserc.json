@@ -1,0 +1,8 @@
+{
+  "ci": {
+    "url": ["https://en.qa.whofreebasics.org/"],
+    "collect": {
+      "staticDistDir": "who/templates"
+    }
+  }
+}
