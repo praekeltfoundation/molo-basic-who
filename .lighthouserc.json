@@ -1,5 +1,6 @@
 {
   "ci": {
+    "budgetPath": "budget.json",
     "url": ["https://en.qa.whofreebasics.org/"],
     "collect": {
       "staticDistDir": "who/templates"
