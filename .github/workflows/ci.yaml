@@ -5,7 +5,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2 # checkout this repo, so you can run an 'npm install'
-      - uses: actions/setup-node@v1
+      - name: Lighthouse CI
+        uses: actions/setup-python@v1
+        with:
+          urls: |
+            https://en.qa.whofreebasics.org/
+          budgetPath: ./budget.json # test performance budgets
+          uploadArtifacts: true # save results as an action artifacts
       - run: npm install && npm install -g @lhci/cli@0.4.x
       - run: npm run build # needed to install your Lighthouse Plugin
       - run: lhci autorun
