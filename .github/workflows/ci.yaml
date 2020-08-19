@@ -9,5 +9,4 @@ jobs:
         uses: treosh/lighthouse-ci-action@v2
         with:
           configPath: "./lighthouserc.json"
-          budgetPath: ./budget.json # test performance budgets
           temporaryPublicStorage: true
