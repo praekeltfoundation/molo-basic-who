@@ -28,7 +28,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: praekeltfoundation/molo-basic-who:sha-${GITHUB_SHA::8}
+          tags: praekeltfoundation/molo-basic-who:sha-${{ github.sha::8 }}
       -
         name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
