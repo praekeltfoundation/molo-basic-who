@@ -1,0 +1,17 @@
+{% if forms %}
+<div class="surveys">
+    <div class="surveys__title">
+        Please take one of the survey below
+    </div>
+
+    <ul class="form-list-main_items">
+        {% for form_item in forms %}
+        <li>
+            <a href="{{ form_item.url }}" class="call-to-action__nav-item--surveys">
+                {{ form_item.title }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endif %}
