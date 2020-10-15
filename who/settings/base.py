@@ -106,6 +106,7 @@ MIDDLEWARE = [
     'molo.core.middleware.AdminLocaleMiddleware',
     'molo.core.middleware.NoScriptGASessionMiddleware',
     'who.middleware.whoMoloGoogleAnalyticsMiddleware',
+    'who.middleware.FaceBookPixelHistoryCounter',
     'molo.core.middleware.MultiSiteRedirectToHomepage',
     'molo.core.middleware.MaintenanceModeMiddleware',
 ]
