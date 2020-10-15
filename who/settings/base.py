@@ -32,7 +32,7 @@ DEBUG = True
 ENV = 'dev'
 
 
-ALLOWED_HOSTS = ["*",]
+ALLOWED_HOSTS = ["*", ]
 
 ROOT_URLCONF = 'who.urls'
 
