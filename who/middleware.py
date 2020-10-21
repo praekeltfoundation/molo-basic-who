@@ -1,4 +1,5 @@
 import datetime
+import django.utils.deprecation
 
 from bs4 import BeautifulSoup
 
@@ -115,7 +116,7 @@ class whoMoloGoogleAnalyticsMiddleware(MoloGoogleAnalyticsMiddleware):
         return response
 
 
-class FaceBookPixelHistoryCounter(object):
+class FaceBookPixelHistoryCounter(django.utils.deprecation.MiddlewareMixin):
     days_expire = 1
     cookie_key = settings.FACEBOOK_PIXEL_COOKIE_KEY
     cookie_date_format = "%a, %d-%b-%Y %H:%M:%S GMT"

@@ -61,60 +61,58 @@
       {% endcompress %}
     {% endif %}
 
-    {% comment %}
-      <!-- ADD APPROPRIATE CREDS --- GA, FB TRACKING -->
-      <meta name="google-site-verification" content="4IkZu3E_jAGipGtiFKqjpKESIxS6-oB6aatHcmJM_bY" />
-      <!-- Facebook Pixel Code -->
-      <script>
-        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-        n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-        document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    <!-- ADD APPROPRIATE CREDS --- GA, FB TRACKING -->
+    <meta name="google-site-verification" content="4IkZu3E_jAGipGtiFKqjpKESIxS6-oB6aatHcmJM_bY" />
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+      n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+      document,'script','https://connect.facebook.net/en_US/fbevents.js');
 
-        fbq('init', '{{ FACEBOOK_PIXEL }}');
-        fbq('track', 'PageView');
+      fbq('init', '{{ FACEBOOK_PIXEL }}');
+      fbq('track', 'PageView');
 
-        {% if FACEBOOK_PIXEL_HISTORY_COUNT > 2 %}
-          fbq('track', 'PageViewMinimum3Pages');
-        {% endif %}
-
-        {% block facebook_pixel_tracking_js %}{% endblock %}
-      </script>
-      <noscript>
-        <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id={{ FACEBOOK_PIXEL }}&ev=PageView&noscript=1"/>
-      </noscript>
       {% if FACEBOOK_PIXEL_HISTORY_COUNT > 2 %}
-        <noscript>
-          <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id={{ FACEBOOK_PIXEL }}&ev=PageViewMinimum3Pages&noscript=1&value=VisitingMinimum3Pages"/>
-        </noscript>
-      {% endif %}
-      {% block facebook_pixel_tracking_no_js %}{% endblock %}
-      <!-- End Facebook Pixel Code -->
-      {% if settings.core.SiteSettings.ga_tag_manager %}
-        <!--Google Tag Manager -->
-        <noscript><iframe src="//www.googletagmanager.com/ns.html?id={{settings.core.SiteSettings.ga_tag_manager}}&client_session_id={{request.session.MOLO_GA_SESSION_FOR_NOSCRIPT}}{% if persona_selected_value%}&persona={{ persona_selected_value }}&event=persona{% endif %}{%if request.META.HTTP_X_IORG_FBS_UIP %}&freebasics_uip={{request.META.HTTP_X_IORG_FBS_UIP}}{%endif%}"
-        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','{{settings.core.SiteSettings.ga_tag_manager}}');</script>
-        <!-- End Google Tag Manager -->
+        fbq('track', 'PageViewMinimum3Pages');
       {% endif %}
 
-      {% if settings.core.SiteSettings.global_ga_tag_manager %}
-        <!--Global Google Tag Manager -->
-        <noscript><iframe src="//www.googletagmanager.com/ns.html?id={{settings.core.SiteSettings.global_ga_tag_manager}}&client_session_id={{request.session.MOLO_GA_SESSION_FOR_NOSCRIPT}}"
-        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','{{settings.core.SiteSettings.global_ga_tag_manager}}');</script>
-        <!-- End Global Google Tag Manager -->
-      {% endif %}
-    {% endcomment %}
+      {% block facebook_pixel_tracking_js %}{% endblock %}
+    </script>
+    <noscript>
+      <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id={{ FACEBOOK_PIXEL }}&ev=PageView&noscript=1"/>
+    </noscript>
+    {% if FACEBOOK_PIXEL_HISTORY_COUNT > 2 %}
+      <noscript>
+        <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id={{ FACEBOOK_PIXEL }}&ev=PageViewMinimum3Pages&noscript=1&value=VisitingMinimum3Pages"/>
+      </noscript>
+    {% endif %}
+    {% block facebook_pixel_tracking_no_js %}{% endblock %}
+    <!-- End Facebook Pixel Code -->
+    {% if settings.core.SiteSettings.ga_tag_manager %}
+      <!--Google Tag Manager -->
+      <noscript><iframe src="//www.googletagmanager.com/ns.html?id={{settings.core.SiteSettings.ga_tag_manager}}&client_session_id={{request.session.MOLO_GA_SESSION_FOR_NOSCRIPT}}{% if persona_selected_value%}&persona={{ persona_selected_value }}&event=persona{% endif %}{%if request.META.HTTP_X_IORG_FBS_UIP %}&freebasics_uip={{request.META.HTTP_X_IORG_FBS_UIP}}{%endif%}"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','{{settings.core.SiteSettings.ga_tag_manager}}');</script>
+      <!-- End Google Tag Manager -->
+    {% endif %}
+
+    {% if settings.core.SiteSettings.global_ga_tag_manager %}
+      <!--Global Google Tag Manager -->
+      <noscript><iframe src="//www.googletagmanager.com/ns.html?id={{settings.core.SiteSettings.global_ga_tag_manager}}&client_session_id={{request.session.MOLO_GA_SESSION_FOR_NOSCRIPT}}"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','{{settings.core.SiteSettings.global_ga_tag_manager}}');</script>
+      <!-- End Global Google Tag Manager -->
+    {% endif %}
   </head>
   <body {% if LANGUAGE_CODE|language_bidi == True %}dir="rtl"{% endif %}>
     {% if languages|length > 1 %}
