@@ -1,6 +1,49 @@
+
+.surveys-main {
+    background: var(--strong-blue);
+    overflow: auto;
+    color: #fff;
+
+    &__intro {
+        border-top: 2px solid var(--strong-blue);
+        padding: 5px 15px;
+        font-size: $font-x-medium;
+    }
+
+    &__list {
+        padding: 5px 0px;
+
+        &__item {
+            color: #fff;
+            padding: 5px 15px;
+            &:hover { color: var(--strong-orange); }
+            &:after {
+                display: inline-block;
+                float: right;
+                @media only screen and (min-width: 320px) {
+                  content: ">";
+                }
+                @media only screen and (min-width: 490px) {
+                  content: "❯";
+                }
+            }
+            &:last-child {
+                border-bottom: none;
+            }
+
+            &__link {
+                color: #fff;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
 .surveys {
-  background: var(--strong-blue);
   overflow: auto;
+  p {
+    padding-bottom: 5px;
+  }
   input:focus {
     border: 1px solid var(--strong-blue);
   }

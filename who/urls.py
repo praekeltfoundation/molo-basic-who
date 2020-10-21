@@ -5,7 +5,6 @@ from django.conf.urls.static import static
 from django.conf.urls import url
 from django.conf import settings
 from django.contrib import admin
-from django.contrib.auth.decorators import login_required
 from django.views.generic import TemplateView
 from django_cas_ng import views as cas_views
 from wagtail.contrib.sitemaps.views import sitemap
