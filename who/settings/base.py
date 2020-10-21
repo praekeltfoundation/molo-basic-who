@@ -106,6 +106,7 @@ MIDDLEWARE = [
     'molo.core.middleware.AdminLocaleMiddleware',
     'molo.core.middleware.NoScriptGASessionMiddleware',
     'who.middleware.whoMoloGoogleAnalyticsMiddleware',
+    'who.middleware.FaceBookPixelHistoryCounter',
     'molo.core.middleware.MultiSiteRedirectToHomepage',
     'molo.core.middleware.MaintenanceModeMiddleware',
 ]
@@ -620,7 +621,7 @@ if AWS_STORAGE_BUCKET_NAME and AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY:
 RABBITMQ_MANAGEMENT_INTERFACE = environ.get(
     'RABBITMQ_MANAGEMENT_INTERFACE')
 
-FACEBOOK_PIXEL = '413876948808281'
+FACEBOOK_PIXEL = '353235115913605'
 FACEBOOK_PIXEL_COOKIE_KEY = 'facebook_pixel_hit_count'
 
 MAINTENANCE_MODE_TEMPLATE = 'maintenance.html'
