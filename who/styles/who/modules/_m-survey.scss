@@ -1,6 +1,11 @@
 .surveys {
   background: var(--strong-blue);
   overflow: auto;
+
+  p, div, fieldset {
+    padding-bottom: 5px;
+  }
+  
   input:focus {
     border: 1px solid var(--strong-blue);
   }
