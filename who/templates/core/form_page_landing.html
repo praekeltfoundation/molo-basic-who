@@ -7,12 +7,12 @@
   <div class="surveys__intro">{{ page.intro }}</div>
 
   <div class="surveys__thank-you">
-      {% if page.thank_you_text %}
+      <p>{% if page.thank_you_text %}
           {{ page.thank_you_text }}
       {% else %}
           Thank you for answering the {{ page.title }} survey.
-      {% endif %}
-      <br>Click <a href="/">here</a> to go back to the home page.
+          {% endif %}</p>
+      <p>Click <a href="{{ request.scheme }}://{{ request.META.HTTP_HOST }}">here</a> to go back to the home page.</p>
   </div>
 </div>
 {% endblock %}
