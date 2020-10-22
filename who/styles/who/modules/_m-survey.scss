@@ -16,7 +16,7 @@
         &__item {
             color: #fff;
             padding: 5px 15px;
-            &:hover { color: var(--strong-orange); }
+
             &:after {
                 display: inline-block;
                 float: right;
@@ -50,14 +50,15 @@
     border: 1px solid var(--strong-blue);
   }
   &__title {
-    color: #fff;
+    color: var(--very-dark-gray);
     border-top: 2px solid var(--strong-blue);
     padding: 5px 15px;
     font-size: $font-x-large;
   }
   &__thank-you {
     padding: 10px 16px;
-    font-size: $font-x-large;
+    font-size: $font-x-medium;
+    color: var(--very-dark-gray);
   }
   &__intro {
     padding: 0 15px;
