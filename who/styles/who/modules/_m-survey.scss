@@ -88,7 +88,7 @@
   &__form {
     padding: 0 10px;
     label {
-      color: #000;
+      color: var(--very-dark-gray);
       padding: 0;
     }
     input[type="submit"] {
