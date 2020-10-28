@@ -3,11 +3,13 @@
     background: var(--strong-blue);
     overflow: auto;
     color: #fff;
+    border-bottom: 1px solid #fff;
 
     &__intro {
         border-top: 2px solid var(--strong-blue);
         padding: 5px 15px;
         font-size: $font-x-medium;
+        font-weight: bold;
     }
 
     &__list {
