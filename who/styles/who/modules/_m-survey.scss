@@ -3,11 +3,13 @@
     background: var(--strong-blue);
     overflow: auto;
     color: #fff;
+    border-bottom: 1px solid #fff;
 
     &__intro {
         border-top: 2px solid var(--strong-blue);
         padding: 5px 15px;
         font-size: $font-x-medium;
+        font-weight: bold;
     }
 
     &__list {
@@ -53,7 +55,7 @@
     color: var(--very-dark-gray);
     border-top: 2px solid var(--strong-blue);
     padding: 5px 15px;
-    font-size: $font-x-large;
+    font-size: $font-x-medium;
   }
   &__thank-you {
     padding: 10px 16px;
@@ -70,8 +72,8 @@
     border-top: 1px solid var(--strong-blue);
     border-bottom: 1px solid var(--strong-blue);
   }
-  &__helptext {
-    color: #999;
+  .helptext {
+    color: var(--very-dark-gray);
     font-size: $font-x-small;
     padding-bottom: 10px;
     display: block;
@@ -89,7 +91,7 @@
     padding: 0 10px;
     label {
       color: var(--very-dark-gray);
-      padding: 0;
+      padding: 0 5px 5px 0;
     }
     input[type="submit"] {
       width: auto;

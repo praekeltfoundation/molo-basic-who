@@ -27,18 +27,26 @@ function styles(env) {
 
   if (isDev)
     s = s
-     .pipe(sourcemaps.init());
+        .pipe(sourcemaps.init());
+
     s = s
-    .pipe(sassGlob())
-    .pipe(sass().on('error', sass.logError))
-    .pipe(cleanCSSMinify())
-    .pipe(gulpAutoprefixer())
+        .pipe(sassGlob())
+        .pipe(sass().on('error', sass.logError))
+
+    if (!isDev)
+        s = s
+            .pipe(cleanCSSMinify())
+
+    s = s
+        .pipe(gulpAutoprefixer())
+
     if (isDev)
       s = s
-      .pipe(sourcemaps.write('/maps'));
+          .pipe(sourcemaps.write('/maps'));
+
       return s
-      .pipe(gulp.dest(sassDest[env]))
-      .pipe(notify({ message: `Styles task complete: ${env}` }));
+          .pipe(gulp.dest(sassDest[env]))
+          .pipe(notify({ message: `Styles task complete: ${env}` }));
 }
 
 gulp.task('styles:prd', function() {
