@@ -31,7 +31,6 @@ function styles(env) {
     s = s
     .pipe(sassGlob())
     .pipe(sass().on('error', sass.logError))
-    .pipe(cleanCSSMinify())
     .pipe(gulpAutoprefixer())
     if (isDev)
       s = s
