@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 
 from django.conf import settings
 from django.http import HttpResponsePermanentRedirect
+from django.utils.translation import get_language_from_request
 
 from google_analytics.utils import build_ga_params, set_cookie
 from google_analytics.tasks import send_ga_tracking
@@ -96,11 +97,13 @@ class whoMoloGoogleAnalyticsMiddleware(MoloGoogleAnalyticsMiddleware):
             return (today.year - dob.year -
                     ((today.month, today.day) < (dob.month, dob.day)))
 
+        custom_params = {
+            'ul': get_language_from_request(request)
+        }
         # send user unique id and details after cookie's been set
         if hasattr(request, 'user') and hasattr(request.user, 'profile'):
             profile = request.user.profile
 
-            custom_params = {}
             if profile.gender:
                 gender_key = settings.GOOGLE_ANALYTICS_GENDER_KEY
                 custom_params[gender_key] = profile.gender
@@ -108,9 +111,9 @@ class whoMoloGoogleAnalyticsMiddleware(MoloGoogleAnalyticsMiddleware):
                 age_key = settings.GOOGLE_ANALYTICS_AGE_KEY
                 custom_params[age_key] = calculate_age(profile.date_of_birth)
 
-            params = build_ga_params(
-                request, account, path=path, referer=referer, title=title,
-                custom_params=custom_params)
+        params = build_ga_params(
+            request, account, path=path, referer=referer, title=title,
+            custom_params=custom_params)
 
         send_ga_tracking.delay(params)
         return response
