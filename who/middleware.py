@@ -10,6 +10,7 @@ from django.utils.translation import get_language_from_request
 from google_analytics.utils import build_ga_params, set_cookie
 from google_analytics.tasks import send_ga_tracking
 
+from molo.core.models import SiteSettings
 from molo.core.middleware import MoloGoogleAnalyticsMiddleware
 
 
@@ -116,6 +117,30 @@ class whoMoloGoogleAnalyticsMiddleware(MoloGoogleAnalyticsMiddleware):
             custom_params=custom_params)
 
         send_ga_tracking.delay(params)
+        return response
+
+    def process_response(self, request, response):
+        if hasattr(settings, 'GOOGLE_ANALYTICS_IGNORE_PATH'):
+            exclude = [p for p in settings.GOOGLE_ANALYTICS_IGNORE_PATH
+                       if request.path.startswith(p)]
+            if any(exclude):
+                return response
+
+        # Only track 200 and 302 responses for request.site
+        if not (response.status_code == 200 or response.status_code == 302):
+            return response
+
+        site_settings = SiteSettings.for_site(request.site)
+        local_ga_account = site_settings.local_ga_tracking_code or \
+            settings.GOOGLE_ANALYTICS.get('google_analytics_id')
+
+        if local_ga_account:
+            response = self.submit_tracking(
+                local_ga_account, request, response)
+
+        if site_settings.global_ga_tracking_code:
+            response = self.submit_tracking(
+                site_settings.global_ga_tracking_code, request, response)
         return response
 
 
