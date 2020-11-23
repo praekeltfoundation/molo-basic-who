@@ -144,7 +144,7 @@ msgstr "انضم"
 
 #: who/templates/base.html:158
 msgid "Menu"
-msgstr "القاذمة"
+msgstr "القائمة"
 
 #: who/templates/base.html:231
 msgid "Change your language"
