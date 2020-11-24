@@ -1,6 +1,9 @@
 .search-form input[type="submit"],
 .search__submit {
-  text-indent: 0; }
+  text-indent: 0;
+  left: 0px;
+  right: auto !important;
+}
 
 .language-selection .language-list__item a:after {
   padding: 0 5px 0 0; }
@@ -40,7 +43,7 @@
     padding: 8px 45px; }
   .search__submit,
   .search-form input[type="submit"] {
-    text-indent: 5em;
+    text-indent: 1em;
     left: 15px;
     right: auto; }
   .call-to-action__comment-item--report {
