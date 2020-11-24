@@ -2,8 +2,7 @@
 .search__submit {
   text-indent: 0;
   left: 0px;
-  right: auto !important;
-}
+  right: auto !important; }
 
 .language-selection .language-list__item a:after {
   padding: 0 5px 0 0; }
@@ -44,8 +43,8 @@
   .search__submit,
   .search-form input[type="submit"] {
     text-indent: 1em;
-    left: 15px;
-    right: auto; }
+    left: 0px;
+    right: auto !important; }
   .call-to-action__comment-item--report {
     right: inherit;
     top: 5px;
