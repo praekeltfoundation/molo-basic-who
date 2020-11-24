@@ -2,6 +2,8 @@
 .search-form input[type="submit"],
 .search__submit {
   text-indent: 0;
+  left: 0px;
+  right: auto !important;
 }
 //Languages Select
 .language-selection .language-list__item a:after {
@@ -55,9 +57,9 @@
   }
   .search__submit,
   .search-form input[type="submit"] {
-    text-indent: 5em;
-    left: 15px;
-    right: auto;
+    text-indent: 1em;
+    left: 0px;
+    right: auto !important;
   }
   .call-to-action__comment-item--report {
     right: inherit;
