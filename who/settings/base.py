@@ -8,6 +8,7 @@ https://docs.djangoproject.com/en/1.7/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.7/ref/settings/
 """
+import sys
 from os.path import abspath, dirname, join
 from os import environ
 import django.conf.locale
@@ -626,3 +627,22 @@ FACEBOOK_PIXEL_COOKIE_KEY = 'facebook_pixel_hit_count'
 
 MAINTENANCE_MODE_TEMPLATE = 'maintenance.html'
 MAINTENANCE_MODE = environ.get('MAINTENANCE_MODE', None)
+
+# we currently just want to log the celery container's GA requests
+if environ.get('ENABLE_GA_LOGGING') or environ.get('ENABLE_LOGGING'):
+    LOGGING = {
+        'version': 1,
+        'disable_existing_loggers': False,
+        'handlers': {
+            'console': {
+                'level': environ.get('LEVEL_LOGGING', 'INFO'),
+                'class': 'logging.StreamHandler',
+                'stream': sys.stdout
+            },
+        },
+        'loggers': {
+            'django': {
+                'handlers': ['console'],
+            },
+        },
+    }
