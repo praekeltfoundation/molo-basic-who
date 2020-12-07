@@ -628,8 +628,10 @@ FACEBOOK_PIXEL_COOKIE_KEY = 'facebook_pixel_hit_count'
 MAINTENANCE_MODE_TEMPLATE = 'maintenance.html'
 MAINTENANCE_MODE = environ.get('MAINTENANCE_MODE', None)
 
+ENABLE_GA_LOGGING = environ.get("ENABLE_GA_LOGGING", '') == 'True'
+
 # we currently just want to log the celery container's GA requests
-if environ.get('ENABLE_GA_LOGGING') or environ.get('ENABLE_LOGGING'):
+if ENABLE_GA_LOGGING or environ.get('ENABLE_LOGGING'):
     LOGGING = {
         'version': 1,
         'disable_existing_loggers': False,
