@@ -19,7 +19,7 @@
     <h1 class="heading heading--homepage">{{self.title}}</h1>
   {% endif %}
 
-  {% load_child_articles_for_section self count=10 as articles %}
+  {% load_child_articles_for_section self count=6 as articles %}
   <ul class="article-list">
   {% for sub_article in articles %}
     <li class="article-list__item{% if forloop.first and not self.get_effective_extra_style_hints %} article-list__item--hero{% endif %}">
