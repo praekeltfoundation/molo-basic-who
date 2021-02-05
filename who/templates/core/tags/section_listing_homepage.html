@@ -2,7 +2,7 @@
 
 {% if sections %}
 {% for section in sections %}
-  {% load_descendant_articles_for_section section featured_in_homepage=True as featured_articles %}
+  {% load_descendant_articles_for_section section featured_in_homepage=True count=3 as featured_articles %}
   {% if featured_articles %}
   <div class="section-list__container">
     <a href="{% pageurl section %}" {% if not forloop.first %}class="article-list__inner-content"{% endif %}>
