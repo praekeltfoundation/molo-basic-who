@@ -6,9 +6,7 @@ ENV PYTHONUNBUFFERED 1
 # WORKDIR /code
 # COPY requirements.txt /code/
 RUN apt-get update && apt-get install -y gettext libgettextpo-dev git
-RUN pip install https://github.com/praekeltfoundation/molo-basic/archive/master.zip#egg=package.json
-# Installed from git due to incompatibility with pip (hopefully temporary)
-RUN pip install git+https://github.com/AngellusMortis/django_microsoft_auth.git#egg=django-microsoft-auth 
+RUN pip install https://github.com/praekeltfoundation/molo-basic/archive/master.zip#egg=molo-basic
 
 COPY . /app/
 COPY requirements.txt /requirements/

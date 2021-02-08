@@ -2,7 +2,7 @@ Django~=2.2.5
 elasticsearch==1.7.0
 django-modelcluster<5.0,>=4.2
 djangorestframework<4.0,>=3.7.4
-django_microsoft_auth<2.4,>=2.3.1
+django_microsoft_auth<2.5,>=2.4.0
 celery<4.0
 gunicorn
 psycopg2-binary==2.8.3
