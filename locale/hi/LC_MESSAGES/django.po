@@ -1,0 +1,920 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: Hindi\n"
+"Language: hi\n"
+
+#:
+msgid "January"
+msgstr "जनवरी"
+
+#:
+msgid "February"
+msgstr "फरवरी"
+
+#:
+msgid "March"
+msgstr "मार्च"
+
+#:
+msgid "April"
+msgstr "अप्रैल"
+
+#:
+msgid "May"
+msgstr "मई"
+
+#:
+msgid "June"
+msgstr "जून"
+
+#:
+msgid "July"
+msgstr "जुलाई"
+
+#:
+msgid "August"
+msgstr "अगस्त"
+
+#:
+msgid "September"
+msgstr "सितंबर"
+
+#:
+msgid "October"
+msgstr "अक्टूबर"
+
+#:
+msgid "November"
+msgstr "नवंबर"
+
+#:
+msgid "December"
+msgstr "दिसंबर"
+
+#:
+msgid "Add anonymously"
+msgstr "गुमनाम रूप से जोड़ें"
+
+#:
+msgid "This field is required"
+msgstr "यह फ़ील्ड आवश्यक है"
+
+#:
+msgid "Are you a ..."
+msgstr "क्या आप एक _____ हैं"
+
+#:
+msgid "Ensure this value has at least 4 characters (it has 1)"
+msgstr "सुनिश्चित करें कि इस वैल्यू में कम से कम 4 कैरेक्टर हों (इसमें 1 है)"
+
+#:
+msgid "Type your comment here..."
+msgstr "अपनी टिप्पणी यहां टाइप करें..."
+
+#:
+msgid "Reply successfully created."
+msgstr "उत्तर सफलतापूर्वक बनाया गया।"
+
+#:
+msgid "Email address"
+msgstr "ईमेल पता"
+
+#:
+msgid "URL"
+msgstr "URL"
+
+#:
+msgid "Name"
+msgstr "नाम"
+
+#:
+msgid "Anonymous"
+msgstr "गुमनाम"
+
+#:
+msgid "This comment has been removed by the community. Please read our platform rules."
+msgstr "इस टिप्पणी को समुदाय द्वारा हटा दिया गया है। कृपया हमारे प्लेटफ़ॉर्म नियमों को पढ़ें।"
+
+#:
+msgid "Report"
+msgstr "रिपोर्ट करें"
+
+#:
+msgid "Reply"
+msgstr "जवाब दें"
+
+#:
+msgid "Share a Comment"
+msgstr "कोई टिप्पणी साझा करें"
+
+#:
+msgid "Log in to comment"
+msgstr "टिप्पणी करने के लिए लॉग-इन करें"
+
+#:
+msgid "Commenting on this article is currently disabled"
+msgstr "अभी इस लेख पर टिप्पणी नहीं की जा सकती"
+
+#:
+msgid "Comments"
+msgstr "टिप्पणियाँ"
+
+#:
+msgid "comment"
+msgstr "टिप्पणी"
+
+#:
+msgid "view more comments"
+msgstr "अधिक टिप्पणियाँ देखें"
+
+#:
+msgid "Thanks!"
+msgstr "धन्‍यवाद!"
+
+#:
+msgid "Your comment has been successfully posted"
+msgstr "आपकी टिप्पणी सफलतापूर्वक पोस्ट कर दी गई है"
+
+#:
+msgid "Back to article"
+msgstr "लेख पर वापस जाएं"
+
+#:
+msgid "Home"
+msgstr "होम"
+
+#:
+msgid "Please "
+msgstr "कृपया"
+
+#:
+msgid "log in"
+msgstr "टिप्पणी करने के लिए"
+
+#:
+msgid " to leave a comment."
+msgstr "लॉग-इन करें।"
+
+#:
+msgid "This comment has been reported."
+msgstr "इस टिप्पणी को रिपोर्ट किया गया है।"
+
+#:
+msgid "It will be reviewed by the team and may be removed if it breaks our Platform rules"
+msgstr "टीम द्वारा इसकी समीक्षा की जाएगी और अगर यह हमारे प्लेटफ़ॉर्म नियमों को तोड़ती है तो इसे हटाया जा सकता है"
+
+#:
+msgid "Reporting comment replies is not allowed."
+msgstr "टिप्पणी पर दिए जाने वाले जवाबों को रिपोर्ट करने की अनुमति नहीं है।"
+
+#:
+msgid "The comment has been reported."
+msgstr "इस टिप्पणी को रिपोर्ट किया गया है।"
+
+#:
+msgid "Zulu"
+msgstr "ज़ुलु"
+
+#:
+msgid "Xhosa"
+msgstr "शोसा"
+
+#:
+msgid "Sotho"
+msgstr "सोथो"
+
+#:
+msgid "Venda"
+msgstr "वेंडा"
+
+#:
+msgid "Tswana"
+msgstr "स्वाना"
+
+#:
+msgid "Tsonga"
+msgstr "सोंगा"
+
+#:
+msgid "Swati"
+msgstr "स्वाति"
+
+#:
+msgid "Ndebele"
+msgstr "डेबेले"
+
+#:
+msgid "Access Denied"
+msgstr "एक्सेस अस्वीकार किया गया"
+
+#:
+msgid "You do not have permssion to access this site."
+msgstr "आपको यह साइट एक्सेस करने की अनुमति नहीं है।"
+
+#:
+msgid "Unable to Login"
+msgstr "लॉग-इन करने में असमर्थ"
+
+#:
+msgid "Hi"
+msgstr "हाय!"
+
+#:
+msgid "Sorry, you are having trouble accessing this feature! Due to a temporary technical issue, login and registrations are not available on the Free Basics app for now. To login or register for a profile, visit our free mobisite through your mobile browser at"
+msgstr "क्षमा करें कि आपको इस फ़ीचर को एक्सेस करने में समस्या हो रही है! एक अस्थायी तकनीकी समस्या के कारण, अभी के लिए Free Basics ऐप पर लॉग-इन और रजिस्टर नहीं किया जा सकता। किसी प्रोफ़ाइल के लिए लॉग-इन करने या उसे रजिस्टर करने के लिए, अपने मोबाइल ब्राउज़र के माध्यम से हमारी निःशुल्क मोबिसाइट पर जाएँ"
+
+#:
+msgid " We're working hard to get this problem resolved. Thank you."
+msgstr "हम इस समस्या का समाधान निकालने के लिए कड़ी मेहनत कर रहे हैं। धन्यवाद।"
+
+#:
+msgid "Page not found"
+msgstr "पेज नहीं मिला"
+
+#:
+msgid "Sorry, this page could not be found."
+msgstr "क्षमा कीजिए, यह पेज नहीं मिल रहा है।"
+
+#:
+msgid "Internal server error"
+msgstr "आंतरिक सर्वर त्रुटि"
+
+#:
+msgid "Sorry, there seems to be an error. Please try again soon."
+msgstr "क्षमा करें, ऐसा लगता है कि कोई त्रुटि हुई है। कृपया जल्द ही फिर से कोशिश करें।"
+
+#:
+msgid "Site Language:"
+msgstr "साइट की भाषा :"
+
+#:
+msgid "Next up in"
+msgstr "में अगला आएगा"
+
+#:
+msgid "Recommended"
+msgstr "अनुशंसित"
+
+#:
+msgid "Latest"
+msgstr "सबसे नया"
+
+#:
+msgid "Topic of the Day"
+msgstr "दिन का विषय"
+
+#:
+msgid "Sign in"
+msgstr "साइन-इन करें"
+
+#:
+msgid "LOGIN TO YOUR ACCOUNT!"
+msgstr "अपने अकाउंट में लॉग-इन करें!"
+
+#:
+msgid "We’re excited to have you..."
+msgstr "हम आपको पाकर उत्साहित हैं..."
+
+#:
+msgid "Your username and password does not match. Please try again."
+msgstr "आपका यूज़रनेम और पासवर्ड मेल नहीं खाता। कृपया फिर से कोशिश करें।"
+
+#:
+msgid "Username"
+msgstr "यूज़रनेम"
+
+#:
+msgid "4-digit pin"
+msgstr "4-अंकीय पिन"
+
+#:
+msgid "Forgotten your password?"
+msgstr "अपना पासवर्ड भूल गए?"
+
+#:
+msgid "Your password has been set.  You may go ahead and log in now."
+msgstr "आपका पासवर्ड सेट कर दिया गया है। आप आगे बढ़ कर अभी लॉग-इन कर सकते हैं।"
+
+#:
+msgid "Log in"
+msgstr "लॉग-इन करें"
+
+#:
+msgid "Please enter your new password twice so we can verify you typed it in correctly."
+msgstr "कृपया अपना नया पासवर्ड दो बार दर्ज करें ताकि हम सत्यापित कर सकें कि आपने इसे सही टाइप किया है।"
+
+#:
+msgid "New password:"
+msgstr "नया पासवर्ड:"
+
+#:
+msgid "Confirm password:"
+msgstr "पासवर्ड की पुष्टि करें:"
+
+#:
+msgid "Change my password"
+msgstr "मेरा पासवर्ड बदलें"
+
+#:
+msgid "The password reset link was invalid, possibly because it has already been used.  Please request a new password reset."
+msgstr "पासवर्ड रीसेट लिंक अमान्य था, संभवतः इसलिए कि इसका पहले ही उपयोग किया जा चुका है। कृपया एक नया पासवर्ड रीसेट करने का अनुरोध करें।"
+
+#:
+msgid "We've emailed you instructions for setting your password, if an account exists with the email you entered. You should receive them shortly."
+msgstr "यदि आपके द्वारा दर्ज किए गए ईमेल के साथ कोई खाता मौजूद है, तो हमने आपको आपका पासवर्ड सेट करने के निर्देश ईमेल कर दिए हैं। जल्द ही आपको यह मिल जाना चाहिए।"
+
+#:
+msgid "If you don't receive an email, please make sure you've entered the address you registered with, and check your spam folder."
+msgstr "यदि आपको कोई ईमेल प्राप्त नहीं होता है, तो कृपया सुनिश्चित करें कि आपने वही पता दर्ज किया हो जिससे आपने रजिस्टर किया था, और अपना स्पैम फ़ोल्डर भी जांच लें।"
+
+#:
+msgid "Forgotten your password? Enter your email address below, and we'll email instructions for setting a new one."
+msgstr "अपना पासवर्ड भूल गए? नीचे अपना ईमेल पता दर्ज करें, और हम एक नया पासवर्ड सेट करने के लिए निर्देश ईमेल करेंगे।"
+
+#:
+msgid "Email address:"
+msgstr "ई-मेल पता:"
+
+#:
+msgid "Reset my password"
+msgstr "मेरा पासवर्ड रीसेट करें"
+
+#:
+msgid "Looking for something?"
+msgstr "कुछ खोज रहे हैं?"
+
+#:
+msgid "SEARCH"
+msgstr "खोजें"
+
+#:
+msgid "Search"
+msgstr "खोजें"
+
+#:
+msgid "No search results for "
+msgstr "का कोई खोज परिणाम नहीं मिला"
+
+#:
+msgid "I am looking for"
+msgstr "मैं ______ के बारे में खोज रहा/रही हूँ"
+
+#:
+msgid "That page is not translatable."
+msgstr "उस पेज का अनुवाद नहीं किया जा सकता।"
+
+#:
+msgid "You didn't select a choice"
+msgstr "आपने कोई विकल्प नहीं चुना"
+
+#:
+msgid "Vote"
+msgstr "वोट करें"
+
+#:
+msgid "Submit"
+msgstr "सबमिट करें"
+
+#:
+msgid "Thank you! Your response has already been submitted."
+msgstr "धन्यवाद! आपकी प्रतिक्रिया पहले ही सबमिट की जा चुकी है।"
+
+#:
+msgid "Log in to vote"
+msgstr "वोट करने के लिए लॉग-इन करें"
+
+#:
+msgid "Show Results"
+msgstr "परिणाम दिखाएँ"
+
+#:
+msgid "You voted: "
+msgstr "आपने वोट किया:"
+
+#:
+msgid "What's your opinion?"
+msgstr "आपकी राय क्या है?"
+
+#:
+msgid "Your answers:"
+msgstr "आपके जवाब:"
+
+#:
+msgid "Thank you for voting!"
+msgstr "वोट करने के लिए धन्यवाद!"
+
+#:
+msgid "Type"
+msgstr "प्रकार"
+
+#:
+msgid "Frontend Users"
+msgstr "फ्रंट-एंड यूज़र"
+
+#:
+msgid "Admin Users"
+msgstr "एडमिन यूज़र"
+
+#:
+msgid "Your email address is not configured. Please update it before exporting."
+msgstr "आपका ईमेल पता कॉन्फ़िगर नहीं किया गया है। कृपया निर्यात करने से पहले इसे अपडेट करें।"
+
+#:
+msgid "CSV emailed to '{0}'"
+msgstr "CSV ने '{0}' को ईमेल किया"
+
+#:
+msgid "This value must contain only letters, numbers and underscores."
+msgstr "इस वैल्यू में केवल अक्षर, संख्याएँ और अंडरस्कोर होने चाहिए।"
+
+#:
+msgid "This value must contain only numbers."
+msgstr "इस वैल्यू में केवल संख्याएँ होनी चाहिए।"
+
+#:
+msgid "PIN"
+msgstr "PIN"
+
+#:
+msgid "Display Name"
+msgstr "डिस्प्ले नाम"
+
+#:
+msgid "Gender"
+msgstr "लिंग"
+
+#:
+msgid "Location"
+msgstr "स्थान"
+
+#:
+msgid "Education Level"
+msgstr "शैक्षिक स्तर"
+
+#:
+msgid "Username already exists."
+msgstr "यूज़रनेम पहले से मौजूद है।"
+
+#:
+msgid "Sorry, but that is an invalid username. Please don't use your %s in your username."
+msgstr "क्षमा करें, लेकिन यह एक अमान्य यूज़रनेम है। कृपया अपने यूज़रनेम में %s का उपयोग न करें।"
+
+#:
+msgid "Sorry, but that is an invalid display name. Please don't use your %s in your display name."
+msgstr "क्षमा करें, लेकिन यह एक अमान्य डिस्प्ले नाम है। कृपया अपने डिस्प्ले नाम में अपने %s का उपयोग न करें।"
+
+#:
+msgid "This value must contain only           numbers."
+msgstr "इस वैल्यू में केवल संख्याएँ होनी चाहिए।"
+
+#:
+msgid "Old Password"
+msgstr "पुराना पासवर्ड"
+
+#:
+msgid "New Password"
+msgstr "नया पासवर्ड"
+
+#:
+msgid "Confirm Password"
+msgstr "पासवर्ड की पुष्टि करें"
+
+#:
+msgid "New passwords do not match."
+msgstr "नए पासवर्ड मेल नहीं खाते।"
+
+#:
+msgid "Confirm PIN"
+msgstr "PIN की पुष्टि करें"
+
+#:
+msgid "(e.g. 2086)"
+msgstr "(जैसे 2086)"
+
+#:
+msgid "Confirm New Password"
+msgstr "नए पासवर्ड की पुष्टि करें"
+
+#:
+msgid "Save"
+msgstr "सेव करें"
+
+#:
+msgid "Thank you for joining!"
+msgstr "शामिल होने के लिए धन्यवाद!"
+
+#:
+msgid "Let us know more about yourself to get access to exclusive content."
+msgstr "विशिष्ट सामग्री का एक्सेस पाने के लिए हमें अपने बारे में और बताएँ।"
+
+#:
+msgid "SELECT DATE OF BIRTH"
+msgstr "जन्म तिथि चुनें"
+
+#:
+msgid "DISPLAY NAME"
+msgstr "डिस्प्ले नाम"
+
+#:
+msgid "We value your online security, therefore we hide your username and allow you to comment and interact with the site with a display name."
+msgstr "हमारे लिए आपकी ऑनलाइन सुरक्षा महत्त्वपूर्ण है, इसलिए हम आपका यूज़रनेम छिपा देते हैं और आपको एक डिस्प्ले नाम के साथ टिप्पणी करने और साइट के साथ इंटरैक्ट करने की अनुमति देते हैं।"
+
+#:
+msgid "I IDENTIFY MY GENDER AS:"
+msgstr "मैं हूँ एक :"
+
+#:
+msgid "Only you will see this"
+msgstr "इसे केवल आप ही देख सकेंगे"
+
+#:
+msgid "WHERE DO YOU LIVE?"
+msgstr "आप कहां रहते हैं?"
+
+#:
+msgid "WHAT IS YOUR HIGHEST LEVEL OF EDUCATION?"
+msgstr "आपका उच्चतम शैक्षिक स्तर क्या है?"
+
+#:
+msgid "Home Page"
+msgstr "होम पेज"
+
+#:
+msgid "Profile"
+msgstr "प्रोफ़ाइल"
+
+#:
+msgid "Update your display name:"
+msgstr "अपना डिस्प्ले नाम अपडेट करें :"
+
+#:
+msgid "Update your date of birth:"
+msgstr "अपनी जन्मतिथि अपडेट करें :"
+
+#:
+msgid "Update your gender:"
+msgstr "अपनी लैंगिक पहचान अपडेट करें :"
+
+#:
+msgid "Update where you live:"
+msgstr "अपना निवास स्थान अपडेट करें :"
+
+#:
+msgid "Update your Education Level:"
+msgstr "अपना शैक्षिक स्तर अपडेट करें :"
+
+#:
+msgid "Update your mobile number:"
+msgstr "अपना मोबाइल नंबर अपडेट करें :"
+
+#:
+msgid "(e.g. 0914556789)"
+msgstr "(जैसे कि 0914556789)"
+
+#:
+msgid "Update your email address:"
+msgstr "अपना ईमेल पता अपडेट करें :"
+
+#:
+msgid "(e.g. example@foo.com)"
+msgstr "(जैसे कि example@foo.com)"
+
+#:
+msgid "Forgot PIN"
+msgstr "PIN भूल गए"
+
+#:
+msgid "Security question"
+msgstr "सुरक्षा प्रश्न"
+
+#:
+msgid "Please answer the following security question."
+msgstr "कृपया निम्नलिखित सुरक्षा प्रश्न का उत्तर दें।"
+
+#:
+msgid "Register"
+msgstr "रजिस्टर करें"
+
+#:
+msgid "Already a member?"
+msgstr "पहले से ही सदस्य हैं?"
+
+#:
+msgid "Login"
+msgstr "लॉग-इन करें"
+
+#:
+msgid "Not a member yet?"
+msgstr "अभी तक सदस्य नहीं हैं?"
+
+#:
+msgid "Join us by signing up below."
+msgstr "नीचे साइन-अप करके हमसे जुड़ें।"
+
+#:
+msgid "CHOOSE A USERNAME"
+msgstr "एक यूज़रनेम चुनें"
+
+#:
+msgid "This name you will use to log in and won't appear to other users. Only you will see this."
+msgstr "यह नाम आप लॉग-इन करने के लिए उपयोग करेंगे, जो अन्य यूज़र्स को दिखाई नहीं देगा। इस केवल आप ही देख सकेंगे।"
+
+#:
+msgid "CHOOSE A 4-DIGIT PIN"
+msgstr "4-अंकीय PIN चुनें"
+
+#:
+msgid "e.g. 2086"
+msgstr "जैसे कि 2086"
+
+#:
+msgid "CHOOSE A DISPLAY NAME"
+msgstr "एक डिस्प्ले नाम चुनें"
+
+#:
+msgid "Let us know your birthday to get access to exclusive content."
+msgstr "विशिष्ट सामग्री का एक्सेस पाने के लिए हमें अपनी जन्मतिथि बताएँ।"
+
+#:
+msgid "ENTER YOUR MOBILE NUMBER"
+msgstr "अपना मोबाइल नंबर दर्ज करें"
+
+#:
+msgid "(e.g. 0900000013)"
+msgstr "(जैसे कि 0900000013)"
+
+#:
+msgid "ENTER YOUR EMAIL ADDRESS"
+msgstr "अपना ईमेल पता दर्ज करें"
+
+#:
+msgid "Please accept the T&amp;Cs in order to complete the registration"
+msgstr "रजिस्ट्रेशन पूरा करने के लिए कृपया नियम एवं शर्तें स्वीकार करें"
+
+#:
+msgid "I accept the Terms and Conditions"
+msgstr "मैं नियम और शर्तें स्वीकार करता/करती हूँ"
+
+#:
+msgid "Reset PIN"
+msgstr "PIN रीसेट करें"
+
+#:
+msgid "PIN Changed"
+msgstr "PIN बदल गया"
+
+#:
+msgid "Your PIN has been changed sucessfully."
+msgstr "आपका PIN सफलतापूर्वक बदल दिया गया है।"
+
+#:
+msgid "Continue to Sign In"
+msgstr "साइन-इन करना जारी रखें"
+
+#:
+msgid "Hello "
+msgstr "हेलो"
+
+#:
+msgid "As you type your name comment will appear as:"
+msgstr "जैसे ही आप अपना नाम टाइप करेंगे टिप्पणी इस प्रकार दिखाई देगी :"
+
+#:
+msgid "Date of Birth: "
+msgstr "जन्मतिथि:"
+
+#:
+msgid "Not set."
+msgstr "सेट नहीं है।"
+
+#:
+msgid "Mobile number:"
+msgstr "मोबाइल नंबर:"
+
+#:
+msgid "Gender:"
+msgstr "लिंग:"
+
+#:
+msgid "Location:"
+msgstr "स्थान:"
+
+#:
+msgid "Education Level:"
+msgstr "शैक्षिक स्तर:"
+
+#:
+msgid "Email Address:"
+msgstr "ईमेल पता:"
+
+#:
+msgid "log out"
+msgstr "लॉग- आउट करें"
+
+#:
+msgid "Edit My Profile"
+msgstr "मेरा प्रोफ़ाइल संपादित करें"
+
+#:
+msgid "Change My Password"
+msgstr "मेरा पासवर्ड बदलें"
+
+#:
+msgid "Your username and password do not match. Please try again."
+msgstr "आपका यूज़रनेम और पासवर्ड मेल नहीं खाता। कृपया फिर से कोशिश करें।"
+
+#:
+msgid "Eg.: 2086"
+msgstr "जैसे कि 2086"
+
+#:
+msgid "The old password is incorrect."
+msgstr "पुराना पासवर्ड गलत है।"
+
+#:
+msgid "Too many attempts. Please try again later."
+msgstr "बहुत अधिक प्रयास। कृपया बाद में फिर से कोशिश करें।"
+
+#:
+msgid "The two PINs that you entered do not match. Please try again."
+msgstr "आपके द्वारा दर्ज किए गए दो PIN मेल नहीं खाते। कृपया फिर से कोशिश करें।"
+
+#:
+msgid "Next Question"
+msgstr "अगला सवाल"
+
+#:
+msgid "Submit Survey"
+msgstr "सर्वेक्षण सबमिट करें"
+
+#:
+msgid "You have already completed this survey."
+msgstr "आप पहले ही यह सर्वेक्षण पूरा कर चुके हैं।"
+
+#:
+msgid "Back to Home page"
+msgstr "वापस होम पेज पर जाएँ"
+
+#:
+msgid "Please log in to take this survey"
+msgstr "कृपया इस सर्वेक्षण में भाग लेने के लिए लॉग-इन करें"
+
+#:
+msgid "Survey Results"
+msgstr "सर्वेक्षण परिणाम"
+
+#:
+msgid "Your survey has been completed successfully. Please see your submission results below."
+msgstr "आपका सर्वेक्षण सफलतापूर्वक पूरा हो गया है। कृपया अपना सबमिशन परिणाम नीचे देखें।"
+
+#:
+msgid "Take The Survey"
+msgstr "सर्वेक्षण में भाग लें"
+
+#:
+msgid "Skip"
+msgstr "छोड़ें"
+
+#:
+msgid "Sorry, you are having trouble accessing this feature! Due to a temporary technical issue, login and registrations are not available on the who app for now."
+msgstr "क्षमा करें कि आपको इस फ़ीचर को एक्सेस करने में समस्या हो रही है! एक अस्थायी तकनीकी समस्या के कारण, अभी के लिए WHO ऐप पर लॉग-इन और रजिस्टर नहीं किया जा सकता।"
+
+#:
+msgid "To login or register for a profile, visit our free mobisite through your mobile browser at"
+msgstr "किसी प्रोफ़ाइल में लॉग-इन करने या उसे रजिस्टर करने के लिए, अपने मोबाइल ब्राउज़र से हमारी निःशुल्क मोबिसाइट पर जाएँ"
+
+#:
+msgid "Language"
+msgstr "भाषा"
+
+#:
+msgid "Change Language"
+msgstr "भाषा बदलें"
+
+#:
+msgid "who"
+msgstr "WHO"
+
+#:
+msgid "Join"
+msgstr "जुड़ें"
+
+#:
+msgid "Menu"
+msgstr "मेनू"
+
+#:
+msgid "Change your language"
+msgstr "अपनी भाषा बदलें"
+
+#:
+msgid "Have something to add to this article?"
+msgstr "इस लेख में जोड़ने के लिए कुछ है?"
+
+#:
+msgid "Related Articles"
+msgstr "संबंधित आलेख"
+
+#:
+msgid "Prev"
+msgstr "पिछला"
+
+#:
+msgid "Next"
+msgstr "अगला"
+
+#:
+msgid "View more"
+msgstr "और देखें"
+
+#:
+msgid "Polls"
+msgstr "चुनाव"
+
+#:
+msgid "Choose a username"
+msgstr "एक यूज़रनेम चुनें"
+
+#:
+msgid "Choose a 4-digit pin"
+msgstr "4-अंकीय PIN चुनें"
+
+#:
+msgid "Choose a display name"
+msgstr "एक डिस्प्ले नाम चुनें"
+
+#:
+msgid "Select date of birth"
+msgstr "जन्मतिथि चुनें"
+
+#:
+msgid "I identify my gender as:"
+msgstr "मैं अपने लिंग की पहचान इस प्रकार करता हूं:"
+
+#:
+msgid "Where do you live?"
+msgstr "आप कहां रहते/रहती हैं?"
+
+#:
+msgid "What is your highest level of education?"
+msgstr "आपका उच्चतम शैक्षिक स्तर क्या है?"
+
+#:
+msgid "Enter your mobile number"
+msgstr "अपना मोबाइल नंबर डालें"
+
+#:
+msgid "e.g. 0900000013"
+msgstr "जैसे कि 0900000013"
+
+#:
+msgid "Enter your email address"
+msgstr "अपना ईमेल पता दर्ज करें"
+
+#:
+msgid "e.g. example@foo.com"
+msgstr "जैसे कि example@foo.com"
+
+#:
+msgid "Login by signing in below."
+msgstr "नीचे साइन-इन करके लॉग-इन करें।"
+
+#:
+msgid "Your password has been set. You may go ahead and log in now."
+msgstr "आपका पासवर्ड सेट कर दिया गया है। आप आगे बढ़ कर अभी लॉग-इन कर सकते हैं।"
+
+#:
+msgid "The password reset link was invalid, possibly because it has already been used. Please request a new password reset."
+msgstr "पासवर्ड रीसेट लिंक अमान्य था, संभवतः इसलिए कि इसका पहले ही उपयोग किया जा चुका है। कृपया एक नया पासवर्ड रीसेट करने का अनुरोध करें।"
+
+#:
+msgid "Back to home page"
+msgstr "वापस होम पेज पर जाएं"
+
+#:
+msgid "Enter your email address below, and we'll email instructions for setting a new one."
+msgstr "नीचे अपना ईमेल पता दर्ज करें, और हम एक नया सेट करने के लिए निर्देश ईमेल करेंगे।"
+
+#:
+msgid "Search the site..."
+msgstr "साइट पर खोजें..."
+
+#:
+msgid "Search Results for:"
+msgstr "निम्नलिखित के लिए खोज परिणाम :"
+
+#:
+msgid "No search results were found for "
+msgstr "के लिए कोई खोज परिणाम नहीं मिला"
+
+#:
+msgid "Back to homepage"
+msgstr "वापस होम पेज पर जाएं"
+
+#:
+msgid "Start here"
+msgstr "यहाँ से शुरू करें"

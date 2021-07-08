@@ -1,0 +1,920 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: FB Hausa\n"
+"Language: ha\n"
+
+#:
+msgid "January"
+msgstr "Janairu"
+
+#:
+msgid "February"
+msgstr "Fabrairu"
+
+#:
+msgid "March"
+msgstr "Maris"
+
+#:
+msgid "April"
+msgstr "Afrilu"
+
+#:
+msgid "May"
+msgstr "Mayu"
+
+#:
+msgid "June"
+msgstr "Yuni"
+
+#:
+msgid "July"
+msgstr "Yuli"
+
+#:
+msgid "August"
+msgstr "Agusta"
+
+#:
+msgid "September"
+msgstr "Satumba"
+
+#:
+msgid "October"
+msgstr "Oktoba"
+
+#:
+msgid "November"
+msgstr "Nuwamba"
+
+#:
+msgid "December"
+msgstr "Disamba"
+
+#:
+msgid "Add anonymously"
+msgstr "Sanya cikin sirri"
+
+#:
+msgid "This field is required"
+msgstr "Ana bukatan wannan fillin"
+
+#:
+msgid "Are you a ..."
+msgstr "Shin ku…...."
+
+#:
+msgid "Ensure this value has at least 4 characters (it has 1)"
+msgstr "Tabbatar cewa wannan ƙimar yana da aƙalla haruffa 4 (yana da 1)"
+
+#:
+msgid "Type your comment here..."
+msgstr "Rubuta sharhin ku a nan …"
+
+#:
+msgid "Reply successfully created."
+msgstr "An ƙirƙira martanin cikin nasara."
+
+#:
+msgid "Email address"
+msgstr "Adireshin i-mel"
+
+#:
+msgid "URL"
+msgstr "URL"
+
+#:
+msgid "Name"
+msgstr "Suna"
+
+#:
+msgid "Anonymous"
+msgstr "Ɓoyayye"
+
+#:
+msgid "This comment has been removed by the community. Please read our platform rules."
+msgstr "Jama'a sun cire wannan bayanin. Da fatan za a karanta ƙa'idodin dandalinmu."
+
+#:
+msgid "Report"
+msgstr "Rahoton"
+
+#:
+msgid "Reply"
+msgstr "Martani"
+
+#:
+msgid "Share a Comment"
+msgstr "Raba sharhi"
+
+#:
+msgid "Log in to comment"
+msgstr "Shiga ciki domin ba da sharhi"
+
+#:
+msgid "Commenting on this article is currently disabled"
+msgstr "An kashe bada sharhi akan wannan labarin a halin yanzu"
+
+#:
+msgid "Comments"
+msgstr "Sharhuka"
+
+#:
+msgid "comment"
+msgstr "sharhi"
+
+#:
+msgid "view more comments"
+msgstr "duba ƙarin sharhuka"
+
+#:
+msgid "Thanks!"
+msgstr "Godiya!"
+
+#:
+msgid "Your comment has been successfully posted"
+msgstr "An aika sharhin ku cikin nasara"
+
+#:
+msgid "Back to article"
+msgstr "Koma baya zuwa labarin"
+
+#:
+msgid "Home"
+msgstr "Gida"
+
+#:
+msgid "Please "
+msgstr "Da fatan za a"
+
+#:
+msgid "log in"
+msgstr "shiga"
+
+#:
+msgid " to leave a comment."
+msgstr "domin ba da sharhi."
+
+#:
+msgid "This comment has been reported."
+msgstr "An kai ƙaran wannan sharhin"
+
+#:
+msgid "It will be reviewed by the team and may be removed if it breaks our Platform rules"
+msgstr "Jama'an mu zasu bincika kuma zaá iya cireshi idan ya karya ƙa'idodin mu"
+
+#:
+msgid "Reporting comment replies is not allowed."
+msgstr "Ba a ba izinin kai ƙaran martanin sharhi ba."
+
+#:
+msgid "The comment has been reported."
+msgstr "An kai ƙaran wannan sharhin"
+
+#:
+msgid "Zulu"
+msgstr "Zulu"
+
+#:
+msgid "Xhosa"
+msgstr "Xhosa"
+
+#:
+msgid "Sotho"
+msgstr "Sotho"
+
+#:
+msgid "Venda"
+msgstr "Venda"
+
+#:
+msgid "Tswana"
+msgstr "Tswana"
+
+#:
+msgid "Tsonga"
+msgstr "Tsonga"
+
+#:
+msgid "Swati"
+msgstr "Swati"
+
+#:
+msgid "Ndebele"
+msgstr "Ndebele"
+
+#:
+msgid "Access Denied"
+msgstr "An hana shiga"
+
+#:
+msgid "You do not have permssion to access this site."
+msgstr "Ba ku da izinin shiga wannan rukunin yanar gizon."
+
+#:
+msgid "Unable to Login"
+msgstr "An kasa shiga"
+
+#:
+msgid "Hi"
+msgstr "Barka dai"
+
+#:
+msgid "Sorry, you are having trouble accessing this feature! Due to a temporary technical issue, login and registrations are not available on the Free Basics app for now. To login or register for a profile, visit our free mobisite through your mobile browser at"
+msgstr "Yi haƙuri, kuna samun matsala samun damar shiga wannan fasalin! Saboda wasu matsaloli na ɗan lokaci, shiga da rajista ba su a kan manahajan Free Basics a yanzu. Don shiga ko yin rijistar, ziyarci mobisite na kyauta ta hanyar burauzar wayarku a"
+
+#:
+msgid " We're working hard to get this problem resolved. Thank you."
+msgstr "Muna aiki tukuru don ganin an shawo kan wannan matsalar. Mun gode."
+
+#:
+msgid "Page not found"
+msgstr "Ba a samo shafin ba"
+
+#:
+msgid "Sorry, this page could not be found."
+msgstr "Yi haƙuri, an kasa samun wannan shafin."
+
+#:
+msgid "Internal server error"
+msgstr "Kuskuren na cikin saba"
+
+#:
+msgid "Sorry, there seems to be an error. Please try again soon."
+msgstr "Yi haƙuri, da alama akwai kuskure. Da fatan a sake gwadawa nan ba da jimawa ba."
+
+#:
+msgid "Site Language:"
+msgstr "Yaren Shafin Yanar gizo:"
+
+#:
+msgid "Next up in"
+msgstr "Nan gaba a ciki"
+
+#:
+msgid "Recommended"
+msgstr "Yababbe"
+
+#:
+msgid "Latest"
+msgstr "Sabon"
+
+#:
+msgid "Topic of the Day"
+msgstr "Taken rana a yau"
+
+#:
+msgid "Sign in"
+msgstr "Shiga ciki"
+
+#:
+msgid "LOGIN TO YOUR ACCOUNT!"
+msgstr "SHIGA CIKIN ASUSUN KU"
+
+#:
+msgid "We’re excited to have you..."
+msgstr "Muna farin cikin samun ku ..."
+
+#:
+msgid "Your username and password does not match. Please try again."
+msgstr "Sunan mai amfani da kalmar sirrinku basu daidaita ba. Da fatan za a sake gwadawa."
+
+#:
+msgid "Username"
+msgstr "Sunan mai amfani"
+
+#:
+msgid "4-digit pin"
+msgstr "Lambar pin guda 4"
+
+#:
+msgid "Forgotten your password?"
+msgstr "Kun manta kalmar sirrin ku ne?"
+
+#:
+msgid "Your password has been set.  You may go ahead and log in now."
+msgstr "An saita kalmar sirri. Kuna iya ci gaba da shiga yanzu."
+
+#:
+msgid "Log in"
+msgstr "Shiga"
+
+#:
+msgid "Please enter your new password twice so we can verify you typed it in correctly."
+msgstr "Da fatan za a shigar da sabuwar kalmar sirri sau biyu don mu tabbatar cewa kun sanya shi daidai."
+
+#:
+msgid "New password:"
+msgstr "Sabuwar kalmar sirri:"
+
+#:
+msgid "Confirm password:"
+msgstr "Tabbata kalmar shiga:"
+
+#:
+msgid "Change my password"
+msgstr "Canza kalmar sirri"
+
+#:
+msgid "The password reset link was invalid, possibly because it has already been used.  Please request a new password reset."
+msgstr "Mahaɗin sake saita kalmar sirri bai yi aiki ba, ƙila saboda an riga anyi amfani dashi. Da fatan za a sake sabon saitin kalmar sirri."
+
+#:
+msgid "We've emailed you instructions for setting your password, if an account exists with the email you entered. You should receive them shortly."
+msgstr "Mun turak maku wasiƙan imel don saita kalmar sirri, idan akwai asusun tare da imel ɗin da kuka shigar. Ya kamata ku sami saƙon cikin ƙaramin lokaci."
+
+#:
+msgid "If you don't receive an email, please make sure you've entered the address you registered with, and check your spam folder."
+msgstr "Idan ba ku sami imel ba, da fatan za ku tabbatar kun shigar da adireshin da kuka yi rajista da shi, sannan ku bincika Sifam ɗin wasikun ku."
+
+#:
+msgid "Forgotten your password? Enter your email address below, and we'll email instructions for setting a new one."
+msgstr "Kun manta kalmar sirri? Shigar da adireshin imel a ƙasa, kuma za mu tura maku saƙon imel ɗin umarnin don saita sabo kalmar sirri."
+
+#:
+msgid "Email address:"
+msgstr "Adireshin i-mel:"
+
+#:
+msgid "Reset my password"
+msgstr "Sake saita kalmarka ta sirri"
+
+#:
+msgid "Looking for something?"
+msgstr "Kuna neman wani abu?"
+
+#:
+msgid "SEARCH"
+msgstr "BINCIKA"
+
+#:
+msgid "Search"
+msgstr "Bincika"
+
+#:
+msgid "No search results for "
+msgstr "Babu sakamakon bincike"
+
+#:
+msgid "I am looking for"
+msgstr "Ina neman"
+
+#:
+msgid "That page is not translatable."
+msgstr "Ba a iya fassara wannan shafin."
+
+#:
+msgid "You didn't select a choice"
+msgstr "Ba ku zaɓi zaɓi ba"
+
+#:
+msgid "Vote"
+msgstr "Zaɓe"
+
+#:
+msgid "Submit"
+msgstr "Miƙa"
+
+#:
+msgid "Thank you! Your response has already been submitted."
+msgstr "Mun gode! An riga an gabatar da amsarku."
+
+#:
+msgid "Log in to vote"
+msgstr "Shiga ciki don jefa kuri'a"
+
+#:
+msgid "Show Results"
+msgstr "Nuna Sakamako"
+
+#:
+msgid "You voted: "
+msgstr "Kun yi zaɓe:"
+
+#:
+msgid "What's your opinion?"
+msgstr "Menene ra'ayinku?"
+
+#:
+msgid "Your answers:"
+msgstr "Amsoshinku:"
+
+#:
+msgid "Thank you for voting!"
+msgstr "Mun gode da jefa kuri'a!"
+
+#:
+msgid "Type"
+msgstr "Rubuta"
+
+#:
+msgid "Frontend Users"
+msgstr "Masu amfani Da gaba"
+
+#:
+msgid "Admin Users"
+msgstr "Masu Gudanarwa"
+
+#:
+msgid "Your email address is not configured. Please update it before exporting."
+msgstr "Adireshin imel ɗinku ba a daidaita shi ba Da fatan za a sabunta shi kafin a aika."
+
+#:
+msgid "CSV emailed to '{0}'"
+msgstr "An aika ta hanyar imel zuwa ga '{0}"
+
+#:
+msgid "This value must contain only letters, numbers and underscores."
+msgstr "Wannan ƙimar dole ne ya ƙunshi haruffa, lambobi da karan ɗauri na ƙasa."
+
+#:
+msgid "This value must contain only numbers."
+msgstr "Wannan ƙimar dole ne ya ƙunshi lambobi kawai."
+
+#:
+msgid "PIN"
+msgstr "PIN"
+
+#:
+msgid "Display Name"
+msgstr "Sunan Nuni"
+
+#:
+msgid "Gender"
+msgstr "Jinsi"
+
+#:
+msgid "Location"
+msgstr "Wuri"
+
+#:
+msgid "Education Level"
+msgstr "Matakin Ilimi"
+
+#:
+msgid "Username already exists."
+msgstr "Sunan mai amfanin nan ya riga ya kasance."
+
+#:
+msgid "Sorry, but that is an invalid username. Please don't use your %s in your username."
+msgstr "Yi haƙuri, amma wannan sunan mai amfanin mara inganci ne. Da fatan ba za a yi amfani da %s a cikin sunan mai amfani ba."
+
+#:
+msgid "Sorry, but that is an invalid display name. Please don't use your %s in your display name."
+msgstr "Yi haƙuri, amma wannan sunan nuni ne mara inganci ne. Da fatan ba za a yi amfani da %s a cikin sunan nuni ba."
+
+#:
+msgid "This value must contain only           numbers."
+msgstr "Wannan ƙimar dole ne ya ƙunshi lambobi kawai."
+
+#:
+msgid "Old Password"
+msgstr "Tsohon Kalmar Sirri"
+
+#:
+msgid "New Password"
+msgstr "Sabon Kalmar Sirri"
+
+#:
+msgid "Confirm Password"
+msgstr "Tabbatar da Kalmar Sirri"
+
+#:
+msgid "New passwords do not match."
+msgstr "Sabbin kalmomin sirri basu daidaita ba"
+
+#:
+msgid "Confirm PIN"
+msgstr "Tabbatar da PIN"
+
+#:
+msgid "(e.g. 2086)"
+msgstr "(misali 2086)"
+
+#:
+msgid "Confirm New Password"
+msgstr "Tabbatar da Sabon Kalmar Sirri"
+
+#:
+msgid "Save"
+msgstr "Tanada"
+
+#:
+msgid "Thank you for joining!"
+msgstr "Mun gode da shiga!"
+
+#:
+msgid "Let us know more about yourself to get access to exclusive content."
+msgstr "Bari mu ƙara sanin ku don samun damar keɓaɓɓun abun ciki."
+
+#:
+msgid "SELECT DATE OF BIRTH"
+msgstr "ZAƁI RANAR HAIHUWA"
+
+#:
+msgid "DISPLAY NAME"
+msgstr "SUNAN NUNI"
+
+#:
+msgid "We value your online security, therefore we hide your username and allow you to comment and interact with the site with a display name."
+msgstr "Muna girmama tsaronku na kan layi, saboda haka muna ɓoye sunan mai amfani kuma muna ba ku damar yin sharhi da hulɗa tare da shafin tare da sunan nunawa."
+
+#:
+msgid "I IDENTIFY MY GENDER AS:"
+msgstr "NI INA GANIN JINSINA:"
+
+#:
+msgid "Only you will see this"
+msgstr "Ku kaɗai za ku ga wannan"
+
+#:
+msgid "WHERE DO YOU LIVE?"
+msgstr "INA KUKE ZAMA?"
+
+#:
+msgid "WHAT IS YOUR HIGHEST LEVEL OF EDUCATION?"
+msgstr "MENE NE MAFI GIRMAN MATSAYINKU NA ILIMI?"
+
+#:
+msgid "Home Page"
+msgstr "Shafin Farko"
+
+#:
+msgid "Profile"
+msgstr "Furofayil"
+
+#:
+msgid "Update your display name:"
+msgstr "Sabunta sunan nuni:"
+
+#:
+msgid "Update your date of birth:"
+msgstr "Sabunta ranar haihuwa:"
+
+#:
+msgid "Update your gender:"
+msgstr "Sabunta jinsinku:"
+
+#:
+msgid "Update where you live:"
+msgstr "Sabunta inda kuke zama:"
+
+#:
+msgid "Update your Education Level:"
+msgstr "Sabunta Matsayin Ilimi:"
+
+#:
+msgid "Update your mobile number:"
+msgstr "Sabunta lambar wayarku:"
+
+#:
+msgid "(e.g. 0914556789)"
+msgstr "(misali 0914556789)"
+
+#:
+msgid "Update your email address:"
+msgstr "Sabunta adireshin imel ɗin ku:"
+
+#:
+msgid "(e.g. example@foo.com)"
+msgstr "(misali misali@foo.com)"
+
+#:
+msgid "Forgot PIN"
+msgstr "An manta PIN"
+
+#:
+msgid "Security question"
+msgstr "Tambayar tsaro"
+
+#:
+msgid "Please answer the following security question."
+msgstr "Da fatan za a amsa tambayar tsaro mai zuwa."
+
+#:
+msgid "Register"
+msgstr "Yi rijista"
+
+#:
+msgid "Already a member?"
+msgstr "Kai memba ne?"
+
+#:
+msgid "Login"
+msgstr "Shiga"
+
+#:
+msgid "Not a member yet?"
+msgstr "Ba memba ba tukuna?"
+
+#:
+msgid "Join us by signing up below."
+msgstr "Kasance tare da mu ta hanyar yin rijista a ƙasa."
+
+#:
+msgid "CHOOSE A USERNAME"
+msgstr "ZAƁA SUNAN AMFANI"
+
+#:
+msgid "This name you will use to log in and won't appear to other users. Only you will see this."
+msgstr "Wannan sunan za ku yi amfani da shi don shiga kuma ba zai bayyana ga sauran masu amfani ba. Ku kawai za ku ga wannan."
+
+#:
+msgid "CHOOSE A 4-DIGIT PIN"
+msgstr "ZAƁA LAMBAN PIN 4"
+
+#:
+msgid "e.g. 2086"
+msgstr "misali 2086"
+
+#:
+msgid "CHOOSE A DISPLAY NAME"
+msgstr "ZAƁI SUNAN NUNI"
+
+#:
+msgid "Let us know your birthday to get access to exclusive content."
+msgstr "Sanar da mu ranar haihuwar ku don samun damar keɓaɓɓun abun ciki."
+
+#:
+msgid "ENTER YOUR MOBILE NUMBER"
+msgstr "SHIGA LAMBAR WAYA"
+
+#:
+msgid "(e.g. 0900000013)"
+msgstr "(misali 0900000013)"
+
+#:
+msgid "ENTER YOUR EMAIL ADDRESS"
+msgstr "SHIGAR DA ADRESHIN IMEL ƊIN KU"
+
+#:
+msgid "Please accept the T&amp;Cs in order to complete the registration"
+msgstr "Da fatan za a karɓi T & amp; Cs don kammala rajistar"
+
+#:
+msgid "I accept the Terms and Conditions"
+msgstr "Na yarda da Sharuɗɗan da Ƙa'idodin"
+
+#:
+msgid "Reset PIN"
+msgstr "Sake saita PIN"
+
+#:
+msgid "PIN Changed"
+msgstr "An Canza PIN"
+
+#:
+msgid "Your PIN has been changed sucessfully."
+msgstr "An yi nasarar canza PIN ɗinka."
+
+#:
+msgid "Continue to Sign In"
+msgstr "Ci gaba da Shiga Ciki"
+
+#:
+msgid "Hello "
+msgstr "Barka dai"
+
+#:
+msgid "As you type your name comment will appear as:"
+msgstr "Yayinda kuka rubuta sunan ku zai bayyana kamar haka:"
+
+#:
+msgid "Date of Birth: "
+msgstr "Ranar haihuwa:"
+
+#:
+msgid "Not set."
+msgstr "Ba a saita ba."
+
+#:
+msgid "Mobile number:"
+msgstr "Lambar salula:"
+
+#:
+msgid "Gender:"
+msgstr "Jinsi:"
+
+#:
+msgid "Location:"
+msgstr "Wuri:"
+
+#:
+msgid "Education Level:"
+msgstr "Matakan Ilimi:"
+
+#:
+msgid "Email Address:"
+msgstr "Adireshin i-mel:"
+
+#:
+msgid "log out"
+msgstr "fita"
+
+#:
+msgid "Edit My Profile"
+msgstr "Shirya Furofayil Ɗina"
+
+#:
+msgid "Change My Password"
+msgstr "Canza Kalmar sirri Na"
+
+#:
+msgid "Your username and password do not match. Please try again."
+msgstr "Sunan mai amfani da kalmar sirrin ku basu daidaita ba. Da fatan a sake gwadawa."
+
+#:
+msgid "Eg.: 2086"
+msgstr "Misali: 2086"
+
+#:
+msgid "The old password is incorrect."
+msgstr "Tsohon kalmar sirri ba daidai ba ne."
+
+#:
+msgid "Too many attempts. Please try again later."
+msgstr "An yi gwaji dayawa. Da fatan a sake gwadawa daga baya."
+
+#:
+msgid "The two PINs that you entered do not match. Please try again."
+msgstr "PIN ɗin da kuka shigar basu dace ba. Da fatan a sake gwadawa."
+
+#:
+msgid "Next Question"
+msgstr "Tambaya ta Gaba"
+
+#:
+msgid "Submit Survey"
+msgstr "Miƙa Binciken"
+
+#:
+msgid "You have already completed this survey."
+msgstr "Kun riga kun kammala wannan binciken."
+
+#:
+msgid "Back to Home page"
+msgstr "Koma zuwa Shafin Farko"
+
+#:
+msgid "Please log in to take this survey"
+msgstr "Da fatan za a shiga don yin wannan binciken"
+
+#:
+msgid "Survey Results"
+msgstr "Sakamakon Bnciken"
+
+#:
+msgid "Your survey has been completed successfully. Please see your submission results below."
+msgstr "An kammala bincikenku cikin nasara. Da fatan za a duba sakamakon ƙaddamarwa a ƙasa."
+
+#:
+msgid "Take The Survey"
+msgstr "Ɗauki Binciken"
+
+#:
+msgid "Skip"
+msgstr "Tsallake"
+
+#:
+msgid "Sorry, you are having trouble accessing this feature! Due to a temporary technical issue, login and registrations are not available on the who app for now."
+msgstr "Yi haƙuri, kuna samun matsala samun damar wannan fasalin! Saboda batun fasaha na ɗan lokaci, shiga da rajista ba su kan manhajan WHO a yanzu."
+
+#:
+msgid "To login or register for a profile, visit our free mobisite through your mobile browser at"
+msgstr "Don shiga ko yin rijistar furofayil, ziyarci mobisite ɗinmu na kyauta ta hanyar burauzar wayarku a"
+
+#:
+msgid "Language"
+msgstr "Yare"
+
+#:
+msgid "Change Language"
+msgstr "Canza Yare"
+
+#:
+msgid "who"
+msgstr "who"
+
+#:
+msgid "Join"
+msgstr "Shiga"
+
+#:
+msgid "Menu"
+msgstr "Mazaɓa"
+
+#:
+msgid "Change your language"
+msgstr "Canza yarenku"
+
+#:
+msgid "Have something to add to this article?"
+msgstr "Shin akwai abin da kuke so ku ƙara a wannan labarin?"
+
+#:
+msgid "Related Articles"
+msgstr "Labarai masu Alaƙa"
+
+#:
+msgid "Prev"
+msgstr "Na Baya"
+
+#:
+msgid "Next"
+msgstr "Na gaba"
+
+#:
+msgid "View more"
+msgstr "Duba ƙari"
+
+#:
+msgid "Polls"
+msgstr "Zaɓe"
+
+#:
+msgid "Choose a username"
+msgstr "Zaɓi sunan mai amfani"
+
+#:
+msgid "Choose a 4-digit pin"
+msgstr "Zaɓi lamba pin 4"
+
+#:
+msgid "Choose a display name"
+msgstr "Zaɓi sunan nuni"
+
+#:
+msgid "Select date of birth"
+msgstr "Zaɓi ranar haihuwa"
+
+#:
+msgid "I identify my gender as:"
+msgstr "Ni ina ganin jinsina:"
+
+#:
+msgid "Where do you live?"
+msgstr "Ina kake zama?"
+
+#:
+msgid "What is your highest level of education?"
+msgstr "Mene ne matakin karatunku mafi girma?"
+
+#:
+msgid "Enter your mobile number"
+msgstr "Shigar da lambar wayarku"
+
+#:
+msgid "e.g. 0900000013"
+msgstr "misali 0900000013"
+
+#:
+msgid "Enter your email address"
+msgstr "Shigar da adireshin imel ɗin ku"
+
+#:
+msgid "e.g. example@foo.com"
+msgstr "misali misali@foo.com"
+
+#:
+msgid "Login by signing in below."
+msgstr "Shiga ciki ta hanyar shiga na ƙasa."
+
+#:
+msgid "Your password has been set. You may go ahead and log in now."
+msgstr "An saita kalmar sirri. Kuna iya ci gaba da shiga yanzu."
+
+#:
+msgid "The password reset link was invalid, possibly because it has already been used. Please request a new password reset."
+msgstr "Mahaɗin sake saita kalmar sirri bai aiki ba, ƙila saboda an riga an yi amfani da shi. Da fatan za a sake neman sabon saitin kalmar sirri."
+
+#:
+msgid "Back to home page"
+msgstr "Koma zuwa shafin gida"
+
+#:
+msgid "Enter your email address below, and we'll email instructions for setting a new one."
+msgstr "Shigar da adireshin imel ɗin ku a ƙasa, kuma za mu tura maku imel ɗin umarnin don saita sabo."
+
+#:
+msgid "Search the site..."
+msgstr "Bincika shafin ..."
+
+#:
+msgid "Search Results for:"
+msgstr "Sakamakon bincike na:"
+
+#:
+msgid "No search results were found for "
+msgstr "Ba a samo sakamakon bincike ba wa"
+
+#:
+msgid "Back to homepage"
+msgstr "Koma zuwa shafin farko"
+
+#:
+msgid "Start here"
+msgstr "Fara nan"
