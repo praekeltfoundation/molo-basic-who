@@ -214,6 +214,9 @@
           <p>WHO &copy; {% now "Y" %}</p>
         </div>
         {% social_media_footer %}
+         <a href="whatsapp://send?text=http{% if request.is_secure %}s{%endif %}://{{ request.get_host }}{{ path }}" target="_blank" rel="noreferrer" class="social-media__anchor social-media__anchor--whatsapp " data-action="share/whatsapp/share">
+           <img src="{% static 'img/whatsapp-share-button.svg' %}" alt="{% trans 'Share via Whatsapp' %}" style="height:30px; margin-left:5em;" />
+         </a>
       </div>
 
     {% endblock %}
