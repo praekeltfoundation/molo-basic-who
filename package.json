@@ -18,7 +18,7 @@
   "homepage": "https://github.com/praekelt/molo-basic-who#readme",
   "dependencies": {
     "core-util-is": "^1.0.2",
-    "marked": "^1.1.0",
+    "marked": ">=2.0.0",
     "yargs-parser": "^18.1.2"
   },
   "devDependencies": {
