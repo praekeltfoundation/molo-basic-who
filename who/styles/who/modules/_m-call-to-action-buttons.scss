@@ -5,6 +5,17 @@
   padding: 10px 15px;
 }
 
+.call-to-action__button-text {
+  color: var(--strong-orange);
+  text-align: center;
+  display: block;
+}
+.call-to-action__button-text--hyperlink {
+  color: var(--strong-orange);
+  text-align: center;
+  display: block;
+}
+
 //PROFILES
 .call-to-action--profile {
   padding: 0 15px 15px;
