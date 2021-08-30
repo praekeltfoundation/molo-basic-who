@@ -14,7 +14,7 @@ var sassPaths = [
   'who/styles/who/style.scss',
   'who/styles/who/style-rtl.scss'
 ];
-
+var sass = require('gulp-sass')(require('sass'));
 var sassDest = {
   prd: 'who/static/css/prd',
   dev: 'who/static/css/dev'
