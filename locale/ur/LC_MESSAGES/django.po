@@ -1,1314 +1,921 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-13 10:38+0000\n"
-"PO-Revision-Date: 2017-08-03 16:13+0000\n"
-"Last-Translator: Reeza <reeza@praekelt.org>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: ur\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.5.1.1\n"
-"X-POOTLE-MTIME: 1501775843.017085\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: urdu\n"
+"Language: ur\n"
 
-#: who/settings/base.py:459
+#:
 msgid "January"
 msgstr "جنوری"
 
-#: who/settings/base.py:461
-msgid "March"
-msgstr "مارچ"
-
-#: who/settings/base.py:464
-msgid "June"
-msgstr "جون"
-
-#: who/settings/base.py:465
-msgid "July"
-msgstr "جولائی"
-
-#: who/settings/base.py:466
-msgid "August"
-msgstr "اگست"
-
-#: who/settings/base.py:467
-msgid "September"
-msgstr "ستمبر"
-
-#: who/settings/base.py:468
-msgid "October"
-msgstr "اکتوبر"
-
-#: who/settings/base.py:469
-msgid "November"
-msgstr "نومبر"
-
-#: who/settings/base.py:470
-msgid "December"
-msgstr "دسمبر"
-
-#: who/settings/base.py:471
-msgid "Add anonymously"
-msgstr "نام چھپا کر شامل کریں"
-
-#: who/settings/base.py:473
-msgid "This field is required"
-msgstr "اس کو پر کرنا ضروری ہے"
-
-#: who/settings/base.py:474
-msgid "Ensure this value has at least 4 characters (it has 1)"
-msgstr "اس قدر کو یقینی بنائیں کہ کم از کم 4 حروف (اس میں 1 ہے)"
-
-#: who/templates/403.html:8
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/403.html:8
-msgid "Access Denied"
-msgstr "رسائی کی تردید"
-
-#: who/templates/403.html:9
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/403.html:9
-msgid "You do not have permssion to access this site."
-msgstr "آپ کو اس سائٹ تک رسائی حاصل کرنے کے لئے فیڈریشن نہیں ہے."
-
-#: who/templates/403_csrf.html:7
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/403_csrf.html:10
-msgid "Unable to Login"
-msgstr "لاگ ان کرنے میں ناکام"
-
-#: who/templates/403_csrf.html:9
-msgid ""
-"Sorry, you are having trouble accessing this feature! Due to a temporary "
-"technical issue, login and registrations are not available on the who app "
-"for now."
-msgstr ""
-"معذرت، آپ کو اس خصوصیت تک پہنچنے میں دشواری ہے. ایک عارضی تکنیکی مسئلہ کی "
-"وجہ سے، اب کے لئے آئی او جی ٹی اے پی پر لاگ ان اور رجسٹریشن دستیاب نہیں ہیں."
-
-#: who/templates/403_csrf.html:11
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/403_csrf.html:14
-msgid " We're working hard to get this problem resolved. Thank you."
-msgstr " ہم اس مسئلہ کو حل کرنے کے لئے سخت محنت کر رہے ہیں. شکریہ"
-
-#: who/templates/404.html:8
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/404.html:8
-msgid "Page not found"
-msgstr "صفحہ نہیں ملا"
-
-#: who/templates/404.html:9
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/404.html:10
-msgid "Sorry, this page could not be found."
-msgstr "معذرت, یہ صفحہ نہیں مل سکا"
-
-#: who/templates/500.html:12
-#: who/templates/500.html:16
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/500.html:12
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/500.html:16
-msgid "Internal server error"
-msgstr "اندرونی سرور کی خرابی"
-
-#: who/templates/500.html:17
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/500.html:18
-msgid "Sorry, there seems to be an error. Please try again soon."
-msgstr "معذرت,کوی نقص لگ رہا ہے. براہ کرم پھر کوشش کریں"
-
-#: who/templates/base.html:11
-msgid ""
-"Internet of Good Things (who) is a set of free, mobile-ready web-based "
-"resources and applications that bring good to your life by helping you and "
-"your community access educational and lifesaving information."
-msgstr ""
-
-#: who/templates/base.html:121
-msgid "Language"
-msgstr "زبان"
-
-#: who/templates/base.html:126
-msgid "Change Language"
-msgstr "زبان کی تبدیلی"
-
-#: who/templates/base.html:148
-msgid "who"
-msgstr "who"
-
-#: who/templates/base.html:154
-#: who/templates/profiles/register.html:6
-#: who/templates/profiles/register.html:123
-#: who/templates/registration/login.html:9
-msgid "Join"
-msgstr "شامل ہوں"
-
-#: who/templates/base.html:158
-msgid "Menu"
-msgstr "مینو"
-
-#: who/templates/base.html:231
-msgid "Change your language"
-msgstr "اپنی زبان تبدیل کریں"
-
-#: who/templates/comments/comment.html:8
-#: temp/temp_ve/commenting/templates/comments/comment.html:8
-#: temp/temp_ve/commenting/templates/notifications/notice.html:10
-#: temp/temp_ve/commenting/views.py:48
-msgid "Anonymous"
-msgstr "گمنام"
-
-#: who/templates/comments/comment.html:17
-#: temp/temp_ve/commenting/templates/comments/comment.html:16
-msgid ""
-"This comment has been removed by the community. Please read our platform "
-"rules."
-msgstr ""
-"یہ تبصرہ کمیونٹی کی طرف سے ہٹا دیا گیا ہے. براہ مہربانی ہمارے پلیٹ فارم کے "
-"قواعد پڑھیں."
-
-#: who/templates/comments/comment.html:22
-#: temp/temp_ve/commenting/templates/comments/comment.html:26
-msgid "Report"
-msgstr "آگاہی نامہ"
-
-#: who/templates/comments/comment.html:24
-#: temp/temp_ve/commenting/templates/comments/comment.html:39
-msgid "Reply"
-msgstr "جواب"
-
-#: who/templates/comments/comment_block.html:6
-msgid "Have something to add to this article?"
-msgstr "اس مضمون میں شامل کرنے کے لئے کچھ ہے؟"
-
-#: who/templates/comments/comment_block.html:14
-#: temp/temp_ve/commenting/templates/comments/comment_block.html:14
-msgid "Log in to comment"
-msgstr "تبصرہ کرنے کے لیے لاگ ان کریں"
-
-#: who/templates/comments/comment_block.html:18
-#: temp/temp_ve/commenting/templates/comments/comment_block.html:18
-msgid "Commenting on this article is currently disabled"
-msgstr "اس مضمون پر تبصرہ فی الحال غیر فعال ہے"
-
-#: who/templates/comments/comment_block.html:22
-#: temp/temp_ve/commenting/templates/comments/comment_block.html:23
-#: temp/temp_ve/commenting/templates/comments/comments.html:7
-msgid "Comments"
-msgstr "تبصرے"
-
-#: who/templates/comments/comment_block.html:29
-#: who/templates/core/article_page.html:24
-#: who/templates/core/related-article-list.html:32
-#: who/templates/core/section_page.html:46
-#: who/templates/core/section_page.html:126
-#: who/templates/core/tags/latest_listing_homepage.html:39
-#: who/templates/core/tags/section_listing_homepage.html:40
-#: who/templates/search/search_results.html:80
-#: temp/temp_ve/commenting/templates/comments/comment_block.html:26
-msgid "comment"
-msgstr "تبصرہ"
-
-#: who/templates/comments/comment_block.html:44
-#: temp/temp_ve/commenting/templates/comments/comment_block.html:41
-msgid "view more comments"
-msgstr "مزید تبصرے دیکھیں"
-
-#: who/templates/comments/form.html:14
-#: temp/temp_ve/commenting/forms.py:18
-msgid "Comment"
-msgstr ""
-
-#: who/templates/comments/form.html:15
-msgid "Comment Anonymously"
-msgstr "نامکمل تبصرہ"
-
-#: who/templates/core/next-article.html:8
-#: who/templates/core/section_page.html:85
-msgid "Next"
-msgstr "اگلا"
-
-#: who/templates/core/related-article-list.html:6
-msgid "Related Articles"
-msgstr "متعلقہ مضامین"
-
-#: who/templates/core/section_page.html:55
-msgid "Prev"
-msgstr "پچھلا"
-
-#: who/templates/core/section_page.html:133
-#: who/templates/core/tags/section_listing_homepage.html:46
-msgid "View more"
-msgstr "مزید دیکھیں"
-
-#: who/templates/core/tags/breadcrumbs.html:5
-#: temp/temp_ve/commenting/templates/comments/preview.html:11
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/core/tags/breadcrumbs.html:6
-#: temp/temp_ve/polls/templates/polls/detail.html:25
-#: temp/temp_ve/polls/templates/polls/free_text_detail.html:12
-#: temp/temp_ve/polls/templates/polls/results.html:24
-msgid "Home"
-msgstr "گھر"
-
-#: who/templates/core/tags/latest_listing_homepage.html:4
-#: temp/temp_ve/commenting/test_templates/article_page.html:63
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/core/article_page.html:64
-msgid "Recommended"
-msgstr "تجاویز"
-
-#: who/templates/polls/detail.html:26
-#: who/templates/polls/free_text_detail.html:13
-#: who/templates/polls/includes/poll_question_form.html:45
-#: temp/temp_ve/polls/templates/polls/detail.html:24
-#: temp/temp_ve/polls/templates/polls/free_text_detail.html:11
-#: temp/temp_ve/polls/templates/polls/includes/poll_question_form.html:35
-msgid "Vote"
-msgstr "ووٹ"
-
-#: who/templates/polls/detail.html:28
-#: who/templates/polls/free_text_detail.html:15
-#: who/templates/polls/results.html:31
-#: who/templates/surveys/molo_survey_page.html:34
-#: who/templates/surveys/molo_survey_page.html:40
-#: temp/temp_ve/surveys/templates/surveys/molo_survey_page.html:35
-#: temp/temp_ve/surveys/templates/surveys/molo_survey_page_landing.html:9
-msgid "Back to Home page"
-msgstr "ہوم پیج پر واپس جائیں"
-
-#: who/templates/polls/includes/poll_free_text_form.html:16
-#: who/templates/surveys/molo_survey_page.html:30
-#: temp/temp_ve/polls/templates/polls/includes/poll_free_text_form.html:13
-msgid "Submit"
-msgstr "جمع کریں"
-
-#: who/templates/polls/includes/poll_free_text_form.html:18
-#: temp/temp_ve/polls/templates/polls/includes/poll_free_text_form.html:15
-msgid "Thank you! Your response has already been submitted."
-msgstr "آپ کا شکریہ! آپ کا جواب پہلے ہی پیش کیا گیا ہے."
-
-#: who/templates/polls/includes/poll_question_form.html:47
-#: temp/temp_ve/polls/templates/polls/includes/poll_question_form.html:37
-msgid "Show Results"
-msgstr "نتائج دکھائیں"
-
-#: who/templates/polls/includes/poll_question_form.html:50
-#: temp/temp_ve/polls/templates/polls/includes/poll_question_form.html:40
-msgid "You voted: "
-msgstr "آپ نے ووٹ دیا: "
-
-#: who/templates/polls/poll_page.html:7
-#: who/templates/polls/poll_page_in_section.html:8
-msgid "Polls"
-msgstr "انتخابات"
-
-#: who/templates/polls/results.html:28
-#: temp/temp_ve/polls/templates/polls/results.html:22
-msgid "Thank you for voting!"
-msgstr "ووٹنگ کے لئے آپ کا شکریہ!"
-
-#: who/templates/profiles/register.html:9
-#: temp/temp_ve/profiles/templates/profiles/register.html:9
-msgid "Already a member?"
-msgstr "پہلے سے ہی رکنیت حاصل ہے؟"
-
-#: who/templates/profiles/register.html:14
-#: who/templates/registration/login.html:8
-#: temp/temp_ve/profiles/templates/profiles/register.html:14
-#: temp/temp_ve/profiles/templates/registration/login.html:8
-#: temp/temp_ve/profiles/test_templates/login.html:8
-msgid "Not a member yet?"
-msgstr "ابھی تک رکن نہیں؟"
-
-#: who/templates/profiles/register.html:15
-#: temp/temp_ve/profiles/templates/profiles/register.html:15
-msgid "Join us by signing up below."
-msgstr "ہمارے ساتھ شمل ہونے کے لے ںیچے سائن اپ کریں"
-
-#: who/templates/profiles/register.html:21
-msgid "Choose a username"
-msgstr "صارف کا نام منتخب کریں"
-
-#: who/templates/profiles/register.html:29
-msgid "Choose a display name"
-msgstr "ڈسپلے کا نام منتخب کریں"
-
-#: who/templates/profiles/register.html:38
-msgid "Select date of birth"
-msgstr "تاریخِ پیدائش چنیں"
-
-#: who/templates/profiles/register.html:41
-#: temp/temp_ve/profiles/templates/profiles/register.html:48
-msgid "Let us know your birthday to get access to exclusive content."
-msgstr "ہمارے خصوصی مواد تک رسائی حاصل کرنے کے لئے اپنی سالگرہ بتائیں."
-
-#: who/templates/profiles/register.html:47
-msgid "I identify my gender as:"
-msgstr "میں اپنی صنف کی شناخت کرتا ہوں جیسے:"
-
-#: who/templates/profiles/register.html:50
-#: who/templates/profiles/register.html:59
-#: who/templates/profiles/register.html:68
-#: temp/temp_ve/profiles/templates/profiles/done.html:38
-#: temp/temp_ve/profiles/templates/profiles/done.html:47
-#: temp/temp_ve/profiles/templates/profiles/done.html:56
-#: temp/temp_ve/profiles/templates/profiles/editprofile.html:31
-#: temp/temp_ve/profiles/templates/profiles/editprofile.html:40
-#: temp/temp_ve/profiles/templates/profiles/editprofile.html:49
-#: temp/temp_ve/profiles/templates/profiles/register.html:57
-#: temp/temp_ve/profiles/templates/profiles/register.html:66
-#: temp/temp_ve/profiles/templates/profiles/register.html:75
-msgid "Only you will see this"
-msgstr "صرف تم اسے دیکھیں گے"
-
-#: who/templates/profiles/register.html:56
-msgid "Where do you live?"
-msgstr "آپ کہاں رہتے ہیں"
-
-#: who/templates/profiles/register.html:65
-msgid "What is your highest level of education?"
-msgstr "آپ کی اعلی درجے کی تعلیم کیا ہے؟"
-
-#: who/templates/profiles/register.html:77
-msgid "e.g. 0900000013"
-msgstr "مثال کے طور پر 0900000013"
-
-#: who/templates/profiles/register.html:83
-msgid "Enter your email address"
-msgstr "اپنا ای میل کا پتا لکھو"
-
-#: who/templates/profiles/register.html:86
-msgid "e.g. example@foo.com"
-msgstr "مثال کے طور پر example@foo.com"
-
-#: who/templates/profiles/register.html:106
-msgid "e.g."
-msgstr ""
-
-#: who/templates/profiles/register.html:112
-#: temp/temp_ve/profiles/templates/profiles/register.html:112
-msgid "Please accept the T&amp;Cs in order to complete the registration"
-msgstr "رجسٹریشن کو مکمل کرنے کیلئے براہ مہربانی T & amp؛ Cs قبول کریں"
-
-#: who/templates/profiles/register.html:117
-#: who/templates/profiles/register.html:119
-#: temp/temp_ve/profiles/templates/profiles/register.html:117
-#: temp/temp_ve/profiles/templates/profiles/register.html:119
-msgid "I accept the Terms and Conditions"
-msgstr "میں قوائد و ضوابط کو قبول کرتا ہوں"
-
-#: who/templates/registration/login.html:5
-#: who/templates/registration/login.html:34
-#: who/templates/registration/password_reset_complete.html:8
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/registration/password_reset_complete.html:9
-#: temp/temp_ve/profiles/templates/registration/login.html:5
-#: temp/temp_ve/profiles/templates/registration/login.html:34
-#: temp/temp_ve/profiles/test_templates/login.html:5
-#: temp/temp_ve/profiles/test_templates/login.html:34
-msgid "Log in"
-msgstr "لاگ ان"
-
-#: who/templates/registration/login.html:13
-msgid "Login by signing in below."
-msgstr "لاگ ان کرنے کے لیے نیچے سائن ان کریں"
-
-#: who/templates/registration/login.html:25
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/registration/login.html:17
-#: temp/temp_ve/profiles/forms.py:76
-#: temp/temp_ve/profiles/forms.py:443
-#: temp/temp_ve/profiles/templates/registration/login.html:25
-#: temp/temp_ve/profiles/test_templates/login.html:25
-msgid "Username"
-msgstr "صارف نام"
-
-#: who/templates/registration/login.html:30
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/registration/login.html:19
-#: temp/temp_ve/profiles/templates/registration/login.html:30
-#: temp/temp_ve/profiles/test_templates/login.html:30
-msgid "4-digit pin"
-msgstr "4 عددی پن"
-
-#: who/templates/registration/login.html:32
-#: temp/temp_ve/profiles/templates/registration/login.html:32
-#: temp/temp_ve/profiles/test_templates/login.html:32
-msgid "Eg.: 2086"
-msgstr "مثلاَ: 2086"
-
-#: who/templates/registration/login.html:37
-#: who/templates/registration/password_reset_form.html:4
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/registration/login.html:25
-#: temp/temp_ve/profiles/templates/registration/login.html:37
-#: temp/temp_ve/profiles/test_templates/login.html:37
-msgid "Forgotten your password?"
-msgstr "اپنا پاس ورڈ بھول گئے؟"
-
-#: who/templates/registration/password_reset_complete.html:5
-msgid "Your password has been set. You may go ahead and log in now."
-msgstr "آپ کا پاس ورڈ مقرر کیا گیا ہے. آپ آگے بڑھیں اور اب لاگ ان کریں."
-
-#: who/templates/registration/password_reset_confirm.html:15
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/registration/password_reset_confirm.html:16
-msgid "Confirm password:"
-msgstr "پاس ورڈ کی توثیق کریں:"
-
-#: who/templates/registration/password_reset_confirm.html:19
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/registration/password_reset_confirm.html:17
-msgid "Change my password"
-msgstr "اپنا پاس ورڈ تبدیل کریں"
-
-#: who/templates/registration/password_reset_done.html:5
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/registration/password_reset_done.html:7
-msgid ""
-"We've emailed you instructions for setting your password, if an account "
-"exists with the email you entered. You should receive them shortly."
-msgstr ""
-"ہم نے آپ کے پاس ورڈ کی ترتیب دینے کے لئے آپ کو ہدایت دی ہے، اگر آپ نے درج "
-"کردہ ای میل کے ساتھ ایک اکاؤنٹ موجود ہے. تمہیں انہیں جلد ہی ملنا چاہئے."
-
-#: who/templates/registration/password_reset_done.html:6
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/registration/password_reset_done.html:9
-msgid ""
-"If you don't receive an email, please make sure you've entered the address "
-"you registered with, and check your spam folder."
-msgstr ""
-"اگر آپ کو ایک ای میل نہیں ملتا ہے تو، براہ کرم یقینی بنائیں کہ آپ نے اپنے "
-"ایڈریس کو درج کردہ درجے درج کیا ہے، اور اپنے سپیم فولڈر کو چیک کریں."
-
-#: who/templates/registration/password_reset_done.html:8
-msgid "Back to home page"
-msgstr "گھر کے صفحے پر واپس جائیں"
-
-#: who/templates/registration/password_reset_form.html:6
-msgid ""
-"Enter your email address below, and we'll email instructions for setting a "
-"new one."
-msgstr ""
-"ذیل میں اپنا ای میل ایڈریس درج کریں، اور ہم ایک نیا ترتیب دینے کیلئے ہدایات "
-"ای میل کریں گے."
-
-#: who/templates/registration/password_reset_form.html:14
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/registration/password_reset_form.html:12
-msgid "Reset my password"
-msgstr "میرا پاس ورڈ ری سیٹ کریں"
-
-#: who/templates/search/search_block.html:6
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/search/search_block.html:7
-msgid "SEARCH"
-msgstr "تلاش"
-
-#: who/templates/search/search_results.html:3
-#: who/templates/search/search_results.html:8
-#: who/templates/search/search_results.html:103
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/search/search_results.html:52
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/search/search_results.html:57
-msgid "Search"
-msgstr "تلاش"
-
-#: who/templates/search/search_results.html:108
-msgid "No search results were found for "
-msgstr "کے لئے کوئی تلاش کے نتائج نہیں مل سکا "
-
-#: who/templates/search/search_results.html:110
-msgid "Back to homepage"
-msgstr "واپِس ہوم پیج پر"
-
-#: who/templates/surveys/molo_survey_page.html:30
-#: temp/temp_ve/surveys/templates/surveys/molo_survey_page.html:28
-msgid "Next Question"
-msgstr "اگلا سوال"
-
-#: who/templates/surveys/molo_survey_page.html:37
-#: temp/temp_ve/surveys/templates/surveys/molo_survey_page.html:32
-msgid "You have already completed this survey."
-msgstr "آپ نے پہلے ہی اس سروے کو مکمل کر لیا ہے."
-
-#: who/templates/surveys/molo_survey_page.html:45
-#: temp/temp_ve/surveys/templates/surveys/molo_survey_page.html:40
-msgid "Please log in to take this survey"
-msgstr "اس جائزے کو کرنے کے لینے لئے لاگ ان کریں"
-
-#: who/templates/surveys/surveys_list.html:10
-msgid "Start here"
-msgstr "یہاں سے شروع کریں"
-
-#: temp/temp_ve/commenting/admin_views.py:61
-#: temp/temp_ve/commenting/views.py:111
-msgid "Reply successfully created."
-msgstr "کامیابی سے جواب دیا گیا."
-
-#: temp/temp_ve/commenting/forms.py:13
-#: temp/temp_ve/commenting/forms.py:68
-msgid "Email address"
-msgstr "ای میل"
-
-#: temp/temp_ve/commenting/forms.py:19
-msgid "Type your comment here..."
-msgstr "اپنا تبصرہ یہاں ٹائپ کریں ..."
-
-#: temp/temp_ve/commenting/forms.py:70
-msgid "URL"
-msgstr "یو آر ایل"
-
-#: temp/temp_ve/commenting/templates/comments/comment.html:23
-msgid "Ago"
-msgstr ""
-
-#: temp/temp_ve/commenting/templates/comments/comment.html:31
-#: temp/temp_ve/commenting/templates/comments/comment.html:34
-#: temp/temp_ve/commenting/templates/comments/comment.html:41
-msgid "Replies"
-msgstr ""
-
-#: temp/temp_ve/commenting/templates/comments/comment_block.html:6
-msgid "Share a Comment"
-msgstr "تبصرہ شیر کریں"
-
-#: temp/temp_ve/commenting/templates/comments/comment_done.html:7
-#: temp/temp_ve/commenting/templates/comments/report_response.html:6
-msgid "Thanks!"
-msgstr "شکریہ!"
-
-#: temp/temp_ve/commenting/templates/comments/comment_done.html:9
-msgid "Your comment has been successfully posted"
-msgstr "آپ کی رائے کو کامیابی سے تعینات کردیا گیا ہے"
-
-#: temp/temp_ve/commenting/templates/comments/comment_done.html:11
-#: temp/temp_ve/commenting/templates/comments/comments.html:28
-#: temp/temp_ve/commenting/templates/comments/preview.html:44
-#: temp/temp_ve/commenting/templates/comments/reply.html:8
-#: temp/temp_ve/commenting/templates/comments/report_response.html:10
-msgid "Back to article"
-msgstr "مضمون پر واپس"
-
-#: temp/temp_ve/commenting/templates/comments/preview.html:37
-#: temp/temp_ve/commenting/templates/comments/reply.html:41
-msgid "Please "
-msgstr "براہ مہربانی. "
-
-#: temp/temp_ve/commenting/templates/comments/preview.html:40
-#: temp/temp_ve/commenting/templates/comments/reply.html:44
-msgid " to leave a comment."
-msgstr " ایک تبصرہ چھوڑنے کے لئے."
-
-#: temp/temp_ve/commenting/templates/comments/reply.html:15
-msgid "Recent replies"
-msgstr ""
-
-#: temp/temp_ve/commenting/templates/comments/reply.html:17
-msgid "Earlier replies"
-msgstr ""
-
-#: temp/temp_ve/commenting/templates/comments/reply.html:29
-msgid "of"
-msgstr ""
-
-#: temp/temp_ve/commenting/templates/comments/report_response.html:7
-msgid "This comment has been reported."
-msgstr "یہ تبصرہ اطلاع دی گئی ہے."
-
-#: temp/temp_ve/commenting/templates/comments/report_response.html:8
-msgid ""
-"It will be reviewed by the team and may be removed if it breaks our Platform "
-"rules"
-msgstr ""
-"یہ ٹیم کی طرف سے جائزہ لیا جائے گا اور اگر یہ ہمارے پلیٹ فارم کے قوانین کو "
-"توڑتا ہے تو اسے ہٹایا جاسکتا ہے"
-
-#: temp/temp_ve/commenting/templates/notifications/notice.html:15
-msgid "replied to your comment on: "
-msgstr ""
-
-#: temp/temp_ve/commenting/templates/notifications/notice.html:18
-msgid "ago"
-msgstr ""
-
-#: temp/temp_ve/commenting/templates/notifications/reply_list.html:9
-#: temp/temp_ve/commenting/templates/notifications/tags/notification_banner.html:12
-msgid "You have"
-msgstr ""
-
-#: temp/temp_ve/commenting/templates/notifications/reply_list.html:19
-msgid "Read replies:"
-msgstr ""
-
-#: temp/temp_ve/commenting/templates/notifications/reply_list.html:27
-msgid "Back home"
-msgstr ""
-
-#: temp/temp_ve/commenting/templates/notifications/tags/notification_banner.html:6
-msgid "Notification:"
-msgstr ""
-
-#: temp/temp_ve/commenting/views.py:31
-msgid "Reporting comment replies is not allowed."
-msgstr "رپورٹنگ تبصرہ جوابات کی اجازت نہیں ہے."
-
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/settings/base.py:203
-msgid "Zulu"
-msgstr "زولو"
-
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/settings/base.py:204
-msgid "Xhosa"
-msgstr "ژوسا"
-
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/settings/base.py:206
-msgid "Venda"
-msgstr "وینڈا"
-
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/settings/base.py:208
-msgid "Tsonga"
-msgstr "زونگا"
-
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/settings/base.py:209
-msgid "Swati"
-msgstr "سواتی"
-
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/settings/base.py:210
-msgid "Ndebele"
-msgstr "بیٹا"
-
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/403_csrf.html:13
-msgid "Hi"
-msgstr "ہیلو"
-
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/403_csrf.html:14
-msgid ""
-"Sorry, you are having trouble accessing this feature! Due to a temporary "
-"technical issue, login and registrations are not available on the Free "
-"Basics app for now. To login or register for a profile, visit our free "
-"mobisite through your mobile browser at"
-msgstr ""
-"معذرت، آپ کو اس سہولت تک رسائی حاصل کرنے میں دشواری ہو رہی کر رہے ہیں! عارضی "
-"تکنیکی مسئلے کی وجہ سے لاگ ان اور رجسٹریشن مفت مبادیات اپلی کیشن پر دستیاب "
-"نہیں ہیں. پروفائل لاگ ان یا رجسٹریشن کے لئے اپنے موبائل براؤزر کے ذریعے "
-"ہماری مفت موبائل ویب سائٹ استعمال کریں۔"
-
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/base.html:113
-#: temp/temp_ve/core/test_templates/base.html:128
-#: temp/temp_ve/polls/test_templates/base.html:112
-#: temp/temp_ve/surveys/test_templates/base.html:112
-msgid "Site Language:"
-msgstr "سائٹ کی زبان:"
-
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/core/tags/latest_listing_homepage.html:6
-msgid "Latest"
-msgstr "تازہ ترین"
-
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/core/tags/topic_of_the_day.html:6
-msgid "Topic of the Day"
-msgstr "دن کی موضوع"
-
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/registration/login.html:6
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/registration/login.html:21
-msgid "Sign in"
-msgstr "سائن ان"
-
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/registration/login.html:11
-msgid "LOGIN TO YOUR ACCOUNT!"
-msgstr "آپ کے اکاؤنٹ میں لاگ ان کریں!"
-
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/registration/login.html:12
-msgid "We’re excited to have you..."
-msgstr "ہم آپ کے لئے حوصلہ افزائی کر رہے ہیں ..."
-
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/registration/login.html:15
-msgid "Your username and password does not match. Please try again."
-msgstr "آپ کا صارف نام اور پاس ورڈ مماثلت نہیں ہے. دوبارہ کوشش کریں."
-
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/registration/password_reset_complete.html:7
-msgid "Your password has been set.  You may go ahead and log in now."
-msgstr "آپ کا پاس ورڈ مقرر کیا گیا ہے. آپ آگے بڑھیں اور اب لاگ ان کریں."
-
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/registration/password_reset_confirm.html:21
-msgid ""
-"The password reset link was invalid, possibly because it has already been "
-"used.  Please request a new password reset."
-msgstr ""
-"پاس ورڈ دوبارہ ترتیب لنک غلط تھا، ممکنہ طور پر کیونکہ اس کا استعمال پہلے سے "
-"ہی ہوا ہے. براہ کرم ایک نیا پاس ورڈ ری سیٹ کی درخواست کریں."
-
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/search/search_results.html:56
-msgid "I am looking for"
-msgstr "میں اس کو تلاش کر رہا ہوں"
-
-#: temp/temp_ve/core/views.py:96
-msgid "That page is not translatable."
-msgstr "یہ صفحہ قابل ترجمہ نہیں ہے."
-
-#: temp/temp_ve/polls/forms.py:20
-msgid "You didn't select a choice"
-msgstr "آپ نے ایک انتخاب کا انتخاب نہیں کیا"
-
-#: temp/temp_ve/profiles/admin.py:73
-msgid "Type"
-msgstr "قسم"
-
-#: temp/temp_ve/profiles/admin.py:79
-msgid "Admin Users"
-msgstr "منتظم صارفین"
-
-#: temp/temp_ve/profiles/admin_views.py:16
-msgid ""
-"Your email address is not configured. Please update it before exporting."
-msgstr "آپ کا ای میل پتہ ترتیب نہیں ہے. برآمد کرنے سے پہلے اسے اپ ڈیٹ کریں."
-
-#: temp/temp_ve/profiles/forms.py:78
-#: temp/temp_ve/profiles/forms.py:445
-msgid "This value must contain only letters, numbers and underscores."
-msgstr "اس قیمت میں صرف حروف، نمبر اور زیر غور ہونا لازمی ہے."
-
-#: temp/temp_ve/profiles/forms.py:96
-#: temp/temp_ve/profiles/forms.py:489
-#: temp/temp_ve/profiles/templates/profiles/reset_password.html:23
-msgid "PIN"
-msgstr "پن"
-
-#: temp/temp_ve/profiles/forms.py:102
-#: temp/temp_ve/profiles/forms.py:241
-#: temp/temp_ve/profiles/forms.py:286
-msgid "Display Name"
-msgstr "ڈسپلے کا نام"
-
-#: temp/temp_ve/profiles/forms.py:116
-#: temp/temp_ve/profiles/forms.py:249
-#: temp/temp_ve/profiles/forms.py:300
-msgid "Location"
-msgstr "مقام"
-
-#: temp/temp_ve/profiles/forms.py:188
-msgid "Username already exists."
-msgstr "صارف نام پہلے سے موجود ہے."
-
-#: temp/temp_ve/profiles/forms.py:193
-msgid ""
-"Sorry, but that is an invalid username. Please don't use your %s in your "
-"username."
-msgstr ""
-"معذرت، لیکن یہ ایک غلط صارف نامہ ہے. آپ استعمال نہ کریں %s اپنے صارف نام میں."
-
-#: temp/temp_ve/profiles/forms.py:225
-#: temp/temp_ve/profiles/forms.py:351
-msgid ""
-"Sorry, but that is an invalid display name. Please don't use your %s in your "
-"display name."
-msgstr ""
-"افسوس، لیکن یہ ایک غلط ڈسپلے کا نام ہے. براہ کرم اپنے ڈسپلے کا نام میں %s "
-"استعمال نہ کریں."
-
-#: temp/temp_ve/profiles/forms.py:390
-#: temp/temp_ve/profiles/templates/profiles/change_password.html:25
-msgid "Old Password"
-msgstr "سابقہ پاسورڈ"
-
-#: temp/temp_ve/profiles/forms.py:405
-#: temp/temp_ve/profiles/templates/profiles/change_password.html:32
-msgid "New Password"
-msgstr "نیا پاس ورڈ"
-
-#: temp/temp_ve/profiles/forms.py:421
-msgid "Confirm Password"
-msgstr "پاس ورڈ کی توثیق کریں"
-
-#: temp/temp_ve/profiles/forms.py:506
-#: temp/temp_ve/profiles/templates/profiles/reset_password.html:29
-msgid "Confirm PIN"
-msgstr "PIN کی توثیق کریں"
-
-#: temp/temp_ve/profiles/templates/profiles/change_password.html:38
-msgid "Confirm New Password"
-msgstr "نیے پاس ورڈ کی تصدیق کریں"
-
-#: temp/temp_ve/profiles/templates/profiles/done.html:35
-#: temp/temp_ve/profiles/templates/profiles/register.html:54
-msgid "I IDENTIFY MY GENDER AS:"
-msgstr "میں اپنے گریجویٹ کے طور پر متعین کروں گا:"
-
-#: temp/temp_ve/profiles/templates/profiles/done.html:53
-#: temp/temp_ve/profiles/templates/profiles/register.html:72
-msgid "WHAT IS YOUR HIGHEST LEVEL OF EDUCATION?"
-msgstr "تعلیم کا سب سے اعلی سطح کیا ہے؟"
-
-#: temp/temp_ve/profiles/templates/profiles/done.html:63
-#: temp/temp_ve/profiles/templates/profiles/login_success.html:8
-msgid "Home Page"
-msgstr "صفحہِ اول"
-
-#: temp/temp_ve/profiles/templates/profiles/editprofile.html:11
-msgid "Update your display name:"
-msgstr "اپنے ڈسپلے کا نام اپ ڈیٹ کریں:"
-
-#: temp/temp_ve/profiles/templates/profiles/editprofile.html:20
-msgid "Update your date of birth:"
-msgstr "اپنی تاریخِ پیدائش کواپ ڈیٹ کریں"
-
-#: temp/temp_ve/profiles/templates/profiles/editprofile.html:28
-msgid "Update your gender:"
-msgstr "اپنی صنف کو اپ ڈیٹ کریں:"
-
-#: temp/temp_ve/profiles/templates/profiles/editprofile.html:37
-msgid "Update where you live:"
-msgstr "اپ ڈیٹ کریں جہاں آپ رہتے ہیں"
-
-#: temp/temp_ve/profiles/templates/profiles/editprofile.html:46
-msgid "Update your Education Level:"
-msgstr "اپنی تعلیمی سطح کو اپ ڈیٹ کریں:"
-
-#: temp/temp_ve/profiles/templates/profiles/editprofile.html:55
-msgid "Update your mobile number:"
-msgstr "اپنا موبائل نمبر اپ ڈیٹ کریں:"
-
-#: temp/temp_ve/profiles/templates/profiles/editprofile.html:58
-msgid "(e.g. 0914556789)"
-msgstr "(مثال کے طور پر 0914556789)"
-
-#: temp/temp_ve/profiles/templates/profiles/editprofile.html:64
-msgid "Update your email address:"
-msgstr "اپنا ای میل ایڈریس اپ ڈیٹ کریں:"
-
-#: temp/temp_ve/profiles/templates/profiles/editprofile.html:67
-#: temp/temp_ve/profiles/templates/profiles/register.html:93
-msgid "(e.g. example@foo.com)"
-msgstr "(مثال کے طور پر example@foo.com)"
-
-#: temp/temp_ve/profiles/templates/profiles/forgot_password.html:6
-#: temp/temp_ve/profiles/templates/profiles/forgot_password.html:36
-msgid "Forgot PIN"
-msgstr "PIN بھول گیا"
-
-#: temp/temp_ve/profiles/templates/profiles/forgot_password.html:31
-msgid "Security question"
-msgstr "حفاظتی سوال"
-
-#: temp/temp_ve/profiles/templates/profiles/forgot_password.html:32
-msgid "Please answer the following security question."
-msgstr "مندرجہ ذیل حفاظتی سوال کا جواب دیں."
-
-#: temp/temp_ve/profiles/templates/profiles/login_success.html:7
-msgid "Welcome Back!"
-msgstr ""
-
-#: temp/temp_ve/profiles/templates/profiles/register.html:6
-#: temp/temp_ve/profiles/templates/profiles/register.html:123
-#: temp/temp_ve/profiles/templates/registration/login.html:9
-#: temp/temp_ve/profiles/test_templates/login.html:9
-msgid "Register"
-msgstr "رجسٹر"
-
-#: temp/temp_ve/profiles/templates/profiles/register.html:28
-msgid "CHOOSE A 4-DIGIT PIN"
-msgstr "چارعدد الفاز بطور پن منتخب کریں"
-
-#: temp/temp_ve/profiles/templates/profiles/register.html:31
-msgid "e.g. 2086"
-msgstr "مثلاَ: 2086"
-
-#: temp/temp_ve/profiles/templates/profiles/register.html:36
-msgid "CHOOSE A DISPLAY NAME"
-msgstr "ایک نئے ڈسپلے نام منتخب کریں"
-
-#: temp/temp_ve/profiles/templates/profiles/register.html:84
-msgid "(e.g. 0900000013)"
-msgstr "(مثال کے طور پر 0900000013)"
-
-#: temp/temp_ve/profiles/templates/profiles/register.html:90
-msgid "ENTER YOUR EMAIL ADDRESS"
-msgstr "اپنا ای میل کا پتا لکھو"
-
-#: temp/temp_ve/profiles/templates/profiles/reset_password.html:5
-#: temp/temp_ve/profiles/templates/profiles/reset_password.html:32
-msgid "Reset PIN"
-msgstr "PIN دوبارہ ترتیب دیں"
-
-#: temp/temp_ve/profiles/templates/profiles/reset_password_success.html:5
-msgid "PIN Changed"
-msgstr "پن تبدیل ہوگیا"
-
-#: temp/temp_ve/profiles/templates/profiles/reset_password_success.html:7
-msgid "Your PIN has been changed sucessfully."
-msgstr "آپ کا PIN آرام سے بدل گیا ہے."
-
-#: temp/temp_ve/profiles/templates/profiles/reset_password_success.html:8
-msgid "Continue to Sign In"
-msgstr "سائن ان جاری رکھیں"
-
-#: temp/temp_ve/profiles/templates/profiles/viewprofile.html:6
-msgid "Hello "
-msgstr "آداب"
-
-#: temp/temp_ve/profiles/templates/profiles/viewprofile.html:9
-msgid "As you type your name comment will appear as:"
-msgstr "جیسے آپ اپنا نام ٹائپ کریںنگےآپ کا تبصرہ ایسے دگھے گا"
-
-#: temp/temp_ve/profiles/templates/profiles/viewprofile.html:14
-msgid "Date of Birth: "
-msgstr "تاریخِ پیدائش "
-
-#: temp/temp_ve/profiles/templates/profiles/viewprofile.html:19
-msgid "Not set."
-msgstr "اندرآج نہیں ہے."
-
-#: temp/temp_ve/profiles/templates/profiles/viewprofile.html:26
-msgid "Mobile number:"
-msgstr "موبائل فون کانمبر:"
-
-#: temp/temp_ve/profiles/templates/profiles/viewprofile.html:33
-msgid "Gender:"
-msgstr "جنس"
-
-#: temp/temp_ve/profiles/templates/profiles/viewprofile.html:40
-msgid "Location:"
-msgstr "مقام"
-
-#: temp/temp_ve/profiles/templates/profiles/viewprofile.html:47
-msgid "Education Level:"
-msgstr "تعلیمی معیار:"
-
-#: temp/temp_ve/profiles/templates/profiles/viewprofile.html:54
-msgid "Email Address:"
-msgstr "برقی پتہ"
-
-#: temp/temp_ve/profiles/templates/profiles/viewprofile.html:59
-msgid "log out"
-msgstr "لاگ آوٹ"
-
-#: temp/temp_ve/profiles/templates/profiles/viewprofile.html:60
-msgid "Edit My Profile"
-msgstr "اپنی پروفائل میں ترمیم"
-
-#: temp/temp_ve/profiles/views.py:161
-msgid "The old password is incorrect."
-msgstr "پرانا پاس ورڈ غلط ہے."
-
-#: temp/temp_ve/profiles/views.py:184
-msgid "Too many attempts. Please try again later."
-msgstr "بہت سے کوششیں براہ کرم کچھ دیر بعد کوشش کریں."
-
-#: temp/temp_ve/profiles/views.py:279
-msgid "The two PINs that you entered do not match. Please try again."
-msgstr "آپ نے درج کردہ دو پنز نہیں ملتے. دوبارہ کوشش کریں."
-
-#: temp/temp_ve/surveys/templates/surveys/molo_survey_page.html:28
-msgid "Submit Survey"
-msgstr "جائزہ جمع کریں"
-
-#: temp/temp_ve/surveys/templates/surveys/molo_survey_page_landing.html:12
-msgid "Survey Results"
-msgstr "سروے کے نتائج"
-
-#: temp/temp_ve/surveys/templates/surveys/molo_survey_page_landing.html:14
-msgid ""
-"Your survey has been completed successfully. Please see your submission "
-"results below."
-msgstr ""
-"آپ کا سروے کامیابی سے مکمل ہوگیا ہے. براہ مہربانی ذیل میں آپ کے جمع کرانے کے "
-"نتائج دیکھیں."
-
-#: temp/temp_ve/surveys/templates/surveys/surveys_list.html:10
-msgid "Take The Survey"
-msgstr "جائزہ مکمل کریں"
-
-#: temp/temp_ve/usermetadata/templates/persona.html:5
-msgid "Are you a ..."
-msgstr "کیا آپ ایک ۔۔۔"
-
-#: temp/temp_ve/usermetadata/templates/persona.html:21
-msgid "Skip"
-msgstr "آگے بڑھیں"
-
-#: who/settings/base.py:460
+#:
 msgid "February"
 msgstr "فروری"
 
-#: who/settings/base.py:462
+#:
+msgid "March"
+msgstr "مارچ"
+
+#:
 msgid "April"
 msgstr "اپریل"
 
-#: who/settings/base.py:463
+#:
 msgid "May"
 msgstr "مئی"
 
-#: who/settings/base.py:475
-msgid "Type your comment here"
-msgstr "یہاں اپنا تبصرہ لکھیں"
+#:
+msgid "June"
+msgstr "جون"
 
-#: who/templates/403_csrf.html:10
-msgid ""
-"To login or register for a profile, visit our free mobisite through your "
-"mobile browser at"
-msgstr ""
-"پروفائل کے لئے لاگ ان یا رجسٹر کرنے کے لئے، اپنے موبائل براؤزر کے ذریعے "
-"ہماری مفت حرکتیں ملاحظہ کریں"
+#:
+msgid "July"
+msgstr "جولائی"
 
-#: who/templates/base.html:156
-#: who/templates/base.html:219
-#: temp/temp_ve/profiles/templates/profiles/done.html:64
-msgid "Profile"
-msgstr "پروفائل"
+#:
+msgid "August"
+msgstr "اگست"
 
-#: who/templates/base.html:212
-#: who/templates/profiles/register.html:10
-#: temp/temp_ve/profiles/templates/profiles/register.html:10
-msgid "Login"
-msgstr "لاگ ان"
+#:
+msgid "September"
+msgstr "ستمبر"
 
-#: who/templates/polls/includes/poll_free_text_form.html:24
-#: who/templates/polls/includes/poll_question_form.html:26
-#: temp/temp_ve/polls/templates/polls/includes/poll_free_text_form.html:18
-#: temp/temp_ve/polls/templates/polls/includes/poll_question_form.html:20
-msgid "Log in to vote"
-msgstr "ووٹ ڈالنے کے لئے لاگ ان کریں"
+#:
+msgid "October"
+msgstr "اکتوبر"
 
-#: who/templates/polls/results.html:8
-#: temp/temp_ve/polls/templates/polls/results.html:8
-msgid "Your answers:"
-msgstr "آپ کا جواب:"
+#:
+msgid "November"
+msgstr "نومبر"
 
-#: who/templates/profiles/register.html:24
-#: temp/temp_ve/profiles/templates/profiles/register.html:24
-msgid ""
-"This name you will use to log in and won't appear to other users. Only you "
-"will see this."
-msgstr ""
-"یہ نام آپ لاگ ان کرنے کے لئے استعمال کریں گے اور دوسرے صارفین کو نہیں دکھائے "
-"جائیں گے. صرف تم اسے دیکھیں گے."
+#:
+msgid "December"
+msgstr "دسمبر"
 
-#: who/templates/profiles/register.html:32
-#: temp/temp_ve/profiles/templates/profiles/done.html:29
-#: temp/temp_ve/profiles/templates/profiles/editprofile.html:14
-#: temp/temp_ve/profiles/templates/profiles/register.html:39
-msgid ""
-"We value your online security, therefore we hide your username and allow you "
-"to comment and interact with the site with a display name."
-msgstr ""
-"ہم آپ کی آن لائن سیکورٹی کی قدر کرتے ہیں، لہذا ہم آپ کے صارف نام کو چھپا "
-"دیتے ہیں اور آپ کو سائٹ کے ڈسپلے کا نام سے تبصرہ کرنے اور اس سے رابطہ کرنے "
-"کی اجازت دیتے ہیں."
+#:
+msgid "Add anonymously"
+msgstr "گمنام طور پر شامل کیجیے"
 
-#: who/templates/profiles/register.html:74
-msgid "Enter your mobile number"
-msgstr "اپنا موبائل نمبر درج کیجئے"
+#:
+msgid "This field is required"
+msgstr "یہ فئیلڈ درکار ہے"
 
-#: who/templates/profiles/register.html:103
-msgid "Choose a 4-digit pin"
-msgstr "چارعدد الفاز بطور پن منتخب کریں"
+#:
+msgid "Are you a ..."
+msgstr "کیا آپ ہیں ۔۔۔"
 
-#: who/templates/registration/login.html:20
-#: temp/temp_ve/profiles/templates/registration/login.html:20
-#: temp/temp_ve/profiles/test_templates/login.html:20
-msgid "Your username and password do not match. Please try again."
-msgstr "آپ کا صارف نام اور پاس ورڈ مطابقت نہیں رگھتا. دوبارہ کوشش کریں."
+#:
+msgid "Ensure this value has at least 4 characters (it has 1)"
+msgstr "یقینی بنائیے کہ اس قدر میں کم از کم 4 اعداد ہوں (اس میں 1 ہے)"
 
-#: who/templates/registration/password_reset_confirm.html:6
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/registration/password_reset_confirm.html:10
-msgid ""
-"Please enter your new password twice so we can verify you typed it in "
-"correctly."
-msgstr ""
-"براہ کرم دو بار اپنا نیا پاس ورڈ درج کریں تاکہ ہم اس بات کی تصدیق کرسکیں کہ "
-"آپ نے اسے صحیح طریقے سے ٹائپ کیا."
+#:
+msgid "Type your comment here..."
+msgstr "اپنا تبصرہ یہاں ٹائپ کیجیے۔۔۔"
 
-#: who/templates/registration/password_reset_confirm.html:10
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/registration/password_reset_confirm.html:14
-msgid "New password:"
-msgstr "نیا پاس ورڈ:"
+#:
+msgid "Reply successfully created."
+msgstr "جواب کامیابی سے تشکیل پایا"
 
-#: who/templates/registration/password_reset_confirm.html:22
-msgid ""
-"The password reset link was invalid, possibly because it has already been "
-"used. Please request a new password reset."
-msgstr ""
-"پاس ورڈ دوبارہ ترتیب لنک غلط تھا، ممکنہ طور پر کیونکہ اس کا استعمال پہلے سے "
-"ہی ہوا ہے. براہ کرم ایک نیا پاس ورڈ ری سیٹ کی درخواست کریں."
+#:
+msgid "Email address"
+msgstr "ای میل کا پتہ"
 
-#: who/templates/registration/password_reset_form.html:10
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/registration/password_reset_form.html:10
-msgid "Email address:"
-msgstr "ای میل"
+#:
+msgid "URL"
+msgstr "یو آر ایل"
 
-#: who/templates/search/search_block.html:5
-#: who/templates/search/search_results.html:7
-#: who/templates/search/search_results.html:102
-msgid "Search the site..."
-msgstr "سائٹ میں تلاش کریں ..."
-
-#: who/templates/search/search_results.html:10
-#: who/templates/search/search_results.html:105
-msgid "Search Results for:"
-msgstr "کے لئے تلاش کے نتائج:"
-
-#: temp/temp_ve/commenting/forms.py:72
+#:
 msgid "Name"
 msgstr "نام"
 
-#: temp/temp_ve/commenting/templates/comments/preview.html:39
-#: temp/temp_ve/commenting/templates/comments/reply.html:43
+#:
+msgid "Anonymous"
+msgstr "گمنام"
+
+#:
+msgid "This comment has been removed by the community. Please read our platform rules."
+msgstr "یہ تبصرہ ساتھی کارکنوں نے ہٹا دیا ہے۔ براہ کرم ہمارے پلیٹ فارم کے اصول پڑھیے۔"
+
+#:
+msgid "Report"
+msgstr "رپورٹ"
+
+#:
+msgid "Reply"
+msgstr "جواب"
+
+#:
+msgid "Share a Comment"
+msgstr "تبصرہ شیئر کیجیے"
+
+#:
+msgid "Log in to comment"
+msgstr "تبصرے کے لیے لاگ ان کیجیے"
+
+#:
+msgid "Commenting on this article is currently disabled"
+msgstr "اس مضمون پر تبصرہ کرنا غیر فعال کر دیا گیا ہے"
+
+#:
+msgid "Comments"
+msgstr "تبصرے"
+
+#:
+msgid "comment"
+msgstr "تبصرہ"
+
+#:
+msgid "view more comments"
+msgstr "مزید تبصرے ملاحظہ کیجیے"
+
+#:
+msgid "Thanks!"
+msgstr "شکریہ!"
+
+#:
+msgid "Your comment has been successfully posted"
+msgstr "آپ کا تبصرہ کامیابی سے پوسٹ کر دیا گیا ہے"
+
+#:
+msgid "Back to article"
+msgstr "واپس مضمون میں"
+
+#:
+msgid "Home"
+msgstr "ہوم"
+
+#:
+msgctxt "37, 38, 39 being a single sentence, will be rearranged when translated to Hindi. Hence I translated them in the same order as is required to make a meaningful Hindi sentence. "
+msgid "Please "
+msgstr "براہ کرم"
+
+#:
 msgid "log in"
-msgstr "لاگ ان"
+msgstr "لاگ ان کیجیے"
 
-#: temp/temp_ve/commenting/templates/comments/reply.html:29
-msgid "Page"
-msgstr ""
+#:
+msgid " to leave a comment."
+msgstr "تبصرہ کرنے کے لیے۔"
 
-#: temp/temp_ve/commenting/templates/notifications/reply_list.html:9
-#: temp/temp_ve/commenting/templates/notifications/tags/notification_banner.html:12
-msgid "unread replies"
-msgstr ""
+#:
+msgid "This comment has been reported."
+msgstr "یہ تبصرہ رپورٹ کر دیا گیا ہے۔"
 
-#: temp/temp_ve/commenting/test_templates/article_page.html:48
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/core/article_page.html:49
-msgid "Next up in"
-msgstr "اگلے اوپر"
+#:
+msgid "It will be reviewed by the team and may be removed if it breaks our Platform rules"
+msgstr "ٹیم اس کا جائزہ لے گی اور اگر یہ ہمارے پلیٹ فارم کے اصولوں کے خلاف ہوا تو اسے ہٹا دیا جائے گا"
 
-#: temp/temp_ve/commenting/views.py:34
+#:
+msgid "Reporting comment replies is not allowed."
+msgstr "تبصرے کے جوابات رپورٹ کرنے کی اجازت نہیں ہے۔"
+
+#:
 msgid "The comment has been reported."
-msgstr "یہ اطلاع دی گئی ہے."
+msgstr "تبصرہ رپورٹ کر دیا گیا ہے۔"
 
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/settings/base.py:205
+#:
+msgid "Zulu"
+msgstr "زولو"
+
+#:
+msgid "Xhosa"
+msgstr "ایکسہوسا"
+
+#:
 msgid "Sotho"
 msgstr "سوتھو"
 
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/settings/base.py:207
+#:
+msgid "Venda"
+msgstr "وینڈا"
+
+#:
 msgid "Tswana"
 msgstr "سوانا"
 
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/registration/password_reset_form.html:6
-msgid ""
-"Forgotten your password? Enter your email address below, and we'll email "
-"instructions for setting a new one."
-msgstr ""
-"ذیل میں اپنا ای میل ایڈریس درج کریں، اور ہم نیا رگھنے کے لئے آپ کو ہدایات "
-"ای میل کریں گے."
+#:
+msgid "Tsonga"
+msgstr "ٹسونگا"
 
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/search/search_block.html:6
+#:
+msgid "Swati"
+msgstr "سواتی"
+
+#:
+msgid "Ndebele"
+msgstr "کیجیے"
+
+#:
+msgid "Access Denied"
+msgstr "رسائی روک دی گئی ہے"
+
+#:
+msgid "You do not have permssion to access this site."
+msgstr "آپ کو اس سائٹ تک رسائی کی اجازت نہیں ہے۔"
+
+#:
+msgid "Unable to Login"
+msgstr "لاگ ان نہیں کر پا رہے"
+
+#:
+msgid "Hi"
+msgstr "ہائے"
+
+#:
+msgid "Sorry, you are having trouble accessing this feature! Due to a temporary technical issue, login and registrations are not available on the Free Basics app for now. To login or register for a profile, visit our free mobisite through your mobile browser at"
+msgstr "معزرت، اپ کو اس خاصیت تک رسائی میں مشکل پیش آ رہی ہے! ایک عارضی تیکنیکی مسئلے کی وجہ سے، اس وقت Free Basics ایپ پر لاگ ان اور رجسٹریشن دستیاب نہیں ہیں۔ کسی پروفائل کے لیے لاگ ان یا رجسٹر کرنے کے لیے، اپنے موبائل براؤزر کے ذریعے ہماری مفت موبی سائٹ یہاں پر وزٹ کیجیے"
+
+#:
+msgid " We're working hard to get this problem resolved. Thank you."
+msgstr "ہم یہ مسئلہ حل کرنے کے لیے سخت محنت کر رہے ہیں۔ آپ کا شکریہ۔"
+
+#:
+msgid "Page not found"
+msgstr "صفحہ نہیں مل پایا"
+
+#:
+msgid "Sorry, this page could not be found."
+msgstr "معزرت، یہ صفحہ نہیں مل پایا۔"
+
+#:
+msgid "Internal server error"
+msgstr "سرور کی اندرونی غلطی"
+
+#:
+msgid "Sorry, there seems to be an error. Please try again soon."
+msgstr "معزرت، یہاں کوئی خرابی لگ رہی ہے۔ براہ کرم جلد ہی دوبارہ کوشش کیجیے۔"
+
+#:
+msgid "Site Language:"
+msgstr "سائٹ کی زبان:"
+
+#:
+msgid "Next up in"
+msgstr "اگلی مرتبہ"
+
+#:
+msgid "Recommended"
+msgstr "تجویز کردہ"
+
+#:
+msgid "Latest"
+msgstr "جدید ترین"
+
+#:
+msgid "Topic of the Day"
+msgstr "آج کا موضوع"
+
+#:
+msgid "Sign in"
+msgstr "سائن ان کیجیے"
+
+#:
+msgid "LOGIN TO YOUR ACCOUNT!"
+msgstr "اپنے اکاؤنٹ میں لاگ ان کیجیے!"
+
+#:
+msgid "We’re excited to have you..."
+msgstr "ہم آپ کو پا کر پر جوش ہیں۔۔۔۔"
+
+#:
+msgid "Your username and password does not match. Please try again."
+msgstr "آپ کا یوزر نیم اور پاسورڈ میچ نہیں کر رہے۔ براہ کرم دوبارہ کوشش کیجیے۔"
+
+#:
+msgid "Username"
+msgstr "یوزرنیم"
+
+#:
+msgid "4-digit pin"
+msgstr "ایک 4-عددی پن"
+
+#:
+msgid "Forgotten your password?"
+msgstr "اپنا پاسورڈ بھول گئے؟"
+
+#:
+msgid "Your password has been set.  You may go ahead and log in now."
+msgstr "آپ کا پاسورڈ سیٹ کر دیا گیا ہے۔ اب آپ شروع کر کے لاگ ان کر سکتے ہیں۔"
+
+#:
+msgid "Log in"
+msgstr "لاگ ان کیجیے"
+
+#:
+msgid "Please enter your new password twice so we can verify you typed it in correctly."
+msgstr "براہ کرم اپنا نیا پاسورڈ دو بارے درج کیجیے تاکہ ہم تصدیق کر سکیں کہ آپ نے اسے درست ٹائپ کیا ہے۔"
+
+#:
+msgid "New password:"
+msgstr "نیا پاسورڈ:"
+
+#:
+msgid "Confirm password:"
+msgstr "پاسورڈ کی تصدیق کیجیے:"
+
+#:
+msgid "Change my password"
+msgstr "میرا پاسورڈ تبدیل کر دیجیے"
+
+#:
+msgid "The password reset link was invalid, possibly because it has already been used.  Please request a new password reset."
+msgstr "پاسورڈ ری سیٹ کرنے کا لنک کام نہیں کر رہا، ممکنہ طور پر اسے پہلے ہی استعمال کیا جا چکا ہے۔ براہ کرم نیا پاسورڈ ری سیٹ کرنے کی درخواست کیجیے۔"
+
+#:
+msgid "We've emailed you instructions for setting your password, if an account exists with the email you entered. You should receive them shortly."
+msgstr "ہم نے آپ کو اپنا پاسورڈ سیٹ کرنے کے لیے ہدایات ای میل کر دی ہیں، اگر آپ کی درج کردہ ای میل کے ساتھ کوئی اکاؤنٹ موجود ہے تو۔ آپ کو جلد ہی یہ موصول ہو جائیں گی۔"
+
+#:
+msgid "If you don't receive an email, please make sure you've entered the address you registered with, and check your spam folder."
+msgstr "اگر آپ کو ای میل موصول نہیں ہوتی، تو براہ کرم یقینی بنائیے کہ آپ نے وہی پتہ درج کیا ہے کہ جس کے ساتھ آپ رجسٹر ہوئے تھے، اور اپنا سپیم فولڈر چیک کیجیے۔"
+
+#:
+msgid "Forgotten your password? Enter your email address below, and we'll email instructions for setting a new one."
+msgstr "اپنا پاسورڈ بھول گئے؟ نیچے اپنا ای میل کا پتہ درج کیجیے، اور ہم آپ کو ایک نیا سیٹ کرنے کے لیے ہدایات ای میل کر دیں گے۔"
+
+#:
+msgid "Email address:"
+msgstr "ای میل کا پتہ:"
+
+#:
+msgid "Reset my password"
+msgstr "میرا پاسورڈ ری سیٹ کر دیجیے"
+
+#:
 msgid "Looking for something?"
-msgstr "کچھ تلاش کر رہے ہیں؟"
+msgstr "کوئی چیز تلاش کر رہے ہیں؟"
 
-#: temp/temp_ve/core/cookiecutter/scaffold/{{cookiecutter.directory}}/{{cookiecutter.app_name}}/templates/search/search_results.html:53
+#:
+msgid "SEARCH"
+msgstr "تلاش"
+
+#:
+msgid "Search"
+msgstr "تلاش"
+
+#:
 msgid "No search results for "
-msgstr "تلاش کا کوئی نتیجہ نہیں"
+msgstr "تلاش کے کوئی نتائج نہیں"
 
-#: temp/temp_ve/polls/templates/polls/poll_page.html:7
+#:
+msgid "I am looking for"
+msgstr "اس چیز کے لیے جسے میں تلاش کر رہا ہوں"
+
+#:
+msgid "That page is not translatable."
+msgstr "اس صفحے کا ترجمہ نہیں کیا جا سکتا۔"
+
+#:
+msgid "You didn't select a choice"
+msgstr "آپ نے کوئی اختیار منتخب نہیں کیا"
+
+#:
+msgid "Vote"
+msgstr "ووٹ"
+
+#:
+msgid "Submit"
+msgstr "جمع کیجیے"
+
+#:
+msgid "Thank you! Your response has already been submitted."
+msgstr "آپ کا شکریہ! آپ کا جواب پہلے ہی جمع کرا دیا گیا ہے۔"
+
+#:
+msgid "Log in to vote"
+msgstr "ووٹ کرنے کے لیے لاگ ان کیجیے"
+
+#:
+msgid "Show Results"
+msgstr "نتائج دکھائیے"
+
+#:
+msgid "You voted: "
+msgstr "آپ نے ووٹ کیا:"
+
+#:
 msgid "What's your opinion?"
-msgstr "اپ کی رائے کیا ہے؟"
+msgstr "آپ کی کیا رائے ہے؟"
 
-#: temp/temp_ve/profiles/admin.py:78
+#:
+msgid "Your answers:"
+msgstr "آپ کے جوابات:"
+
+#:
+msgid "Thank you for voting!"
+msgstr "ووٹ کرنے کے لیے آپ کا شکریہ!"
+
+#:
+msgid "Type"
+msgstr "ٹائپ کیجیے"
+
+#:
 msgid "Frontend Users"
-msgstr "فرنٹ اینڈ صارفین"
+msgstr "آخری استعمال کنندگان"
 
-#: temp/temp_ve/profiles/admin_views.py:39
+#:
+msgid "Admin Users"
+msgstr "انتظامی استعمال کنندگان"
+
+#:
+msgid "Your email address is not configured. Please update it before exporting."
+msgstr "آپ کا ای میل پتہ ترتیب نہیں دیا گیا ہے۔ بھیجنے سے پہلے اس کی تجدید کیجیے۔"
+
+#:
 msgid "CSV emailed to '{0}'"
-msgstr "CSV ' {0} ' کو ای میل کیا گیا"
+msgstr "{0}' ای میل کر دی گئی ہے CSV"
 
-#: temp/temp_ve/profiles/forms.py:94
-#: temp/temp_ve/profiles/forms.py:419
-#: temp/temp_ve/profiles/forms.py:487
-#: temp/temp_ve/profiles/forms.py:504
+#:
+msgid "This value must contain only letters, numbers and underscores."
+msgstr "اس قدر میں صرف حروف، نمبر اور انڈرسکور ہونے چاہییں۔"
+
+#:
 msgid "This value must contain only numbers."
-msgstr "یہ قیمت صرف نمبروں پر مشتمل ہے."
+msgstr "اس قدر میں صرف حروف، نمبر ہونے چاہییں۔"
 
-#: temp/temp_ve/profiles/forms.py:112
-#: temp/temp_ve/profiles/forms.py:245
-#: temp/temp_ve/profiles/forms.py:296
+#:
+msgid "PIN"
+msgstr "پن"
+
+#:
+msgid "Display Name"
+msgstr "ڈسپلے نیم"
+
+#:
 msgid "Gender"
 msgstr "جنس"
 
-#: temp/temp_ve/profiles/forms.py:120
-#: temp/temp_ve/profiles/forms.py:253
-#: temp/temp_ve/profiles/forms.py:304
+#:
+msgid "Location"
+msgstr "مقام"
+
+#:
 msgid "Education Level"
-msgstr "تعلیمی معیار"
+msgstr "تعلیمی درجہ"
 
-#: temp/temp_ve/profiles/forms.py:388
-#: temp/temp_ve/profiles/forms.py:403
+#:
+msgid "Username already exists."
+msgstr "یوزر نیم پہلے سے موجود ہے۔"
+
+#:
+msgid "Sorry, but that is an invalid username. Please don't use your %s in your username."
+msgstr "معزرت، یہ یوزر نیم مستعمل نہیں ہے۔ براہ کرم اپنے یوزر نیم میں اپنی ٪ مت استعمال کیجیے۔"
+
+#:
+msgid "Sorry, but that is an invalid display name. Please don't use your %s in your display name."
+msgstr "معزرت، مگر یہ ڈسپلے نیم مستعمل نہیں ہے۔ براہ کرم اپنے ڈسپلے نیم میں اپنی ٪ مت استعمال کیجیے۔"
+
+#:
 msgid "This value must contain only           numbers."
-msgstr "یہ قیمت صرف نمبروں پر مشتمل ہے."
+msgstr "اس قدر میں صرف نمبر ہونے چاہییں۔"
 
-#: temp/temp_ve/profiles/forms.py:431
+#:
+msgid "Old Password"
+msgstr "پرانا پاسورڈ"
+
+#:
+msgid "New Password"
+msgstr "نیا پاسورڈ"
+
+#:
+msgid "Confirm Password"
+msgstr "پاسورڈ کی تصدیق کیجیے"
+
+#:
 msgid "New passwords do not match."
-msgstr "نئے پاس ورڈ مماثل نہیں کرتے"
+msgstr "نئے پاسورڈ میچ نہیں کر رہے۔"
 
-#: temp/temp_ve/profiles/templates/profiles/change_password.html:27
-#: temp/temp_ve/profiles/templates/profiles/reset_password.html:25
+#:
+msgid "Confirm PIN"
+msgstr "پن کی تصدیق کیجیے"
+
+#:
 msgid "(e.g. 2086)"
-msgstr "(مثلاَ: 2086)"
+msgstr "(مثال کے طور پر 2086)"
 
-#: temp/temp_ve/profiles/templates/profiles/change_password.html:42
-#: temp/temp_ve/profiles/templates/profiles/done.html:59
-#: temp/temp_ve/profiles/templates/profiles/editprofile.html:70
+#:
+msgid "Confirm New Password"
+msgstr "نئے پاسورڈ کی تصدیق کیجیے"
+
+#:
 msgid "Save"
-msgstr "محفوظ"
+msgstr "محفوظ کیجیے"
 
-#: temp/temp_ve/profiles/templates/profiles/done.html:8
+#:
 msgid "Thank you for joining!"
-msgstr "شامل ہونے کے لئے آپ کا شکریہ!"
+msgstr "آپ کی شمولیت کا شکریہ!"
 
-#: temp/temp_ve/profiles/templates/profiles/done.html:13
+#:
 msgid "Let us know more about yourself to get access to exclusive content."
-msgstr "ہمیں خصوصی مواد تک رسائی حاصل کرنے کے بارے میں مزید جاننے دو"
+msgstr "مخصوص مواد تک رسائی کے لیے ہمیں اپنے بارے میں مزید جانکاری دیجیے۔"
 
-#: temp/temp_ve/profiles/templates/profiles/done.html:18
-#: temp/temp_ve/profiles/templates/profiles/register.html:45
+#:
 msgid "SELECT DATE OF BIRTH"
-msgstr "تاریخِ پیدائش چنیں"
+msgstr "تاریخ پیدائش منتخب کیجیے"
 
-#: temp/temp_ve/profiles/templates/profiles/done.html:26
+#:
 msgid "DISPLAY NAME"
-msgstr "ڈسپلے نام"
+msgstr "ڈسپلے نیم"
 
-#: temp/temp_ve/profiles/templates/profiles/done.html:44
-#: temp/temp_ve/profiles/templates/profiles/register.html:63
+#:
+msgid "We value your online security, therefore we hide your username and allow you to comment and interact with the site with a display name."
+msgstr "ہم آپ کے آن لائن تحفظ کی قدر کرتے ہیں، اس لیے ہم آپ کا نام خفیہ رکھتے ہیں اور آپ کو تبصرہ اور تعامل کرنے کے لیے ڈسپلے نیم استعمال کرنے کی اجازت دیتے ہیں۔"
+
+#:
+msgid "I IDENTIFY MY GENDER AS:"
+msgstr "میں اپنی جنس کی ایسے شناخت کرتا/کرتی ہوں:"
+
+#:
+msgid "Only you will see this"
+msgstr "صرف آپ اس کو دیکھ سکیں گے"
+
+#:
 msgid "WHERE DO YOU LIVE?"
-msgstr "کیا آپ رہتے ہیں؟"
+msgstr "آپ کہاں رہتے ہیں؟"
 
-#: temp/temp_ve/profiles/templates/profiles/login_success.html:5
-msgid "Login Success"
-msgstr ""
+#:
+msgid "WHAT IS YOUR HIGHEST LEVEL OF EDUCATION?"
+msgstr "آپ کی تعلیم کا اعلیٰ ترین درجہ کیا ہے؟"
 
-#: temp/temp_ve/profiles/templates/profiles/register.html:21
+#:
+msgid "Home Page"
+msgstr "ہوم پیج"
+
+#:
+msgid "Profile"
+msgstr "پروفائل"
+
+#:
+msgid "Update your display name:"
+msgstr "اپنے ڈسپلے نیم کی تجدید کیجیے:"
+
+#:
+msgid "Update your date of birth:"
+msgstr "اپنی تاریخ پیدائش کی تجدید کیجیے:"
+
+#:
+msgid "Update your gender:"
+msgstr "اپنی جنس کی تجدید کیجیے:"
+
+#:
+msgid "Update where you live:"
+msgstr "اپنی رہائش گاہ کی تجدئید کیجیے:"
+
+#:
+msgid "Update your Education Level:"
+msgstr "اپنے تعلیمی درجے کی تجدید کیجیے:"
+
+#:
+msgid "Update your mobile number:"
+msgstr "اپنے موبائل نمبر کی تجدید کیجیے:"
+
+#:
+msgid "(e.g. 0914556789)"
+msgstr "( جیسے 0914556789)"
+
+#:
+msgid "Update your email address:"
+msgstr "اپنی ای میل پتے کی تجدید کیجیے:"
+
+#:
+msgid "(e.g. example@foo.com)"
+msgstr "(جیسے example@foo.com)"
+
+#:
+msgid "Forgot PIN"
+msgstr "پن بھول گئے"
+
+#:
+msgid "Security question"
+msgstr "تحفظی سوال"
+
+#:
+msgid "Please answer the following security question."
+msgstr "براہ کرم درج ذیل تحفظی سوال کا جواب دیجیے۔"
+
+#:
+msgid "Register"
+msgstr "رجسٹر کیجیے"
+
+#:
+msgid "Already a member?"
+msgstr "پہلے سے رکن ہیں؟"
+
+#:
+msgid "Login"
+msgstr "لاگ ان کیجیے"
+
+#:
+msgid "Not a member yet?"
+msgstr "ابھی تک رکن نہیں ہیں؟"
+
+#:
+msgid "Join us by signing up below."
+msgstr "نیچے سائن اپ کر کے ہمارے ساتھ شامل ہو جائیے۔"
+
+#:
 msgid "CHOOSE A USERNAME"
-msgstr "صارف کا نام منتخب کریں"
+msgstr "یوزر نیم منتخب کیجیے"
 
-#: temp/temp_ve/profiles/templates/profiles/register.html:81
+#:
+msgid "This name you will use to log in and won't appear to other users. Only you will see this."
+msgstr "یہ نام آپ لاگ ان کرتے وقت استعمال کریں گے اور یہ دیگر استعمال کنندگان کو نظر نہیں آئے گا۔ صرف آپ اس کو دیکھ سکیں گے."
+
+#:
+msgid "CHOOSE A 4-DIGIT PIN"
+msgstr "ایک 4-عددی پن منتخب کیجیے"
+
+#:
+msgid "e.g. 2086"
+msgstr "جیسے 2086"
+
+#:
+msgid "CHOOSE A DISPLAY NAME"
+msgstr "ایک ڈسپلے نیم چنیے"
+
+#:
+msgid "Let us know your birthday to get access to exclusive content."
+msgstr "مخصوص مواد تک رسائی کے لیے ہمیں اپنی تاریخ پیدائش بتائیے۔"
+
+#:
 msgid "ENTER YOUR MOBILE NUMBER"
-msgstr "اپنا موبائل نمبر درج کیجئے"
+msgstr "اپنا موبائل نمبر درج کیجیے"
 
-#: temp/temp_ve/profiles/templates/profiles/viewprofile.html:61
+#:
+msgid "(e.g. 0900000013)"
+msgstr "(جیسے 0900000013)"
+
+#:
+msgid "ENTER YOUR EMAIL ADDRESS"
+msgstr "اپنا ای میل پتہ درج کیجیے"
+
+#:
+msgid "Please accept the T&amp;Cs in order to complete the registration"
+msgstr "براہ کرم رجسٹریشن مکمل کرنے کے لیے شرائط و ضوابط کو قبول کیجیے"
+
+#:
+msgid "I accept the Terms and Conditions"
+msgstr "میں شرائط و ضوابط کے ساتھ اتفاق کرتا / کرتی ہوں"
+
+#:
+msgid "Reset PIN"
+msgstr "پن دوبارہ ترتیب دیجیے"
+
+#:
+msgid "PIN Changed"
+msgstr "پن تبدیل کر دی گئی ہے"
+
+#:
+msgid "Your PIN has been changed sucessfully."
+msgstr "آپ کی پن کامیابی کے ساتھ تبدیل کر دی گئی ہے۔"
+
+#:
+msgid "Continue to Sign In"
+msgstr "سائن ان کے لیے جاری رکھیے"
+
+#:
+msgid "Hello "
+msgstr "ہیلو"
+
+#:
+msgid "As you type your name comment will appear as:"
+msgstr "آپ جیسے ہی اپنا نام ٹائپ کریں گے تو یہ الفاظ نظر آئیں گے:"
+
+#:
+msgid "Date of Birth: "
+msgstr "تاریخ پیدائش:"
+
+#:
+msgid "Not set."
+msgstr "ترتیب نہیں دی گئی۔"
+
+#:
+msgid "Mobile number:"
+msgstr "موبائل نمبر:"
+
+#:
+msgid "Gender:"
+msgstr "جنس:"
+
+#:
+msgid "Location:"
+msgstr "مقام:"
+
+#:
+msgid "Education Level:"
+msgstr "تعلیمی درجہ:"
+
+#:
+msgid "Email Address:"
+msgstr "ای میل کا پتہ:"
+
+#:
+msgid "log out"
+msgstr "لاگ آؤٹ ہو جائیے"
+
+#:
+msgid "Edit My Profile"
+msgstr "میری پروفائل میں ردوبدل کیجیے"
+
+#:
 msgid "Change My Password"
-msgstr "اپنا پاس ورڈ تبدیل کریں"
+msgstr "میرا پاسورڈ تبدیل کر دیجیے"
 
-#~ msgid "Type new display name:"
-#~ msgstr "نیا ڈسپلے نام ٹائپ کریں"
+#:
+msgid "Your username and password do not match. Please try again."
+msgstr "آپ کا یوزر نیم اور پاسورڈ میچ نہیں کر رہے۔ براہ کرم دوبارہ کوشش کیجیے۔"
 
-#~ msgid "View More"
-#~ msgstr "مزید دیکھیں"
+#:
+msgid "Eg.: 2086"
+msgstr "مثال کے طور پر: 2086"
 
-#~ msgid "More"
-#~ msgstr "مزید"
+#:
+msgid "The old password is incorrect."
+msgstr "پرانا پاسورڈ درست نہیں ہے۔"
 
-#~ msgid "ARE YOU A"
-#~ msgstr "کیا آپ ایک"
+#:
+msgid "Too many attempts. Please try again later."
+msgstr "بہت زیادہ کوششیں۔ براہ کرم بعد میں دوبارہ کوشش کیجیے۔"
 
-#~ msgid "1"
-#~ msgstr "1"
+#:
+msgid "The two PINs that you entered do not match. Please try again."
+msgstr "دو پنیں جو آپ نے درج کی ہیں وہ مماثل نہیں ہیں۔ براہ کرم دوبارہ کوشش کیجیے۔"
 
-#~ msgid "2"
-#~ msgstr "2"
+#:
+msgid "Next Question"
+msgstr "اگلا سوال"
 
-#~ msgid "3"
-#~ msgstr "3"
+#:
+msgid "Submit Survey"
+msgstr "سروے جمع کیجیے"
 
-#~ msgid "4"
-#~ msgstr "4"
+#:
+msgid "You have already completed this survey."
+msgstr "آپ پہلے ہی یہ سروے مکمل کر چکے ہیں۔"
 
-#~ msgid "5"
-#~ msgstr "5"
+#:
+msgid "Back to Home page"
+msgstr "واپس ہوم پیج پر جائیے"
 
-#~ msgid "6"
-#~ msgstr "6"
+#:
+msgid "Please log in to take this survey"
+msgstr "یہ سروے کرنے لے لیے براہ کرم لاگ ان کیجیے"
 
-#~ msgid "7"
-#~ msgstr "7"
+#:
+msgid "Survey Results"
+msgstr "سروے کے نتائج"
 
-#~ msgid "8"
-#~ msgstr "8"
+#:
+msgid "Your survey has been completed successfully. Please see your submission results below."
+msgstr "آپ کا سروے کامیابی کے ساتھ مکمل ہو گیا ہے۔ براہ کرم اپنے پیش کردہ سروے کے نتائج نیچے دیکھیے۔"
 
-#~ msgid "9"
-#~ msgstr "9"
+#:
+msgid "Take The Survey"
+msgstr "سروے شروع کر دیجیے"
 
-#~ msgid "10"
-#~ msgstr "10"
+#:
+msgid "Skip"
+msgstr "چھوڑ دیجیے"
+
+#:
+msgid "Sorry, you are having trouble accessing this feature! Due to a temporary technical issue, login and registrations are not available on the who app for now."
+msgstr "معزرت، آپ کو اس خاصیت تک رسائی میں مشکل پیش آ رہی ہے! ایک عارضی تیکنیکی مسئلے کی وجہ سے، اس وقت who ایپ پر لاگ ان اور رجسٹریشن دستیاب نہیں ہیں۔"
+
+#:
+msgid "To login or register for a profile, visit our free mobisite through your mobile browser at"
+msgstr "کسی پروفائل کے لیے لاگ ان یا رجسٹر کرنے کے لیے، اپنے موبائل براؤزر کے ذریعے ہماری مفت موبی سائٹ یہاں پر وزٹ کیجیے"
+
+#:
+msgid "Language"
+msgstr "زبان"
+
+#:
+msgid "Change Language"
+msgstr "زبان تبدیل کیجیے"
+
+#:
+msgid "who"
+msgstr "who"
+
+#:
+msgid "Join"
+msgstr "شامل ہو جائیے"
+
+#:
+msgid "Menu"
+msgstr "مینیو"
+
+#:
+msgid "Change your language"
+msgstr "اپنی زبان تبدیل کیجیے"
+
+#:
+msgid "Have something to add to this article?"
+msgstr "کیا آپ کے پاس اس مضمون میں شامل کرنے کے لیے کوئی چیز ہے؟"
+
+#:
+msgid "Related Articles"
+msgstr "متعلقہ مضامین"
+
+#:
+msgid "Prev"
+msgstr "گذشتہ"
+
+#:
+msgid "Next"
+msgstr "اگلے"
+
+#:
+msgid "View more"
+msgstr "مزید ملاحظہ کیجیے۔"
+
+#:
+msgid "Polls"
+msgstr "انتخابات"
+
+#:
+msgid "Choose a username"
+msgstr "یوزر نیم منتخب کیجیے"
+
+#:
+msgid "Choose a 4-digit pin"
+msgstr "ایک 4-عددی پن منتخب کیجیے"
+
+#:
+msgid "Choose a display name"
+msgstr "ایک ڈسپلے نیم چنیے"
+
+#:
+msgid "Select date of birth"
+msgstr "تاریخ پیدائش منتخب کیجیے"
+
+#:
+msgid "I identify my gender as:"
+msgstr "میں اپنی جنس کی ایسے شناخت کرتا/کرتی ہوں:"
+
+#:
+msgid "Where do you live?"
+msgstr "آپ کہاں رہتے ہیں؟"
+
+#:
+msgid "What is your highest level of education?"
+msgstr "آپ کی تعلیم کا اعلیٰ ترین درجہ کیا ہے؟"
+
+#:
+msgid "Enter your mobile number"
+msgstr "اپنا موبائل نمبر درج کیجیے"
+
+#:
+msgid "e.g. 0900000013"
+msgstr "جیسے 0900000013"
+
+#:
+msgid "Enter your email address"
+msgstr "اپنا ای میل پتہ درج کیجیے"
+
+#:
+msgid "e.g. example@foo.com"
+msgstr "جیسے example@foo.com"
+
+#:
+msgid "Login by signing in below."
+msgstr "نیچے سائن ان کر کے لاگ ان ہو جائیے۔"
+
+#:
+msgid "Your password has been set. You may go ahead and log in now."
+msgstr "آپ کا پاسورڈ سیٹ کر دیا گیا ہے۔ اب آپ شروع کر کے لاگ ان کر سکتے ہیں۔"
+
+#:
+msgid "The password reset link was invalid, possibly because it has already been used. Please request a new password reset."
+msgstr "پاسورڈ ری سیٹ کرنے کا لنک کام نہیں کر رہا، ممکنہ طور پر اسے پہلے ہی استعمال کیا جا چکا ہے۔ براہ کرم نیا پاسورڈ ری سیٹ کرنے کی درخواست کیجیے۔"
+
+#:
+msgid "Back to home page"
+msgstr "واپس ہوم پیج پر جائیے"
+
+#:
+msgid "Enter your email address below, and we'll email instructions for setting a new one."
+msgstr "نیچے اپنا ای میل کا پتہ درج کیجیے، اور ہم آپ کو ایک نیا سیٹ کرنے کے لیے ہدایات ای میل کر دیں گے۔"
+
+#:
+msgid "Search the site..."
+msgstr "سائٹ تلاش کیجیے۔۔۔"
+
+#:
+msgid "Search Results for:"
+msgstr "اس کے لیے نتائج تلاش کیجیے:"
+
+#:
+msgid "No search results were found for "
+msgstr "اس کے لیے کوئی نتائج نہیں ملے"
+
+#:
+msgid "Back to homepage"
+msgstr "واپس ہوم پیج پر جائیے"
+
+#:
+msgid "Start here"
+msgstr "یہاں سے شروع کیجیے"
