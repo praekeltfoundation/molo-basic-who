@@ -1,1 +1,5 @@
 default_app_config = 'who.apps.AppnameConfig'
+
+from .celery import app as celery_app
+
+__all__ = ('celery_app',)
