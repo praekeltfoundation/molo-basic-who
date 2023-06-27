@@ -13,7 +13,7 @@ from os.path import abspath, dirname, join
 from os import environ
 import django.conf.locale
 from django.conf import global_settings
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 import dj_database_url
 import djcelery
 from celery.schedules import crontab
@@ -81,11 +81,11 @@ INSTALLED_APPS = [
 
     'mptt',
     'raven.contrib.django.raven_compat',
-    'djcelery',
     'django_cas_ng',
     'compressor',
     'storages',
-    'microsoft_auth'
+    'microsoft_auth',
+    'rangefilter',
 ]
 
 SITE_ID = 1
